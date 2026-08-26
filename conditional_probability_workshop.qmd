@@ -1,0 +1,125 @@
+---
+title: "conditional_probability_workshop"
+author: "Tallen Vidal"
+format: html
+editor: visual
+---
+
+## DS-400 Day 3
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Making Visualizations
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+library(tidyverse)
+library(vembedr)
+library(ggplot2)
+```
+
+You can add options to executable code like this
+
+```{r}
+df <- read_csv("healthcare-dataset-stroke-data.csv")
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+## Bar Chart
+
+```{r}
+
+stroke_status <- df %>% 
+  count(hypertension, gender) %>% 
+  group_by(hypertension)
+
+stroke_status
+
+```
+
+```{r}
+ggplot(data = df, aes(x = gender, fill = factor(hypertension))) +
+  geom_bar(position = "dodge") +
+  labs(title = "Stroke Count by Gender", x = "Gender", y = "Number of Patients") +
+  theme_minimal()
+```
+
+```{r}
+ggplot(data = df, aes(x = age, fill = factor(hypertension))) +
+  geom_histogram() +
+  labs(title = "Stroke Count by Age", x = "Age", y = "Count") +
+  theme_minimal()
+```
+
+```{r}
+ggplot(data = df, aes( x = factor(stroke), fill = factor(stroke), y = avg_glucose_level)) +
+    geom_boxplot()
+```
+
+```{r}
+ggplot(data = df, aes(x = factor(hypertension), fill = factor(stroke))) +
+  geom_bar(position = "dodge") +
+  labs(title = "Stroke Count by Hypertension", x = "Hypertension", y = "Number of Patients") +
+  theme_minimal()
+```
+
+```{r}
+ggplot(data = df, aes(x = factor(heart_disease), fill = factor(stroke))) +
+  geom_bar(position = "dodge") +
+  labs(title = "Stroke Count by Heart Disease", x = "Heart Disease", y = "Number of Patients") +
+  theme_minimal()
+```
+
+## Probability Portion
+
+## P(B)
+
+```{r}
+probability_stroke <- patients %>% 
+  count(stroke) %>% 
+  mutate(percent = n / sum(n))
+```
+
+### P(A\|B)
+
+```{r}
+patients <- df
+patients %>%
+  count(stroke, hypertension) %>%
+  group_by(stroke) %>%
+  mutate(percent = n / sum(n))
+```
+
+```{r}
+probability_hypertension_given_stroke <- patients %>%
+  count(stroke, hypertension) %>%
+  group_by(stroke) %>%
+  mutate(percent = n / sum(n)) %>%
+  filter(stroke == 1, hypertension == 1) %>%
+  pull(percent)
+```
+
+### P(A)
+
+```{r}
+patients %>%
+  count(hypertension) %>%
+  mutate(percent = n / sum(n))
+```
+
+```{r}
+probability_hypertension <- patients %>%
+  count(hypertension) %>%
+  mutate(percent = n / sum(n)) %>%
+  filter(hypertension == 1) %>%
+  pull(percent)
+```
+
+### P(B\|A)
+
+```{r}
+probability_stroke_given_hypertension <- (probability_hypertension_given_stroke * probability_stroke) / probability_hypertension
+probability_stroke_given_hypertension
+```
