@@ -100,7 +100,17 @@ P(B)
 what is the probability of completing the Alcatraz Sharkfest Swim
 
 ```{r}
+probability_alcatraz <- swim_wide %>% 
+  count(finished_alcatraz) %>% 
+  mutate(percent = n / sum(n))
+```
 
+```{r}
+probability_complete_alcatraz <- swim_wide %>%
+  count(finished_alcatraz) %>%
+  mutate(percent = n / sum(n)) %>%
+  filter(finished_alcatraz == "Yes") %>%
+  pull(percent)
 ```
 
 P(A\|B)
@@ -119,7 +129,17 @@ probability_complete_waikiki_given_complete_alcatraz
 P(A)
 
 ```{r}
+probability_waikiki <- swim_wide %>% 
+  count(finished_waikiki) %>% 
+  mutate(percent = n / sum(n))
+```
 
+```{r}
+probability_complete_waikiki <- swim_wide %>%
+  count(finished_waikiki) %>%
+  mutate(percent = n / sum(n)) %>%
+  filter(finished_waikiki == "Yes") %>%
+  pull(percent)
 ```
 
 P(B\|A)
