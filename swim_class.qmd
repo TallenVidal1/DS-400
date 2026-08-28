@@ -54,13 +54,22 @@ ggplot(data = swim, aes(y = race_name, fill = factor(finished))) +
 Scatter plot of finish times and age colored by event
 
 ```{r}
-
+ggplot( data = swim, aes( x= finish_time_min, y = age, color = race_name ))+
+  geom_point() +
+  facet_wrap(~race_name, scales = "free_x")
+  labs(title = " Age vs Time", x = "Times", y = "Age") +
+  theme_minimal() +
+  theme_bw()
 ```
 
 Boxplot of finish times by event
 
 ```{r}
-
+ggplot(data = swim, aes( x = finish_time_min , y = race_name, fill = race_name)) +
+  geom_boxplot() +
+  theme_minimal() +
+  theme_bw() +
+  theme(legend.position = "none")
 ```
 
 Let's say Tallen and I finish the Waikiki Roughwater Race!
