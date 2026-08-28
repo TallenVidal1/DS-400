@@ -27,13 +27,20 @@ swim <- read_csv(here("data/swim_panel_dataset_1500.csv"))
 Histogram of finished swim times
 
 ```{r}
-
+ggplot(data = swim, aes(x = finish_time_min)) +
+  geom_histogram() +
+  labs(title = "Histogram of Finished Swim Team", x = "Times", y = "Count") +
+  theme_minimal()
 ```
 
 Color by Event
 
 ```{r}
-
+ggplot(data = swim, aes(x = finish_time_min, fill = race_name)) +
+  geom_histogram(color = "black") +
+  labs(title = "Histogram of Finished Swim Team", x = "Times", y = "Count") +
+  theme_minimal() +
+  theme_bw()
 ```
 
 Finish or not by event
