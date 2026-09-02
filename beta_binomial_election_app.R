@@ -32,7 +32,7 @@
 ## shape. Report alpha, beta, the resulting mean, and the 95% credible
 ## interval.
 ##
-## Your answer:
+## Your answer: Beta(147.0, 98.5)
 ##
 ##
 ## ------------------------------------------------------------
@@ -42,7 +42,9 @@
 ## happens to the width of the 95% credible interval? In one sentence,
 ## explain why the mean doesn't move but the interval does.
 ##
-## Your answer:
+## Your answer: The mean stays the same but the width of the 95% credible
+## interval shrinks from being +/- 10% to +/-5%. The uncertainty shrinks when we
+## have much more data.
 ##
 ##
 ## ------------------------------------------------------------
@@ -53,7 +55,14 @@
 ## point more plausible than any other?) versus why Beta(0.5, 0.5) has
 ## no single mode (hint: where does the density pile up?).
 ##
-## Your answer:
+## Your answer: The mean, median, and mode for Beta(1,1) is 0.500,
+## "no single mode when both α ≤ 1 and β ≤ 1 (density is bimodal, piling up at 0 and 1)",
+## and 0.289. The mean, median, and mode for Beta(0.5,0.5) is 0.500, followed by
+## "no single mode when both α ≤ 1 and β ≤ 1 (density is bimodal, piling up at 0 and 1)",
+## and 0.354. Both Beta(1,1) and Beta(0.5,0.5) do not have a single mode but the difference is
+## the density piles up in the center between 0 and 1 for the Beta(1,1), while for Beta(0.5,0.5)
+## the density is piled up only at 0 and 1. The netx vote will skew the graph either towards 0 or 1
+## which is why the density is piled so awkwardly for Beta(0.5,0.5).
 ##
 ##
 ## ------------------------------------------------------------
@@ -61,7 +70,8 @@
 ## Posterior curve to the Scaled Likelihood curve. What do you notice?
 ## Explain why this happens in terms of what a flat prior represents.
 ##
-## Your answer:
+## Your answer: The scaled likelihood curve completely matches the posterior curve.
+## 
 ##
 ##
 ## ------------------------------------------------------------
@@ -71,7 +81,7 @@
 ## shift? What does this tell you about what it takes for new data to
 ## overrule a moderately confident prior?
 ##
-## Your answer:
+## Your answer: 
 ##
 ##
 ## ------------------------------------------------------------
