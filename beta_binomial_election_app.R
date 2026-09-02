@@ -81,7 +81,8 @@
 ## shift? What does this tell you about what it takes for new data to
 ## overrule a moderately confident prior?
 ##
-## Your answer: 
+## Your answer: The new data has to be several times larger than the moderately confident
+## prior data.
 ##
 ##
 ## ------------------------------------------------------------
@@ -91,7 +92,7 @@
 ## Bayesian credible interval says that the frequentist confidence
 ## interval cannot -- and why.
 ##
-## Your answer:
+## Your answer: 
 ##
 ##
 ## ------------------------------------------------------------
