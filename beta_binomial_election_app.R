@@ -109,7 +109,8 @@
 ## closer to the prior or closer to the data? Does this match the
 ## weight sentence? Why did the data win here when it didn't in Q5?
 ##
-## Your answer:
+## Your answer: Win = whichever the posterior ends up closer to is the winner, "the data" or the scaled likelihood
+## "won" in this case because the posterior ended up closer to that than the prior.
 ##
 ##
 ## ------------------------------------------------------------
