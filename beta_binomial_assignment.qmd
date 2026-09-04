@@ -84,10 +84,10 @@ Set the scene...
 define π
 
 ```{r}
-plot_beta(alpha = 88 , beta = 93 )
+plot_beta(alpha = 234 , beta = 30 )
 ```
 
-Statement = "Before any new data we believe there's a 95% chance π is between 83% and 93%, with 88% as our single best guess."
+Statement = "Before any new data we believe there's a 95% chance π is between 85% and 92%, with 89% as our single best guess."
 
 Prior effective sample size =
 
