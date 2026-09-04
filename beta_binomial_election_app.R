@@ -61,7 +61,7 @@
 ## "no single mode when both α ≤ 1 and β ≤ 1 (density is bimodal, piling up at 0 and 1)",
 ## and 0.354. Both Beta(1,1) and Beta(0.5,0.5) do not have a single mode but the difference is
 ## the density piles up in the center between 0 and 1 for the Beta(1,1), while for Beta(0.5,0.5)
-## the density is piled up only at 0 and 1. The netx vote will skew the graph either towards 0 or 1
+## the density is piled up only at 0 and 1. The next vote will skew the graph either towards 0 or 1
 ## which is why the density is piled so awkwardly for Beta(0.5,0.5).
 ##
 ##
@@ -82,7 +82,7 @@
 ## overrule a moderately confident prior?
 ##
 ## Your answer: The new data has to be several times larger than the moderately confident
-## prior data.
+## prior data. The posterior mean increased and the standard deviation decreased slightly.
 ##
 ##
 ## ------------------------------------------------------------
@@ -92,7 +92,14 @@
 ## Bayesian credible interval says that the frequentist confidence
 ## interval cannot -- and why.
 ##
-## Your answer: 
+## Your answer: The Frequentist method states that the method used to build the interval
+## is 95% accurate, in other words, 95% of the intervals created using this method contain
+## Michelle's true support. On the other hand Bayesian statistics says that there is 95% chance that
+## Michelle's true support is within the given interval. The key difference is that the 95% confidence from the
+## Frequentist methodology is only referring to the accuracy of the method to create the interval not the 
+## accuracy of any given interval. Bayesian specifically gives you a confidence interval that focuses on
+## The specific interval you are looking at. It also helps that the Bayesian interval is smaller than the 
+## Frequentist's confidence interval which also visibly shows the higher accuracy of the Bayesian method.
 ##
 ##
 ## ------------------------------------------------------------
