@@ -79,9 +79,9 @@ Things to keep on mind:
 
 ### Prior
 
-We wanted to investigate what proportion of the NBA roster is made up of NCAA Division 1 Collegiate athletes. Our prior was from 1980 and our second data survey took the 2026 roster.
+We wanted to investigate what proportion of the NBA roster is made up of NCAA Division 1 Collegiate athletes. Our prior was from 1980 and our second data survey took the 2026 roster. The context could be a recruiter/scout studying statistics regarding where the majority of the NBA roster comes from in terms of demographic (i.e. international, collegiate, straight from high school, etc.). Based on the statistics, the scout manager wants to know to prioritize his resources. Our aim is to come up with data that will hellp the scout recruiter answer questions like, where should I send my scout teams, should we bias the NCAA Division 1 schools or should we invest in international scholar programs, or maybe even looking into the highest level of high school tournaments in the region?
 
-Define π = The number of Division 1 collegiate basketball players who end up in the NBA in 2026
+Define π = The proportion of Division 1 collegiate basketball players who end up in the NBA in 2026
 
 ```{r}
 plot_beta(alpha = 234 , beta = 30 )
@@ -112,3 +112,7 @@ plot_beta_binomial(alpha = 234, beta = 30, y = 340, n = 540 )
 Statement = "There's a 95% probability that π lies between 68.2% and 74.5%."
 
 Weight = prior (worth 264 ) contributes 33% of the weight, and our new data (n = 540) contributes the other 67%.
+
+## Concluding Statement:
+
+Based on our data it is still very much worth it to send the majority of the scouting teams to the NCAA Division 1 schools. However, the data does also definitely call for a spread, maybe looking into international scholar programs and keeping eyes on promising international talent. Roughly 70% of the NBA roster comes from NCAA Division 1 schools, but if I were the scouter I would try to avoid putting all my eggs in the one basket, or pooling all my scout teams in one place.
