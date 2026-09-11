@@ -195,29 +195,50 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="prior-1" class="level3">
 <h3 class="anchored" data-anchor-id="prior-1">Prior</h3>
 <p>Set the scene…</p>
-<p>define π</p>
+<p>π = The number of Division 1 collegiate basketball players who end up in the NBA</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co">#plot_beta(alpha = , beta = )</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot_beta</span>(<span class="at">alpha =</span> <span class="dv">234</span> , <span class="at">beta =</span> <span class="dv">30</span> )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="beta_binomial_assignment_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
 </div>
-<p>Statement = “Before any new data we believe there’s a 95% chance π is between x% and x%, with x% as our single best guess.”</p>
-<p>Prior effective sample size =</p>
+</div>
+</div>
+<p>Statement = “Before any new data we believe there’s a 95% chance π is between 85% and 92%, with 89% as our single best guess.”</p>
+<p>Prior effective sample size = 264</p>
 </section>
 <section id="likelihood-1" class="level3">
 <h3 class="anchored" data-anchor-id="likelihood-1">Likelihood</h3>
-<p><strong>New data arrives:</strong> We commission new data of <em>n</em> and record <em>y</em> , the number …. We gather x data points in which y (x%) … – noticeably higher/lower than the x% prior average.</p>
+<p><strong>New data arrives:</strong> We commission new data of 540 and record 340, the number of collegiate who ended up on the 2026 roster. We gather data points in which 340 (62%) played in the NBA in 2026 – noticeably lower than the 89% prior average.</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">#plot_binomial_likelihood(y = , n = )</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot_binomial_likelihood</span>(<span class="at">y =</span> <span class="dv">340</span>, <span class="at">n =</span> <span class="dv">540</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="beta_binomial_assignment_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
 </div>
-<p>Likelihood Question: “For each possible value of π —…. — how compatible is that value with having produced exactly y out of n in this data collection?”</p>
-<p>Likelihood Statement: “Taken on its own, this data makes values of π near x% far more plausible than values near x% — the data alone points to a higher/lower number than we’d been expecting”</p>
+</div>
+</div>
+<p>Likelihood Question: “For each possible value of π —Division 1 athletes playing in the NBA — how compatible is that value with having produced exactly 340 out of 540 in this data collection?”</p>
+<p>Likelihood Statement: “Taken on its own, this data makes values of π near 61% far more plausible than values near 89% — the data alone points to a lower number than we’d been expecting”</p>
 </section>
 <section id="posterior-1" class="level3">
 <h3 class="anchored" data-anchor-id="posterior-1">Posterior</h3>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co">#plot_beta_binomial(alpha = , beta = , y = , n = )</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot_beta_binomial</span>(<span class="at">alpha =</span> <span class="dv">234</span>, <span class="at">beta =</span> <span class="dv">30</span>, <span class="at">y =</span> <span class="dv">340</span>, <span class="at">n =</span> <span class="dv">540</span> )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="beta_binomial_assignment_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
 </div>
-<p>Statement = “There’s a 95% probability that π lies between x% and x%.”</p>
-<p>Weight = prior (worth ~ ) contributes x% of the weight, and our new data (n = ) contributes the other x%.</p>
+</div>
+</div>
+<p>Statement = “There’s a 95% probability that π lies between 68.2% and 74.5%.”</p>
+<p>Weight = prior (worth 264 ) contributes 33% of the weight, and our new data (n = 540) contributes the other 67%.</p>
 </section>
 </section>
 </section>
