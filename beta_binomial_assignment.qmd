@@ -81,7 +81,7 @@ Things to keep on mind:
 
 Set the scene...
 
-define π
+π = The number of Division 1 collegiate basketball players who end up in the NBA
 
 ```{r}
 plot_beta(alpha = 234 , beta = 30 )
@@ -89,14 +89,14 @@ plot_beta(alpha = 234 , beta = 30 )
 
 Statement = "Before any new data we believe there's a 95% chance π is between 85% and 92%, with 89% as our single best guess."
 
-Prior effective sample size =
+Prior effective sample size = 264
 
 ### Likelihood
 
-**New data arrives:** We commission new data of *n* and record *y* , the number .... We gather x data points in which y (x%) ... -- noticeably higher/lower than the x% prior average.
+**New data arrives:** We commission new data of 150 and record *y* , the number .... We gather x data points in which y (x%) ... -- noticeably higher/lower than the x% prior average.
 
 ```{r}
-#plot_binomial_likelihood(y = , n = )
+plot_binomial_likelihood(y = 340, n = 540)
 ```
 
 Likelihood Question: "For each possible value of π —.... — how compatible is that value with having produced exactly y out of n in this data collection?"
@@ -106,7 +106,7 @@ Likelihood Statement: "Taken on its own, this data makes values of π near x% fa
 ### Posterior
 
 ```{r}
-#plot_beta_binomial(alpha = , beta = , y = , n = )
+plot_beta_binomial(alpha = , beta = , y = , n = )
 ```
 
 Statement = "There's a 95% probability that π lies between x% and x%."
