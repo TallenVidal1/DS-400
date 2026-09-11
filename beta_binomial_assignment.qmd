@@ -93,22 +93,22 @@ Prior effective sample size = 264
 
 ### Likelihood
 
-**New data arrives:** We commission new data of 150 and record *y* , the number .... We gather x data points in which y (x%) ... -- noticeably higher/lower than the x% prior average.
+**New data arrives:** We commission new data of 540 and record 340, the number of collegiate who ended up on the 2026 roster. We gather data points in which 340 (62%) played in the NBA in 2026 -- noticeably lower than the 89% prior average.
 
 ```{r}
 plot_binomial_likelihood(y = 340, n = 540)
 ```
 
-Likelihood Question: "For each possible value of π —.... — how compatible is that value with having produced exactly y out of n in this data collection?"
+Likelihood Question: "For each possible value of π —Division 1 athletes playing in the NBA — how compatible is that value with having produced exactly 340 out of 540 in this data collection?"
 
-Likelihood Statement: "Taken on its own, this data makes values of π near x% far more plausible than values near x% — the data alone points to a higher/lower number than we'd been expecting"
+Likelihood Statement: "Taken on its own, this data makes values of π near 61% far more plausible than values near 89% — the data alone points to a lower number than we'd been expecting"
 
 ### Posterior
 
 ```{r}
-plot_beta_binomial(alpha = , beta = , y = , n = )
+plot_beta_binomial(alpha = 234, beta = 30, y = 340, n = 540 )
 ```
 
-Statement = "There's a 95% probability that π lies between x% and x%."
+Statement = "There's a 95% probability that π lies between 68.2% and 74.5%."
 
-Weight = prior (worth \~ ) contributes x% of the weight, and our new data (n = ) contributes the other x%.
+Weight = prior (worth 264 ) contributes 33% of the weight, and our new data (n = 540) contributes the other 67%.
