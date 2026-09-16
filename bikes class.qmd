@@ -27,12 +27,19 @@ Starter Questions:
 1.  What is the distribution of ridership? Make a histogram and write what you see below
 
 ```{r}
-
+ggplot(data = bikes_data, aes(x = rides)) +
+  geom_histogram(fill = "skyblue", color = "black") +
+  labs(title = "Ridership Distribution", x = "Rides", y = "Count") +
+  theme_minimal()
 ```
 
 2.  Has ridership increased over time? Make a plot and write what you see below
 
 ```{r}
+ggplot(data = bikes_data, aes(x = rides, fill = factor(year))) +
+  geom_histogram(position = "dodge", color = "white", bins = 20) +
+  labs(title = "Rides over the years", x = "Number of Rides", y = "Count") +
+  theme_minimal()
 
 ```
 
@@ -40,14 +47,28 @@ Starter Questions:
 ```
 
 ```{r}
-
+line_plot <- ggplot(data = bikes_data, aes(x = date, y = rides, label = day_of_week)) +
+  geom_line(color = "steelblue", linewidth = 1) +
+  geom_point()
+  labs(title = "Rides over the years", x = "Years", y = "Rides") +
+  theme_minimal()
+ggplotly(line_plot)
 ```
 
 ```{r}
-
+## Note to self: add box plot instead for this question, better for answering the 3rd question 
 ```
 
 3.  Are there more rides on weekdays or weekends? Make a plot and write what you see below
+
+```{r}
+ggplot(data = bikes_data, aes(x = day_of_week, fill = day_of_week)) +
+  geom_bar() +
+  labs(title = "Rides by Day of the Week", x = "Day of Week", y = "Number of Rides") +
+  theme_minimal() +
+  theme(legend.position = "none")
+
+```
 
 ```{r}
 
@@ -101,6 +122,14 @@ report(model)
 Repeat the all the steps to model the relationship between
 
 - rides and humidity
+
+  ```{r}
+  ## Exploratory Data Analysis ##
+  ggplot(bikes_data, aes(x = humidity, y = rides)) +
+    geom_point() +
+    geom_smooth(method = "lm") +
+    stat_cor()
+  ```
 
 - rides and windspeed
 
