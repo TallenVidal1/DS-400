@@ -111,6 +111,10 @@ lm(data = bikes_data, rides~temp_feel)
 
 **`temp_feel` = 81.88**: the slope — for every one-unit (one degree) increase in temp_feel, the model predicts ridership increases by 81.88 rides. This is the number that actually answers "does temperature matter, and by how much"
 
+model \<- lm(rides \~ temp_feel, data = bikes_data)
+
+report(model)
+
 ```{r}
 
 model <- lm(rides ~ temp_feel, data = bikes_data)
@@ -123,15 +127,67 @@ Repeat the all the steps to model the relationship between
 
 - rides and humidity
 
-  ```{r}
-  cw_eda_1<- ggplot(bikes_data, aes(x = humidity, y = rides)) +
-    geom_point() +
-    geom_smooth(method = "lm") +
-    stat_cor()
-  ```
+```{r}
 
-- rides and windspeed
+ggplot(bikes_data, aes(x = humidity, y = rides)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  stat_cor()
+```
+
+```{r}
+lm(data = bikes_data, rides~humidity)
+
+model <- lm(rides ~ humidity, data = bikes_data)
+report(model)
+```
+
+- rides and wind speed
+
+lm(data = bikes_data, rides\~windspeed)
+
+```{r}
+ggplot(bikes_data, aes(x = windspeed, y = rides)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  stat_cor()
+```
+
+```{r}
+lm(data = bikes_data, rides~windspeed)
+
+model <- lm(rides ~ windspeed , data = bikes_data)
+report(model)
+```
 
 - rides and temp_actual
 
+```{r}
+ggplot(bikes_data, aes(x = temp_actual, y = rides)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  stat_cor()
+```
+
+```{r}
+lm(data = bikes_data, rides~temp_actual)
+
+model <- lm(rides ~ temp_actual, data = bikes_data)
+report(model)
+```
+
 - temp_feel and temp_actual
+
+```{r}
+ggplot(bikes_data, aes(x = temp_actual, y = temp_feel)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  stat_cor()
+```
+
+```{r}
+lm(data = bikes_data, temp_feel~temp_actual)
+
+model <- lm(temp_feel ~ temp_actual, data = bikes_data)
+report(model)
+```
