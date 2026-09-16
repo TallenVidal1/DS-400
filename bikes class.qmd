@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "Bike Data Classwork"
 format: html
 editor: visual
 ---
@@ -36,7 +36,7 @@ Starter Questions:
 
 ```
 
-```{}
+```         
 ```
 
 ```{r}
