@@ -124,8 +124,7 @@ Repeat the all the steps to model the relationship between
 - rides and humidity
 
   ```{r}
-  ## Exploratory Data Analysis ##
-  ggplot(bikes_data, aes(x = humidity, y = rides)) +
+  cw_eda_1<- ggplot(bikes_data, aes(x = humidity, y = rides)) +
     geom_point() +
     geom_smooth(method = "lm") +
     stat_cor()
