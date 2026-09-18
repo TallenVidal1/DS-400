@@ -7,6 +7,7 @@ editor: visual
 ```{r}
 library(tidyverse)
 library(bayesrules)
+library(dplyr)
 ```
 
 ### Data
@@ -20,7 +21,15 @@ bikes_data <- bayesrules::bikes
 How many rides will we have on a 75 degree (feel) day
 
 ```{r}
+bikes_data|>
+  filter(between(temp_feel, 74, 76)) |>
+  ggplot(aes(x = rides)) +
+  geom_histogram()
+```
 
+```{r}
+ggplot(bikes_data,aes(x = temp_feel, y = rides)) +
+  geom_point()
 ```
 
 ### App
@@ -621,13 +630,10 @@ shinyApp(ui, server)
 
 ### Questions
 
-1\.
-
-2\.
-
-3\.
-
-4\.
+1.  When calculating the 95% of the plausible values, I got 21.6 (for (100 + 1.96(40))) and 178.4 (for (100 + 1.96(40))). This shows me that the values projected on the app (22, and 178) are rounding to the nearest whole number to make the results a little concrete for conceptual understanding and communication.
+2.  The spread gets narrower in the middle, (if the s1 = 40 looks like a bundle of straws, the s1 = 80 looks like a bundle of straws with a rubberband tied in the middle of it).
+3.  When sigma is higher (0.0003) the less scatter there is around the mean. I make this claim because when sigma is 0.0003 the day to day scatter is listed to be 3,333 where as for 0.0002 it is stated to be 5000 which is a greater spread around the mean and means the relationship between how the temperature feels and the number of bike rides is less correlated.
+4.  
 
 5\.
 
