@@ -782,13 +782,13 @@ shinyApp(ui, server)
 
   - 1/0.002 = 500. In other words, once temperature is accounted for, relatively small scatter remains (500 rides)
 
-  - 1/0.003 =3,333. In other words, once temperature is accounted for, very sginificant scatter remains (3,333 rides) implying temperature is only a loose, weak predictor.
+  - 1/0.003 =3,333. In other words, once temperature is accounted for, very significant scatter remains (3,333 rides) implying temperature is only a loose, weak predictor.
 
 4.  sigma is restricted to non-negative values, while beta0c and beta1 can genuinely take any real number — including zero or negative. That constraint forces sigma into a fundamentally different *shape* of distribution than the other two.
 
 - sigma is describing the scatter around the mean when temperature is controlled for, which cannot be a negative number. we could have negative slope (rides could decrease with increased temperature
 
-5.  posterior meidan for intercept = -2,197 (not helpful because we dont see any 0 degree days in our data). posterior median for temp_feel = 82.2
+5.  posterior median for intercept = -2,197 (not helpful because we dont see any 0 degree days in our data). posterior median for temp_feel = 82.2
 
 - The posterior almost exactly matches the prior suggesting our 500 data points carries more weight than our relatively loos prior.
 
