@@ -633,7 +633,7 @@ shinyApp(ui, server)
 1.  When calculating the 95% of the plausible values, I got 21.6 (for (100 + 1.96(40))) and 178.4 (for (100 + 1.96(40))). This shows me that the values projected on the app (22, and 178) are rounding to the nearest whole number to make the results a little concrete for conceptual understanding and communication.
 2.  The spread gets narrower in the middle, (if the s1 = 40 looks like a bundle of straws, the s1 = 80 looks like a bundle of straws with a rubberband tied in the middle of it).
 3.  When sigma is lower (0.0003) the less scatter there is around the mean. I make this claim because when sigma is 0.0003 the day to day scatter is listed to be 3,333 which is greater than the 500 ride spread that is reported from the app when we turn the sigma up to 0.002.
-4.  
+4.  The sigma cannot be negative because it measures distance from the mean not the
 
 5\.
 
