@@ -4,23 +4,38 @@ format: html
 editor: visual
 ---
 
-## Quarto
+## Penguins Activity 
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+Tallen Vidal
 
-## Running Code
+09/22/2026
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+## Model Penguin Data using Bayesian Regression
+
+## 1) Loading Libraries
 
 ```{r}
-1 + 1
+library(tidyverse)
+library(bayesrules)
+library(rstanarm)
+library(ggplot2)
+
+data <- bayesrules::penguins_bayes
 ```
 
-You can add options to executable code like this
+## 2) Histograms for EDA
+
+Two quick plots, one sentence each describing what you see:
+
+- A histogram of `flipper_length_mm`. Where is it centered? Roughly bell-shaped, or doing something unusual?
+
+- A scatterplot of `flipper_length_mm` (y) against `bill_length_mm` (x). Linear? Positive or negative? Strong or weak?
 
 ```{r}
-#| echo: false
-2 * 2
+ggplot(data = data, aes(x = flipper_length_mm)) +
+  geom_histogram() +
+  labs(title = "Flipper Length Distribution", x = "Flipper Length in mm", y = "Count") +
+  theme_minimal()
 ```
 
 The `echo: false` option disables the printing of code (only output is displayed).
