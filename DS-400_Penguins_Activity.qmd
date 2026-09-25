@@ -23,7 +23,7 @@ library(ggplot2)
 data <- bayesrules::penguins_bayes
 ```
 
-## 2) Histograms for EDA
+## 2) Plots for EDA
 
 Two quick plots, one sentence each describing what you see:
 
@@ -32,6 +32,8 @@ Two quick plots, one sentence each describing what you see:
 - A scatterplot of `flipper_length_mm` (y) against `bill_length_mm` (x). Linear? Positive or negative? Strong or weak?
 
 ```{r}
+### Histogram ###
+
 ggplot(data = data, aes(x = flipper_length_mm)) +
   geom_histogram() +
   labs(title = "Flipper Length Distribution", x = "Flipper Length in mm", y = "Count") +
@@ -39,3 +41,9 @@ ggplot(data = data, aes(x = flipper_length_mm)) +
 ```
 
 The `echo: false` option disables the printing of code (only output is displayed).
+
+```{r}
+### Scatterplot ###
+
+
+```
