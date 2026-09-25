@@ -57,3 +57,44 @@ p<-ggplot(data, aes(x = bill_length_mm, y = flipper_length_mm)) +
   stat_cor()
 ggMarginal(p, type = "density")
 ```
+
+```{r}
+m0 <- 200   # centered intercept mean
+s0 <-  10.20  # centered intercept SD
+m1 <-   3.5 # slope mean
+s1 <- 1.02 # slope SD
+l  <- 0.08   # sigma's exponential rate
+```
+
+```{r}
+plot_normal(200, 10.2)
+```
+
+```{r}
+model <- stan_glm(
+  flipper_length_mm ~ bill_length_mm, data = data,
+  family = gaussian,
+  prior_intercept = normal(m0, s0),
+  prior = normal(m1, s1),
+  prior_aux = exponential(l),
+  chains = 4, iter = 2000, seed = 84735
+)
+```
+
+```{r}
+summary(model)
+```
+
+```{r}
+plot_normal(1.7, 0.051)
+```
+
+```{r}
+report::report(model)
+```
+
+## In Class Search Activity
+
+Link to competitive swimming analysis using Bayesian allometric quantile regressions:
+
+<https://pubmed.ncbi.nlm.nih.gov/32772638/>
