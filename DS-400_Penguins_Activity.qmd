@@ -15,10 +15,16 @@ Tallen Vidal
 ## 1) Loading Libraries
 
 ```{r}
+options(scipen = 99)
 library(tidyverse)
 library(bayesrules)
 library(rstanarm)
+library(vembedr)
 library(ggplot2)
+library(ggpubr)
+library(plotly)
+library(report)
+library(ggExtra)
 
 data <- bayesrules::penguins_bayes
 ```
@@ -34,7 +40,7 @@ Two quick plots, one sentence each describing what you see:
 ```{r}
 ### Histogram ###
 
-ggplot(data = data, aes(x = flipper_length_mm)) +
+ggplot(data = data, aes(x = flipper_length_mm, fill = species)) +
   geom_histogram() +
   labs(title = "Flipper Length Distribution", x = "Flipper Length in mm", y = "Count") +
   theme_minimal()
@@ -45,5 +51,9 @@ The `echo: false` option disables the printing of code (only output is displayed
 ```{r}
 ### Scatterplot ###
 
-
+p<-ggplot(data, aes(x = bill_length_mm, y = flipper_length_mm)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  stat_cor()
+ggMarginal(p, type = "density")
 ```
