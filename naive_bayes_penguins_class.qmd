@@ -10,6 +10,8 @@ editor: visual
 library(tidyverse)
 library(bayesrules)
 library(janitor)
+library(palmerpenguins)
+library(plotly)
 library(e1071)
 options(scipen = 99)
 ```
@@ -30,15 +32,88 @@ penguins <- penguins %>%
 ```
 
 ```{r}
-
+ggplot(penguins, aes(x = flipper_length_mm, fill = species)) +
+  geom_histogram() +
+  labs(title = "Flipper Length Distribution", x = "Flipper Length in mm", y = "Count") +
+  theme_minimal()
 ```
 
 ```{r}
-
+ggplot(penguins, aes(x = bill_length_mm, fill = species)) +
+  geom_histogram() +
+  labs(title = "Bill Length Distribution", x = "Bill Length in mm", y = "Count") +
+  theme_minimal()
 ```
 
 ```{r}
+ggplot(penguins, aes(x = body_mass_g, fill = species)) +
+  geom_histogram() +
+  labs(title = "Body Mass Distribution", x = "Body Mass in grams", y = "Count") +
+  theme_minimal()
+```
 
+```{r}
+library(tidyverse)
+library(palmerpenguins)
+library(plotly)
+
+p <- penguins %>%
+  drop_na(body_mass_g) %>%   # removes the 2 NA rows that caused the warning
+  ggplot(aes(x = body_mass_g, fill = species)) +
+  geom_histogram(
+    binwidth = 100,
+    position = "identity",   # overlay instead of stack
+    alpha = 0.55,            # transparency reveals overlap
+    color = "white",
+    linewidth = 0.2
+  ) +
+  scale_fill_manual(values = c(
+    "Adelie"    = "#FF8C00",
+    "Chinstrap" = "#A034F0",
+    "Gentoo"    = "#159090"
+  )) +
+  labs(
+    title = "Body Mass Distribution of Penguins by Species",
+    subtitle = "Adelie and Chinstrap overlap heavily; Gentoo are clearly heavier",
+    x = "Body Mass (grams)",
+    y = "Count",
+    fill = "Species"
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(
+    legend.position = "top",
+    plot.title = element_text(face = "bold")
+  )
+
+ggplotly(p) %>%
+  layout(
+    legend = list(orientation = "h", x = 0.5, xanchor = "center", y = 1.08),
+    hovermode = "closest"
+  )
+```
+
+```{r}
+p2 <- penguins %>%
+  drop_na(body_mass_g) %>%
+  ggplot(aes(x = body_mass_g, fill = species, color = species)) +
+  geom_density(alpha = 0.4, linewidth = 0.8) +
+  scale_fill_manual(values = c("#FF8C00", "#A034F0", "#159090")) +
+  scale_color_manual(values = c("#FF8C00", "#A034F0", "#159090")) +
+  labs(title = "Body Mass Density by Species",
+       x = "Body Mass (grams)", y = "Density") +
+  theme_minimal(base_size = 13)
+
+ggplotly(p2)
+```
+
+## Ethan's Scatter Plot Visualization
+
+```{r}
+ggplot(data = penguins, aes(x=flipper_length_mm, y= bill_length_mm, color = species)) +
+  geom_point() +
+  geom_hline(yintercept = 50, color = "red")+
+  geom_vline(xintercept = 195, color = "steelblue")+
+  facet_wrap(~above_average_weight)
 ```
 
 Our original Bayesian ways
