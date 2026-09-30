@@ -357,48 +357,72 @@ prior_prob_gentoo
 
 ```{r}
 gentoo_flipper_mean <- naive_model_hints$tables$flipper_length_mm["Gentoo", 1]
-chinstrap_flipper_mean
+gentoo_flipper_mean
 ```
 
 ```{r}
 gentoo_flipper_sd   <- naive_model_hints$tables$flipper_length_mm["Gentoo", 2]
-chinstrap_flipper_sd
+gentoo_flipper_sd
+```
+
+```{r}
+density_flipper_given_gentoo <- dnorm(195, mean = gentoo_flipper_mean, sd = gentoo_flipper_sd)
+density_flipper_given_gentoo
 ```
 
 #### Bill Length
 
 ```{r}
+gentoo_bill_mean <- naive_model_hints$tables$bill_length_mm["Gentoo", 1]
+gentoo_bill_mean
+```
 
+```{r}
+gentoo_bill_sd   <- naive_model_hints$tables$bill_length_mm["Gentoo", 2]
+gentoo_bill_sd
+```
+
+```{r}
+density_bill_given_gentoo <- dnorm(50, mean = gentoo_bill_mean, sd = gentoo_bill_sd)
+density_bill_given_gentoo
 ```
 
 #### Above Average Weight
 
 ```{r}
+prob_under_average_weight_given_gentoo  <- penguins %>%
+  filter(species == "Gentoo") %>%
+  count(above_average_weight) %>%
+  mutate(prop = n / sum(n)) %>%
+  filter(above_average_weight == "no") %>%
+  pull(prop)
 
+prob_under_average_weight_given_gentoo
 ```
 
 P(Gentoo) \* P(195 mm flipper \| Gentoo ) \* P(50 mm bill \| Gentoo ) \* P(under average weight \| Gentoo)
 
 ```{r}
-
+probs_gentoo <- prior_prob_gentoo * density_flipper_given_gentoo * density_bill_given_gentoo * prob_under_average_weight_given_gentoo
+probs_gentoo
 ```
 
 ### Final
 
 ```{r}
-# total_prob <- probs_adelie + probs_chinstrap + probs_gentoo
-# 
-# posterior_probs <- c(
-#   Adelie    = probs_adelie / total_prob,
-#   Chinstrap = probs_chinstrap / total_prob,
-#   Gentoo    = probs_gentoo / total_prob
-# )
-# 
-# posterior_probs
+total_prob <- probs_adelie + probs_chinstrap + probs_gentoo
+
+posterior_probs <- c(
+  Adelie    = probs_adelie / total_prob,
+  Chinstrap = probs_chinstrap / total_prob,
+  Gentoo    = probs_gentoo / total_prob
+)
+
+posterior_probs
 ```
 
 ```{r}
-#predict(naive_model_hints, newdata = our_penguin, type = "raw")
+predict(naive_model_hints, newdata = our_penguin, type = "raw")
 ```
 
 ### What makes Naive bayes naive?
