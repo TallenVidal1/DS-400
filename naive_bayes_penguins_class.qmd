@@ -345,13 +345,24 @@ probs_chinstrap
 #### Species
 
 ```{r}
+prior_prob_gentoo <- penguins %>% 
+  tabyl(species) %>% 
+  filter(species == "Gentoo") %>% 
+  pull(percent)
 
+prior_prob_gentoo
 ```
 
 #### Flipper Length
 
 ```{r}
+gentoo_flipper_mean <- naive_model_hints$tables$flipper_length_mm["Gentoo", 1]
+chinstrap_flipper_mean
+```
 
+```{r}
+gentoo_flipper_sd   <- naive_model_hints$tables$flipper_length_mm["Gentoo", 2]
+chinstrap_flipper_sd
 ```
 
 #### Bill Length
