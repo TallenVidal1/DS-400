@@ -14,6 +14,7 @@ library(bayesrules)
 library(janitor)
 library(e1071)
 library(tidytext)
+library(ggplot2)
 ```
 
 ### Data
@@ -27,18 +28,24 @@ news_data <- bayesrules::fake_news |>
   mutate(id = row_number())
 ```
 
-### Explore
+### Explore (EDA)
 
 ```{r}
-
+ggplot(data = news_data, aes(x=negative, y= positive, color = type)) +
+  geom_point()
+  
 ```
 
 ```{r}
-
+ggplot(news_data, aes(x = text_words, fill = type)) +
+  geom_histogram() +
+  labs(title = "Word Count Distribution", x = "Number of Words", y = "Count") +
+  theme_minimal()
 ```
 
 ```{r}
-
+ggplot(data = news_data, aes(x=type, y= positive, color = type)) +
+  geom_boxplot()
 ```
 
 ### Text-Specific Viz
@@ -152,37 +159,41 @@ What is the probability an article is fake given it has en exclamation point = P
 P(B)
 
 ```{r}
-
+news_data |>
+  tabyl(type)
 ```
 
 ```{r}
-# prior_probability_fake <- 
+prior_probability_fake <- 0.4
 ```
 
 P(A\|B)
 
 ```{r}
-
+news_data |>
+  tabyl(type, title_has_excl) |>
+  adorn_percentages("row")
 ```
 
 ```{r}
-# probability_has_excl_given_fake <- 
+probability_has_excl_given_fake <- 0.26666667
 ```
 
 P(A)
 
 ```{r}
-
+news_data|>
+  tabyl(title_has_excl)
 ```
 
 ```{r}
-#probability_has_excl <- 
+probability_has_excl <- 0.12
 ```
 
 P(B\|A)
 
 ```{r}
-
+prior_probability_fake*probability_has_excl_given_fake/probability_has_excl
 ```
 
 ```{r}
@@ -294,7 +305,7 @@ news_data %>%
 ```
 
 | Model | Sensitivity (catching fake) | Specificity (catching real) | Accuracy |
-|----|----|----|----|
+|------------------|------------------|------------------|------------------|
 | Model 1 (`title_has_excl`) | 26.67% | 97.78% | 69.3% |
 | Model 2 (+ `title_words`) | 36.67% | 90.00% | 68.7% |
 | Model 3 (+ `title_caps_percent`, `negative`) | **48.33%** | 83.33% | **69.33%** |
@@ -324,11 +335,19 @@ news_data %>%
 Create a model with a custom feature list and test for accuracy with a confusion matrix
 
 ```{r}
-
+model5 <- naiveBayes(type ~ text_words, news_data)
+model5
 ```
 
 ```{r}
+news_data <- news_data %>%
+  mutate(predicted_type = predict(model5, newdata = .))
 
+news_data %>%
+  tabyl(type, predicted_type) %>%
+  adorn_percentages("row") %>%
+  adorn_pct_formatting(digits = 2) %>%
+  adorn_ns
 ```
 
 #### Strategic features
