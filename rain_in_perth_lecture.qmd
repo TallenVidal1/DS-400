@@ -54,7 +54,8 @@ ggplotly(p2)
 ```{r}
 ggplot(data = weather, aes(x=raintomorrow, y= humidity9am, color = raintomorrow)) +
   geom_boxplot() +
-  labs( title= "Box Plot Rain Tomorrow vs Humidity at 9 AM", x = "Rain Tomorrow", y = "Humidity at 9 AM Today")
+  labs( title= "Box Plot Rain Tomorrow vs Humidity at 9 AM", x = "Rain Tomorrow", y = "Humidity at 9 AM Today") +
+  geom_jitter(size = 0.01)
 ```
 
 ```{r}
@@ -71,38 +72,54 @@ weather %>%
 Only use humidity at 9 am as a predictive feature and evaluate performance. Call it nb_class_model
 
 ```{r}
-
+nb_class_model <- naiveBayes(raintomorrow ~ humidity9am, data = weather)
 ```
 
 ```{r}
-#nb_class_model
+nb_class_model
+
+weather <- weather %>% 
+  mutate(predicted_forecast = predict(nb_class_model, newdata = .))
 ```
 
 ```{r}
-
+weather %>% 
+  tabyl(raintomorrow, predicted_forecast) %>% 
+  adorn_percentages("row") %>% 
+  adorn_pct_formatting(digits = 2) %>%
+  adorn_ns
 ```
 
 Fit a naive bayes classification model with all the available data as features and evaluate performance. Call it nb_class_model_all
 
 ```{r}
+nb_class_model_all <- naiveBayes(raintomorrow ~ ., data = weather)
+```
 
+```{r}
+nb_class_model_all
+```
+
+```{r}
+weather <- weather |>
+  select(-predicted_species, -predicted_forecast)
 ```
 
 ```{r}
 
-```
+weather <- weather %>% 
+  mutate(predicted_forecast = predict(nb_class_model_all, newdata = .))
 
-```{r}
-
-```
-
-```{r}
-
+weather %>% 
+  tabyl(raintomorrow, predicted_forecast) %>% 
+  adorn_percentages("row") %>% 
+  adorn_pct_formatting(digits = 2) %>%
+  adorn_ns
 ```
 
 ### What does this model tell us and not tell us?
 
-- 
+- This prediction model struggles due to the lack of data. There is not much numerical data, outside of the humidity percentage.
 
 ### Logistic Regression
 
