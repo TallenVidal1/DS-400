@@ -13,6 +13,9 @@ library(tidyverse)
 library(bayesrules)
 library(e1071)
 library(janitor)
+
+library(plotly)
+options(scipen = 99)
 ```
 
 ### Data
@@ -29,10 +32,29 @@ Take 15 minutes to utilize visualizations to consider the relationship between r
 
 ```{r}
 
+ggplot(weather, aes(x = humidity9am , fill = raintoday)) +
+  geom_histogram() +
+  labs(title = "Morning Humidity Distribution", x = "Humidity Percentage", y = "Count") +
+  theme_minimal()
 ```
 
 ```{r}
+p2 <- weather %>%
+  ggplot(aes(x = humidity9am, fill = raintomorrow, color = raintomorrow)) +
+  geom_density(alpha = 0.4, linewidth = 0.8) +
+  scale_fill_manual(values = c("#FF8C00", "#A034F0", "#159090")) +
+  scale_color_manual(values = c("#FF8C00", "#A034F0", "#159090")) +
+  labs(title = "Morning Humidity Density by Rain Tomorrow",
+       x = "Humidity at 9 AM", y = "Density") +
+  theme_minimal(base_size = 13)
 
+ggplotly(p2)
+```
+
+```{r}
+ggplot(data = weather, aes(x=raintomorrow, y= humidity9am, color = raintomorrow)) +
+  geom_boxplot() +
+  labs( title= "Box Plot Rain Tomorrow vs Humidity at 9 AM", x = "Rain Tomorrow", y = "Humidity at 9 AM Today")
 ```
 
 ```{r}
