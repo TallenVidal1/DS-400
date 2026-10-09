@@ -12,6 +12,10 @@ But first we will take 10 minutes to come up with a use-case where bayesian logi
 
 - Describe the scenario (target parameter, predictive feature(s))
 
+  S1: Using Bayesian Logistic Regression model to predict whether a student attends class tomorrow based on the amount of sleep they got the previous night.
+
+  S2: Using Bayesian Logistic Regression model to predict whether you will win the next match in a 1v1 fighting game based on the hours you have spent playing the game; using the game stats from your gaming system.
+
 - Describe your hypothetical priors
 
 - Describe your hypothetical data
