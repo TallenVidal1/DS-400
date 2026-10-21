@@ -110,7 +110,11 @@
 ## weight sentence? Why did the data win here when it didn't in Q5?
 ##
 ## Your answer: Win = whichever the posterior ends up closer to is the winner, "the data" or the scaled likelihood
-## "won" in this case because the posterior ended up closer to that than the prior.
+## "won" in this case because the posterior ended up closer to that than the prior. This effect was different than Q5 because alpha and beta did not change.
+## The ratio was also the same as 30/50 for success rate (the y variable) is mathematically equivalent to 300/500 which is what we had for Q5. The scaled likelihood
+## did not win because the relationship between the three distributions did not change, and our new posterior was still aligned with prior model's data. In Q7,
+## our new data was vastly different from our prior and our new data had a much higher n-value or trial number (40/200 > 30/50) which is why the scaled likelihood won because
+## as we found in Q5 in order to shift the weight we needed a much higher n-value in our posterior than our prior and we had that in Q7
 ##
 ##
 ## ------------------------------------------------------------
@@ -123,7 +127,11 @@
 ## if you suspected support was genuinely trending upward, not just
 ## noisily varying around a fixed number.
 ##
-## Your answer:
+## Your answer: The problem this could cause is that the weight of each respondent should be affected by the historical belief that
+## is underlying the prior. If we suspect that the support was genuinely trending upward we would want our model to behave similarly to the
+## results of Q7, that being the scaled likelihood "wins" because the posterior ends up closer to that than the prior. Unlike Q7
+## the results would of course be the opposite, in Q7 the support was much less than what we had predicted; in this case the scaled likelihood
+## would win but it would be winning by aligning with a posterior that predicts our support to be higher than our prior.
 ##
 ##
 ## ============================================================
