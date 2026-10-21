@@ -425,7 +425,7 @@ posterior_probs
 predict(naive_model_hints, newdata = our_penguin, type = "raw")
 ```
 
-### What makes Naive bayes naive?
+### What makes Naive Bayes naive?
 
 ```{r}
 penguins %>%
