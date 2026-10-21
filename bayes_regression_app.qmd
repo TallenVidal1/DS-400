@@ -633,16 +633,13 @@ shinyApp(ui, server)
 1.  When calculating the 95% of the plausible values, I got 21.6 (for (100 + 1.96(40))) and 178.4 (for (100 + 1.96(40))). This shows me that the values projected on the app (22, and 178) are rounding to the nearest whole number to make the results a little concrete for conceptual understanding and communication.
 2.  The spread gets narrower in the middle, (if the s1 = 40 looks like a bundle of straws, the s1 = 80 looks like a bundle of straws with a rubberband tied in the middle of it).
 3.  When sigma is lower (0.0003) the less scatter there is around the mean. I make this claim because when sigma is 0.0003 the day to day scatter is listed to be 3,333 which is greater than the 500 ride spread that is reported from the app when we turn the sigma up to 0.002.
-4.  The sigma cannot be negative because it measures distance from the mean not the
+4.  The sigma cannot be negative because it measures distance from the mean not the actual count or measure of any part of our concrete data. The isgma is not a value we are pulling but a measurement we are observing given the data we already have; the sigma is then very dependent on what our initial data is telling us; the sigma is just helping us quantify the relationships within our existing data.
+5.  The posterior meidan for intercept = -2,197 (which is not helpful because we dont see any 0 degree days in our data). The posterior median for temp_feel = 82.2. The posterior almost exactly matches the prior which suggests our 500 data points carries more weight than our relatively loose prior.
+6.  This is computed by tallying what fraction of the thousands of MMC draws of beta1 came out positive. A direct empirical estimate of the actual probability that the true slope exceeds 0, given this prior and this data. It's a genuine probability statement about the parameter. A p-value, in contrast, answers a different statement entirely. That question being, "if the true effect were exactly zero, how surprising would data like this be?". A probability about the data, conditional on an assumption about the parameter; rather than a probaility about the parameter itself.
+7.  It means the several MCMCchains have not converged to the same posterior; meaning they are disagreeing substantially with each other.
+8.  **mu's 95% credible interval**: roughly 3843 to 4095 — narrow, about 250 rides wide. **Posterior predictive 95% interval**: roughly 1500 to 6482 — about 5000 rides wide, roughly **20× wider**. This is because the predictive of ONE day versus predicting over ALL the days adds the real day-to-day scatter (sigma) to the uncertainty already present in mu.
+9.  A Normal distribution technically allows any real number, including negative ones -- so at cold temperatures, where typical ridership is already low, the posterior predictive's left tail can dip below 0 rides. That's not a bug in the simulation; it's an honest sign that a plain Normal model is only an approximation, one that strains more at the extremes than in the middle of the observed data.
+10. even doubling m0 (a substantially "wrong," confidently-stated prior belief) should still get pulled back close to the Q5 baseline once real data enters, since n=500 comfortably outweighs a moderately-confident prior
 
-5\.
-
-6\.
-
-7\.
-
-8\.
-
-9\.
-
-10\.
+```         
+```
