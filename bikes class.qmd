@@ -33,6 +33,10 @@ ggplot(data = bikes_data, aes(x = rides)) +
   theme_minimal()
 ```
 
+### Answer:
+
+The rides seem to be the highest in the ranges of around 1700-1900 and 3800-4000. The data also appears to form a bimodal distribution; we can see there are two "peaks" in the distribution.
+
 2.  Has ridership increased over time? Make a plot and write what you see below
 
 ```{r}
@@ -41,9 +45,6 @@ ggplot(data = bikes_data, aes(x = rides, fill = factor(year))) +
   labs(title = "Rides over the years", x = "Number of Rides", y = "Count") +
   theme_minimal()
 
-```
-
-```         
 ```
 
 ```{r}
@@ -59,6 +60,10 @@ ggplotly(line_plot)
 ## Note to self: add box plot instead for this question, better for answering the 3rd question 
 ```
 
+### Answer:
+
+Thanks to this line graph we can see there is a pretty consistent trend of ridership increasing over the years.
+
 3.  Are there more rides on weekdays or weekends? Make a plot and write what you see below
 
 ```{r}
@@ -70,9 +75,9 @@ ggplot(data = bikes_data, aes(x = day_of_week, fill = day_of_week)) +
 
 ```
 
-```{r}
+### Answer:
 
-```
+Between the seven days, referring to the bar chart above the highest count of ridership actually is on Tuesday and based on other observations we see that the Saturday count is followed closely by the Friday count; I would argue there is higher ridership overall on the weekdays. However, it would be more accurate to find a way to somehow equally weight the counts because there are only 2 weekend days and there are 5 weekdays. Performing some sort of calculation would require this to be accounted for in terms of weighted how much each count of a weekday compares to a weekend.
 
 4.  **Does temperature feel effect ridership**?
 
@@ -88,6 +93,10 @@ ggplot(bikes_data, aes(x = temp_feel, y = rides)) +
   stat_cor()
   
 ```
+
+### Answer:
+
+Based on our model, scatter plot we see there is a pretty strong positive correlation between temp feel and the ridership. I can conclude from this EDA visualization alone that the higher the temperature feels, the more likely people are to go for a bike ride.
 
 What is a correlation coefficient and p value: [helpful tool here](https://rpsychologist.com/correlation/)
 
