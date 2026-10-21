@@ -15,6 +15,7 @@ library(janitor)
 library(e1071)
 library(tidytext)
 library(ggplot2)
+library(ggrepel)
 ```
 
 ### Data
@@ -305,7 +306,7 @@ news_data %>%
 ```
 
 | Model | Sensitivity (catching fake) | Specificity (catching real) | Accuracy |
-|----|----|----|----|
+|------------------|------------------|------------------|------------------|
 | Model 1 (`title_has_excl`) | 26.67% | 97.78% | 69.3% |
 | Model 2 (+ `title_words`) | 36.67% | 90.00% | 68.7% |
 | Model 3 (+ `title_caps_percent`, `negative`) | **48.33%** | 83.33% | **69.33%** |
@@ -399,3 +400,23 @@ subset_results %>%
 ```
 
 #### Your turn - Create a visual from subset_results
+
+Below is a box plot created by Claude to visualize the idea of optimizing the number of features being added to the naive Bayes model so that we don't add too much noise but also have enough details to positively affect the sensitivity and specificity of the model.
+
+```{r}
+plot_data <- subset_results %>%
+  mutate(
+    rank_j = rank(-youdens_j, ties.method = "first"),
+    top10 = rank_j <= 10
+  )
+
+ggplot(plot_data, aes(factor(n_features), youdens_j)) +
+  geom_boxplot(outlier.shape = NA, fill = "grey90") +
+  geom_jitter(aes(colour = top10), width = 0.15, alpha = 0.6) +
+  scale_colour_manual(values = c(`FALSE` = "grey50", `TRUE` = "firebrick"),
+                      labels = c("Other", "Top 10"), name = NULL) +
+  labs(title = "Does adding features help?",
+       x = "Number of features in subset",
+       y = "Youden's J (5-fold CV mean)") +
+  theme_minimal(base_size = 12)
+```
