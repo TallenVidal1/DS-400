@@ -14,6 +14,7 @@ Today we are going to introduce the topic of hierarchical models following [Chap
 library(bayesrules)
 library(tidyverse)
 library(ggpubr)
+library(plotly)
 library(rstanarm)
 library(broom.mixed)
 library(tidybayes)
@@ -34,7 +35,10 @@ We only have a few more chance to practice exploratory viz with `ggplot()` left 
 1.  What is the general distribution of run times
 
 ```{r}
-
+ggplot(weather, aes(x = humidity9am , fill = raintoday)) +
+  geom_histogram() +
+  labs(title = "Morning Humidity Distribution", x = "Humidity Percentage", y = "Count") +
+  theme_minimal()
 ```
 
 2.  What is the average run time by age
