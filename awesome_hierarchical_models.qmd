@@ -35,22 +35,27 @@ We only have a few more chance to practice exploratory viz with `ggplot()` left 
 1.  What is the general distribution of run times
 
 ```{r}
-ggplot(weather, aes(x = humidity9am , fill = raintoday)) +
+
+ggplot(running, aes(x = net)) +
   geom_histogram() +
-  labs(title = "Morning Humidity Distribution", x = "Humidity Percentage", y = "Count") +
+  labs(title = "Run Time Distribution", x = "Net Time", y = "Count") +
   theme_minimal()
 ```
 
 2.  What is the average run time by age
 
 ```{r}
-
+running |>
+  group_by(age)|>
+  summarise(mean_net = mean(net, na.rm = TRUE))
 ```
 
 3.  What is the distribution of run time by age
 
 ```{r}
-
+ggplot(running, aes(x = as.factor(age), y=net))+
+  geom_boxplot() +
+  geom_jitter()
 ```
 
 4.  Did runner 27 get faster or slower with age?
