@@ -55,31 +55,39 @@ running |>
 ```{r}
 ggplot(running, aes(x = as.factor(age), y=net))+
   geom_boxplot() +
-  geom_jitter()
+  geom_jitter(size = 0.75)
 ```
 
 4.  Did runner 27 get faster or slower with age?
 
 ```{r}
-
+running |>
+  filter(runner == 27)
 ```
 
 5.  Has the average race time changed over the years
 
 ```{r}
-
+running |>
+  group_by(year) |>
+  summarise(mean_time_by_year = mean(net, na.rm = TRUE))
 ```
 
 6.  What is the distribution of the difference between net and gun
 
 ```{r}
-
+running |>
+  mutate(difference_gun_net = gun-net) |>
+  ggplot(aes(x = difference_gun_net))+
+  geom_histogram()
 ```
 
 7.  What is the distribution of run time by runner
 
 ```{r}
-
+ggplot(running, aes(x=runner, y=net)) +
+  geom_boxplot()+
+  theme_minimal()
 ```
 
 ### Model Question
