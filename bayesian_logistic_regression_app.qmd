@@ -8,7 +8,7 @@ editor: visual
 
 Today, we are going to dive deeper into our Bayesian Logistic Regression model for humidity and rain in Perth.
 
-But first we will take 10 minutes to come up with a use-case where bayesian logistic regression could be a good tool to utilize
+But first we will take 10 minutes to come up with a use-case where Bayesian logistic regression could be a good tool to utilize
 
 - Describe the scenario (target parameter, predictive feature(s))
 
