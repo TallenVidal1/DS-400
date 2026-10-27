@@ -1081,9 +1081,9 @@ shinyApp(ui, server)
 2.  The odds for pi = 0.2 is 0.250, and the log-odds are calculated to be -1.386. The log-odds are negative because the actual odds are less than 1; the odds themselves can never become negative but odds under 1.0 are very unlikely.
 3.  The log-odds are exactly 0 for when pi = 0.5. This means that both rain and no rain are just as likely to ocur and neither has a statistically higher probability of occurring.
 4.  Odds are 2.00, log-odds are 7.389, and probability is 88.1%
-5.  The log-odds change by +0.150 per humidty point which multiplies the odds by 16.2%.
+5.  The log-odds change by +0.150 per humidity point which multiplies the odds by 16.2%.
 6.  20% chance of rain on an average humidity day. The percentage of rain on an average humidity day when m0 = -0.5 is 37.8% This increased because when we changed the log-odds we changed the likelihood relationship between our odds so as the m0 approaches positive one the likelihood of rain increased.
-7.  
+7.  When we increase the uncertainty (s1) from 0.035 to 0.1 we see that the prior S-curves become "messy" in the sense thta they lose their "S" shape entirely because our uncertainty increase has removed any weight that was previously attributed to our priors.
 8.  a
 9.  a
 10. At 99% humidity at 9 AM the app predicted Rain and recommends to bring an umbrella since the probability came out to 55.0% which was above the 50% threshold we were using to classify rain. At 0.2 (or 20%), the sensitivity increases and the specificity decreases. It catches more rainy days since the threshold is lower but there are also more false-positives meaning that the 20% threshold will struggle with predicting rain on days there aren't rain becasue the sensitivity is so high. This is great for someone who does not want to risk getting wet at all because at worst they are carrying an umbrella on a sunny day and at best they are prepared for nearly every rainy day in the foreseeable future.
