@@ -17,6 +17,7 @@ library(ggpubr)
 library(rstanarm)
 library(tidybayes)
 library(broom.mixed)
+library(plotly)
 ```
 
 ### Data
@@ -31,10 +32,63 @@ spotify <- bayesrules::spotify
 ?bayesrules::spotify
 ```
 
-1.  What is the popularity distribution in this data. Is this typical for all spotify songs?
+1.  What is the popularity distribution in this data. Is this typical for all Spotify songs?
 
 ```{r}
+ggplot(spotify, aes(x = popularity, fill = genre)) +
+  geom_histogram() +
+  labs(title = "Music Genre Popularity Distribution", x = "Popularity (Scaled `0-100", y = "Count") +
+  theme_minimal()
+```
 
+## Improved Histogram:
+
+```{r}
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(plotly)
+
+s <- spotify %>%
+  drop_na(popularity) %>%
+  ggplot(aes(x = popularity, fill = genre)) +
+  geom_histogram(
+    position = "identity",
+    alpha = 0.55,
+    color = "white",
+    linewidth = 0.2
+  ) +
+  scale_fill_manual(
+    values = c(
+      "edm"   = "#FF8C00",
+      "pop"   = "#A034F0",
+      "rap"   = "#159090",
+      "latin" = "#B07AA1",
+      "r&b"   = "#40E0D0",
+      "rock"  = "#EE82EE"
+    ),
+    labels = c(
+      "edm" = "EDM", "pop" = "Pop", "rap" = "Rap",
+      "latin" = "Latin", "r&b" = "R&B", "rock" = "Rock"
+    )
+  ) +
+  labs(
+    title = "Popularity Distribution by Music Genre",
+    x = "Popularity (0-100)",
+    y = "Count",
+    fill = "Genre"
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(
+    legend.position = "top",
+    plot.title = element_text(face = "bold")
+  )
+
+ggplotly(s) %>%
+  layout(
+    legend = list(orientation = "h", x = 0.5, xanchor = "center", y = 1.08),
+    hovermode = "closest"
+  )
 ```
 
 Lets frame it that you are a music agent and these are your clients, who tend to be fairly popular signed artists
@@ -42,25 +96,40 @@ Lets frame it that you are a music agent and these are your clients, who tend to
 2.  How many artists are represented in this data?
 
 ```{r}
-
+spotify %>% count(artist, sort = TRUE)
 ```
 
 3.  what is the distribution of popularity for each artist?
 
 ```{r}
+ggplot(spotify, aes(x = popularity, fill = artist)) +
+  geom_histogram() +
+  labs(title = "Music Genre Popularity Distribution", x = "Popularity (Scaled `0-100", y = "Count") +
+  theme_minimal()
+```
 
+```{r}
+ggplot(spotify, aes(x = popularity, y = artist)) +
+  geom_boxplot() +
+  geom_jitter(size = 0.2)
 ```
 
 4.  is genre associated with popularity?
 
 ```{r}
-
+ggplot(spotify, aes(x=genre, y=popularity)) +
+  geom_boxplot()+
+  theme_minimal()+
+  geom_jitter(sizze = 0.45)
 ```
 
 5.  is valence associated with popularity? (complete pooling)
 
 ```{r}
-
+ggplot(spotify, aes(y = valence, x =popularity )) + 
+  geom_point() +
+  geom_smooth(method = "lm") +
+  stat_cor()
 ```
 
 6.  What does individual pooling look like?
@@ -89,7 +158,7 @@ spotify_valence_popularity_model <- stan_glmer(
 ```
 
 | Piece | What it does |
-|----|----|
+|------------------------------------|------------------------------------|
 | `stan_glmer(...)` | Fits a Bayesian multilevel (mixed-effects) regression with Stan, from the `rstanarm` package. |
 | `popularity ~ valence` | The fixed part: popularity changes linearly with valence, with one shared slope β₁ for all artists. |
 | `+ (1 | artist)` | The random intercept. Each artist gets their own baseline shift b₀ⱼ, drawn from a common distribution with SD σ₀. The `1` means intercept only. `(valence | artist)` would also give each artist their own valence slope. |
