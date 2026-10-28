@@ -218,9 +218,21 @@ Your turn: Create the hierarchical model for n_playlists as a predictor, account
 - Keep priors & mcmc parameters the same as our previous model
 
 ```{r}
-
+spotify_n_playlists_popularity_model <- stan_glmer(
+  popularity ~ n_playlists + (1 | artist),
+  data = spotify, family = gaussian,
+  prior_intercept = normal(50, 2.5, autoscale = TRUE),
+  prior = normal(0, 2.5, autoscale = TRUE),
+  prior_aux = exponential(1, autoscale = TRUE),
+  prior_covariance = decov(reg = 1, conc = 1, shape = 1, scale = 1),
+  chains = 4, iter = 5000*2, seed = 84735)
 ```
 
 ```{r}
+tidy_summary_2 <- tidy(spotify_n_playlists_popularity_model, effects = "fixed",
+                       conf.int = TRUE, conf.level = 0.80)
+```
 
+```{r}
+tidy_summary_2
 ```
