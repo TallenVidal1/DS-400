@@ -90,7 +90,7 @@ weather %>%
   adorn_ns
 ```
 
-Fit a naive bayes classification model with all the available data as features and evaluate performance. Call it nb_class_model_all
+Fit a naive Bayes classification model with all the available data as features and evaluate performance. Call it nb_class_model_all
 
 ```{r}
 nb_class_model_all <- naiveBayes(raintomorrow ~ ., data = weather)
@@ -119,7 +119,7 @@ weather %>%
 
 ### What does this model tell us and not tell us?
 
-- This prediction model struggles due to the lack of data. There is not much numerical data, outside of the humidity percentage.
+- This prediction model struggles due to the lack of data. The model seems to do well with specificity (the ability to accurately predict true negatives) but it struggles with sensitivity (the ability to accurately predict true positives).
 
 ### Logistic Regression
 
