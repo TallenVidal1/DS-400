@@ -67,7 +67,7 @@ weather %>%
   labs(y = "Rain tomorrow (1 = yes)")
 ```
 
-### Fit a naive bayes classification model
+### Fit a naive Bayes classification model
 
 Only use humidity at 9 am as a predictive feature and evaluate performance. Call it nb_class_model
 
