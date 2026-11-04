@@ -242,6 +242,8 @@ Can you give me an example when we might want to use the partial pooling approac
 
 1.  Why wouldn’t we always just use the complete pooling approach? It seems easier
 
+    There are many scenarios when complete pooling, which assumes the independence of the observations from one another in the data set, can or may be useful/true.; but there are also just as many scenarios when the opposite is useful as well. When we use complete pooling, we assume the independence of the observations but this can lead to inaccurate conclusions being drawn about the relationships that can be found in the data and their significance. Alas, ease of use is hardly a dependable line of reasoning, especially when it comes to generalized data analysis.
+
 2.  Does the no pooled approach have any drawbacks? It seems that there are fewer assumptions.
 
 3.  Can you remind me what the difference is between *within-group* variability and *between-group* variability? And how does that relate to partial pooling?
