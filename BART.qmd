@@ -97,11 +97,17 @@ synthetic_hims_data <- read_csv(here("data/synthetic_hmis.csv"))
 Take 15 minutes to generate 2-3 figures from the `synthetic_hims_data`
 
 ```{r}
-
+ggplot(synthetic_hims_data, aes(x = age, fill = race)) +
+  geom_histogram() +
+  labs(title = "Age Distribution", x = "Age in Years", y = "Count") +
+  theme_minimal()
 ```
 
 ```{r}
-
+ggplot(synthetic_hims_data, aes(x = income, fill = race)) +
+  geom_histogram() +
+  labs(title = "Income Distribution", x = "Age in Years", y = "Count") +
+  theme_minimal()
 ```
 
 ### Big Picture
@@ -151,7 +157,7 @@ ggplot(flow, aes(axis1 = housing, axis2 = eligible, axis3 = service, axis4 = out
 
 We want to see which service is the most effective based on household characteristics
 
-It seems that houeseholds that go into the homeless prevention service are the least likely to reenter
+It seems that households that go into the homeless prevention service are the least likely to reenter
 
 ```{r}
 synthetic_hims_data |> 
