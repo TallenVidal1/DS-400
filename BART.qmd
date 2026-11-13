@@ -1,4 +1,5 @@
 ---
+instal---
 title: "BART"
 format: html
 editor: visual
@@ -820,12 +821,12 @@ shinyApp(ui, server)
 
 8.Click "Single adult, health + substance." The app recommends Transitional Housing and shows a Cost note.
 
-a. In your own words, what does the cost note say?
+a.  In your own words, what does the cost note say?
 
-b. Using the table on the "Predicted reentry" tab, compare Transitional Housing with Rapid Re-Housing. How much more does TH cost per household, and how much lower is its predicted reentry?
+b.  Using the table on the "Predicted reentry" tab, compare Transitional Housing with Rapid Re-Housing. How much more does TH cost per household, and how much lower is its predicted reentry?
 
-c. Suppose a program serves 100 households like this one. About how much extra would it spend on TH instead of RRH, and about how many fewer households would return to services? Divide to get the approximate cost per avoided reentry.
+c.  Suppose a program serves 100 households like this one. About how much extra would it spend on TH instead of RRH, and about how many fewer households would return to services? Divide to get the approximate cost per avoided reentry.
 
-d. Would you recommend the cheaper service? Explain using both the cost and the 95% interval for the difference (hint: look at the "Which is best?" tab).
+d.  Would you recommend the cheaper service? Explain using both the cost and the 95% interval for the difference (hint: look at the "Which is best?" tab).
 
 **9.** On the "Households like this" tab, compare the curve for your household with the group average. Why is the group curve narrower, and what does the dashed line at zero tell you?
