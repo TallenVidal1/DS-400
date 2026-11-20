@@ -20,7 +20,9 @@ What do you want to find out? Phrase it as a question. Mention the place and tim
 
 <!-- Write your answer below this line -->
 
-I would like to find out which age group has the most volatile patterns in terms of results (e.g.
+I would like to find out which age group has the most volatile patterns in terms of results (e.g. Does the age group 9-11 experience the most
+
+I would like to find out the relationship between age and finish time for the ages from 13-33; while controlling for weather/surf conditions.
 
 ------------------------------------------------------------------------
 
@@ -42,7 +44,7 @@ I plan to use Claude or some form of AI to restructure the data found on these w
 
 ## 3. The specific Bayesian model I will use to answer my research question
 
-What methods will you actually run? For example, bayesian logistic regression, naive bayes, etc.
+What methods will you actually run? For example, Bayesian logistic regression, naive Bayes, etc.
 
 <!-- Write your answer below this line -->
 
