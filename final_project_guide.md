@@ -20,7 +20,7 @@ What do you want to find out? Phrase it as a question. Mention the place and tim
 
 <!-- Write your answer below this line -->
 
-I would like to find some data for the Wakiki Rough Water
+I would like to find out which age group has the most volatile patterns in terms of results (e.g.
 
 ------------------------------------------------------------------------
 
@@ -29,6 +29,14 @@ I would like to find some data for the Wakiki Rough Water
 List each dataset and where it comes from (agency, website, link). Note the format (ex .csv)
 
 <!-- Write your answer below this line -->
+
+Wakiki Rough Water Results (1): <http://www.wrswim.com/1971/1971_overall.html>
+
+Wakiki Rough Water Results (2): <https://waikikiroughwaterswim.com/results/>
+
+This website seems to only contain usable data from the years 1971 - 2026 also excluding 2005, 2015, 2024,
+
+I plan to use Claude or some form of AI to restructure the data found on these websites into csv files that I can perform data analysis on.
 
 ------------------------------------------------------------------------
 
