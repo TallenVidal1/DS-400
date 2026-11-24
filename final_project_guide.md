@@ -48,6 +48,8 @@ What methods will you actually run? For example, Bayesian logistic regression, n
 
 <!-- Write your answer below this line -->
 
+I will most likely use a Bayesian Hierarchical model to answer my research question.
+
 ------------------------------------------------------------------------
 
 ## 4. 3-5 peer-reviewed publications or news articles surrounding my research question
