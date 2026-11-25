@@ -342,3 +342,95 @@ index <- map_dfr(years, dump_page)
 write_csv(index, file.path(out_dir, "_index.csv"))
 print(select(index, year, table, rows, header_found, columns), n = Inf, width = Inf)
 ```
+
+```{r}
+# Add 1989 and 2003–2014 (from the raw_tables/ CSVs written by
+# dump_other_formats.R) to the main 1970–2002 dataset.
+#
+# Values stay exactly as on the pages. Column NAMES are standardized only where
+# the meaning is unambiguous (e.g. "FName" / "FIRST NAME" -> first_name).
+# Columns whose meaning varies by year are left under their own names; in
+# particular "Place" is kept as `place` (NOT merged into overall_place), because
+# in some years it may be place within sex rather than overall place.
+
+library(dplyr)
+library(purrr)
+library(readr)
+library(stringr)
+
+# ---- Which table to use for each year (edit here if you disagree) -----------
+chosen <- tribble(
+  ~year, ~table, ~note,
+  1989, 1, "alphabetical listing with all columns",
+  2003, 1, "age-group listing (table 2 is malformed: rows packed into one cell)",
+  2004, 1, "",
+  2006, 1, "",
+  2007, 1, "CHECK: table 2 has the same 706 rows with Bib No and Age Group; unclear which column is overall place",
+  2008, 1, "overall listing split by sex sections (see `section`); table 2 is a 100-row age-group list",
+  2009, 1, "table 2 has no headers",
+  2010, 2, "table 3 (930 rows, 1970s-2002 style columns) looks copied from another year; table 1 has no headers",
+  2011, 1, "table 2 has the same columns and row count",
+  2012, 1, "table 2 has the same columns and row count",
+  2013, 1, "CHECK: table 2 has 923 rows (1 fewer); table 3 (26 rows) may be a fins division",
+  2014, 2, "table 1 = women-only overall subset; table 3 (26 rows) = fins division"
+)
+
+# ---- Unambiguous column-name synonyms ---------------------------------------
+std_names <- function(n) {
+  n <- str_to_lower(n) |>
+    str_replace_all("[^a-z0-9]+", "_") |>
+    str_remove_all("^_|_$")
+  n <- recode(n,
+              fname = "first_name", lname = "last_name",
+              div_place = "division_place", div_plc = "division_place",
+              divplace = "division_place",
+              div = "division", age_group = "division",
+              no = "bib", bib_no = "bib", number = "bib",
+              over = "overall_place", sexpla = "sex_place"
+  )
+  make.unique(n, sep = "_")
+}
+
+# ---- Read the chosen tables -------------------------------------------------
+extra <- pmap_dfr(chosen, \(year, table, note) {
+  f <- file.path("raw_tables", sprintf("%d_table%d.csv", year, table))
+  d <- read_csv(f, col_types = cols(.default = col_character()), na = "NA")
+  names(d) <- std_names(names(d))
+  d |>
+    mutate(
+      year = as.integer(year),
+      source_url = paste0("https://waikikiroughwaterswim.com/results-", year, "/"),
+      source_table = paste0("table ", table),
+      .before = 1
+    )
+})
+
+# ---- Combine with the main 1970–2002 file -----------------------------------
+main <- read_csv("waikiki_rws_results_1970_2015.csv",
+                 col_types = cols(.default = col_character()), na = "NA") |>
+  mutate(year = as.integer(year))
+
+combined <- bind_rows(main, extra) |> arrange(year)
+
+write_csv(combined, "waikiki_rws_results_combined.csv", na = "NA")
+
+# ---- Checks -----------------------------------------------------------------
+cat("Years present:", sort(unique(combined$year)), "\n")
+cat("Columns:", names(combined), sep = "\n  ")
+
+# Uses overall_place where it exists, otherwise `place`.
+# Many duplicate places in a year usually means `place` restarts within each
+# sex or section, i.e. it is not overall place for that year.
+combined |>
+  filter(year %in% chosen$year) |>
+  mutate(p = suppressWarnings(as.integer(coalesce(overall_place, place)))) |>
+  group_by(year) |>
+  summarise(
+    rows       = n(),
+    max_place  = max(p, na.rm = TRUE),
+    blank      = sum(is.na(p)),
+    dup_places = sum(duplicated(p[!is.na(p)])),
+    sections   = n_distinct(section, na.rm = TRUE)
+  ) |>
+  print(n = Inf)
+```
