@@ -1,0 +1,211 @@
+---
+title: "Final_Project_TV"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+library(here)
+library(scales)
+
+library(tidyverse)
+library(bayesrules)
+library(janitor)
+library(palmerpenguins)
+library(plotly)
+library(e1071)
+
+library(rvest)
+library(dplyr)
+library(purrr)
+library(stringr)
+library(readr)
+```
+
+You can add options to executable code like this
+
+```{r}
+# Waikiki Roughwater Swim results scraper (1970–2015, waikikiroughwaterswim.com)
+#
+# What it does:
+#   * Reads the year links from the official results index page
+#   * On each year's page, takes the OVERALL results table (falls back to the
+#     AGE GROUP table when a year has no overall table, e.g. 1970)
+#   * Keeps every value exactly as text, as shown on the page (no type
+#     conversion, no filling, no corrections)
+#   * Adds only provenance columns: year, source_url, source_table, and (for the
+#     age-group fallback) the section label printed on the page
+#   * Writes one combined CSV plus a log that lets you check row counts against
+#     the "Total Finishers" figure each page reports
+#
+# Required packages: install.packages(c("rvest", "dplyr", "purrr", "stringr", "readr"))
+
+library(rvest)
+library(dplyr)
+library(purrr)
+library(stringr)
+library(readr)
+
+# ---- 1. Build the year URLs directly ----------------------------------------
+# Every year 1970–2015 on the site uses the same address pattern, so the URLs
+# are built directly rather than read from the index page (reading the index
+# from R did not return the links). 2016+ results are on pseresults.com and
+# are not HTML tables, so they are not included here.
+years <- 1970:2015
+year_urls <- tibble(
+  year = years,
+  url  = paste0("https://waikikiroughwaterswim.com/results-", years, "/")
+)
+
+message(nrow(year_urls), " year pages to scrape")  # should say 46
+
+# ---- 2. Helpers -------------------------------------------------------------
+squish_df <- function(df) {
+  as.data.frame(lapply(df, function(x) str_squish(as.character(x))),
+                stringsAsFactors = FALSE)
+}
+
+first_col_has <- function(tbl, key) any(str_squish(tbl[[1]]) == key)
+
+# Use the row whose first cell equals `header_key` as the header; drop anything
+# above it, repeated header rows, and fully blank rows.
+tidy_table <- function(raw, header_key) {
+  m <- squish_df(raw)
+  hdr <- which(m[[1]] == header_key)
+  if (length(hdr) == 0) return(NULL)
+  header <- as.character(unlist(m[hdr[1], ]))
+  body <- m[-seq_len(hdr[1]), , drop = FALSE]
+  names(body) <- make.unique(ifelse(header == "", "unnamed", header))
+  body <- body[body[[1]] != header_key, , drop = FALSE]
+  body <- body[apply(body, 1, function(r) any(r != "")), , drop = FALSE]
+  body
+}
+
+# Age-group tables interleave section labels ("Male 15 – 18") and "NONE" rows.
+# Section labels are moved into a `section` column (text copied from the page);
+# rows whose only content is "NONE" are dropped (they are not swimmers).
+tidy_age_group <- function(raw) {
+  df <- tidy_table(raw, "Division Place")
+  if (is.null(df)) return(NULL)
+  others <- df[, -1, drop = FALSE]
+  is_section <- df[[1]] != "" & apply(others, 1, function(r) all(r == ""))
+  labels <- c(NA_character_, df[[1]][is_section])
+  df$section <- labels[cumsum(is_section) + 1]
+  df <- df[!is_section, , drop = FALSE]
+  vals <- df[, setdiff(names(df), "section"), drop = FALSE]
+  is_none <- apply(vals, 1, function(r) all(r[r != ""] == "NONE"))
+  df[!is_none, , drop = FALSE]
+}
+
+# Column names -> snake_case; "1971 Group" etc. -> year_group so years line up.
+standardize_names <- function(df) {
+  n <- str_to_lower(names(df))
+  n <- str_replace(n, "^\\d{4} group$", "year_group")
+  n <- str_replace_all(n, "[^a-z0-9]+", "_")
+  names(df) <- str_remove_all(n, "^_|_$")
+  df
+}
+
+# "Total Finishers" as printed in the page's statistics table (for checking).
+get_total_finishers <- function(tables) {
+  for (t in tables) {
+    m <- as.matrix(squish_df(t))
+    idx <- which(m == "Total Finishers", arr.ind = TRUE)
+    if (nrow(idx) > 0 && idx[1, 2] < ncol(m)) return(m[idx[1, 1], idx[1, 2] + 1])
+  }
+  NA_character_
+}
+
+# ---- 3. Scrape one year -----------------------------------------------------
+scrape_year <- function(year, url) {
+  message("Scraping ", year)
+  Sys.sleep(1)  # be polite to the server
+  
+  out <- tryCatch({
+    tables <- read_html(url) |>
+      html_elements("table") |>
+      html_table(header = FALSE, convert = FALSE)
+    
+    overall_idx <- which(map_lgl(tables, first_col_has, "Overall Place"))
+    ag_idx      <- which(map_lgl(tables, first_col_has, "Division Place"))
+    
+    if (length(overall_idx) > 0) {
+      df <- tidy_table(tables[[overall_idx[1]]], "Overall Place"); used <- "overall"
+    } else if (length(ag_idx) > 0) {
+      df <- tidy_age_group(tables[[ag_idx[1]]]); used <- "age_group"
+    } else {
+      df <- NULL; used <- NA_character_
+    }
+    
+    if (!is.null(df) && nrow(df) > 0) {
+      df <- standardize_names(df) |>
+        mutate(year = year, source_url = url, source_table = used, .before = 1)
+    }
+    
+    list(
+      data = df,
+      log = tibble(year = year, url = url,
+                   status = if (is.null(df)) "no results table found" else "ok",
+                   table_used = used,
+                   rows_extracted = if (is.null(df)) 0L else nrow(df),
+                   total_finishers_reported = get_total_finishers(tables))
+    )
+  }, error = function(e) {
+    list(data = NULL,
+         log = tibble(year = year, url = url, status = paste("error:", conditionMessage(e)),
+                      table_used = NA_character_, rows_extracted = 0L,
+                      total_finishers_reported = NA_character_))
+  })
+  out
+}
+
+# ---- 4. Run and save --------------------------------------------------------
+results <- map2(year_urls$year, year_urls$url, scrape_year)
+
+all_data   <- bind_rows(compact(map(results, "data")))
+scrape_log <- bind_rows(map(results, "log"))
+
+# na = "NA" marks columns that did not exist for a given year; cells that were
+# blank on the page stay as empty strings "", so the two are distinguishable.
+write_csv(all_data,   "waikiki_rws_results_1970_2015.csv", na = "NA")
+write_csv(scrape_log, "waikiki_rws_scrape_log.csv")
+
+print(scrape_log, n = Inf)
+
+# To read back without losing the blank-vs-missing distinction:
+# d <- read_csv("waikiki_rws_results_1970_2015.csv",
+#               col_types = cols(.default = col_character()), na = "NA")
+```
+
+```{r}
+library(dplyr)
+
+d90 <- all_data |> filter(year == 1990)
+
+scrape_log |> filter(year == 1990)      # rows_extracted vs total_finishers_reported, and which table was used
+nrow(d90)                               # rows scraped
+max(as.integer(d90$overall_place), na.rm = TRUE)   # last overall place listed
+sum(duplicated(d90))                    # fully identical rows, if any
+```
+
+```{r}
+p <- as.integer(d90$overall_place)
+setdiff(1:1141, p)   # places missing (should be integer(0))
+p[duplicated(p)]     # places listed twice (ties would show here)
+
+#scrape_log |> filter(as.character(rows_extracted) != total_finishers_reported)
+```
+
+```{r}
+nrow(year_urls)
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).

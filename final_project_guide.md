@@ -20,9 +20,7 @@ What do you want to find out? Phrase it as a question. Mention the place and tim
 
 <!-- Write your answer below this line -->
 
-I would like to find out which age group has the most volatile patterns in terms of results (e.g. Does the age group 9-11 experience the most
-
-I would like to find out the relationship between age and finish time for the ages from 13-33; while controlling for weather/surf conditions.
+I would like to find out the relationship between age and finish time for the ages from 13-33; while controlling for weather/surf conditions. The research could
 
 ------------------------------------------------------------------------
 
@@ -32,9 +30,9 @@ List each dataset and where it comes from (agency, website, link). Note the form
 
 <!-- Write your answer below this line -->
 
-Wakiki Rough Water Results (1): <http://www.wrswim.com/1971/1971_overall.html>
+Waikiki Rough Water Results (1): <http://www.wrswim.com/1971/1971_overall.html>
 
-Wakiki Rough Water Results (2): <https://waikikiroughwaterswim.com/results/>
+Waikiki Rough Water Results (2): <https://waikikiroughwaterswim.com/results/>
 
 This website seems to only contain usable data from the years 1971 - 2026 also excluding 2005, 2015, 2024,
 
