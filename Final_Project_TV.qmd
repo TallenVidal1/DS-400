@@ -201,11 +201,57 @@ p <- as.integer(d90$overall_place)
 setdiff(1:1141, p)   # places missing (should be integer(0))
 p[duplicated(p)]     # places listed twice (ties would show here)
 
-#scrape_log |> filter(as.character(rows_extracted) != total_finishers_reported)
+scrape_log |> filter(as.character(rows_extracted) != total_finishers_reported)
 ```
 
 ```{r}
 nrow(year_urls)
 ```
 
-The `echo: false` option disables the printing of code (only output is displayed).
+```{r}
+library(dplyr)
+library(purrr)
+library(stringr)
+
+all_data |>
+  mutate(place = suppressWarnings(as.integer(overall_place))) |>
+  group_by(year) |>
+  summarise(
+    rows        = n(),
+    max_place   = max(place, na.rm = TRUE),
+    blank_place = sum(is.na(place)),
+    dup_places  = sum(duplicated(place[!is.na(place)])),
+    gaps        = length(setdiff(1:max_place[1], place))
+  ) |>
+  print(n = Inf)
+```
+
+```{r}
+retry <- map(c(1971, 2005, 2015), \(y)
+             scrape_year(y, paste0("https://waikikiroughwaterswim.com/results-", y, "/")))
+bind_rows(map(retry, "log"))
+all_data <- bind_rows(all_data, compact(map(retry, "data")))
+```
+
+```{r}
+library(rvest)
+
+inspect_page <- function(year) {
+  url <- paste0("https://waikikiroughwaterswim.com/results-", year, "/")
+  pg  <- read_html(url)
+  tabs <- html_elements(pg, "table")
+  cat("\n=====", year, ":", length(tabs), "table(s)\n")
+  for (i in seq_along(tabs)) {
+    t <- html_table(tabs[[i]], header = FALSE, convert = FALSE)
+    cat("-- table", i, "(", nrow(t), "rows )\n")
+    print(head(t, 4))
+  }
+  embeds <- html_attr(html_elements(pg, "iframe, embed, object"), "src")
+  links  <- html_attr(html_elements(pg, "a"), "href")
+  files  <- links[str_detect(links, "(?i)\\.(pdf|xlsx?|csv)$|docs\\.google|drive\\.google")]
+  cat("embedded:", if (length(embeds)) embeds else "none", "\n")
+  cat("file links:", if (length(files)) files else "none", "\n")
+}
+
+walk(c(1989, 2003, 2008, 2014), inspect_page)
+```
