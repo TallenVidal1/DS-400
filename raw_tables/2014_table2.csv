@@ -1,0 +1,836 @@
+Place,Number,LName,FName,Sex,City,State,Division,Time,section
+1,1334,Huitenga,Simon,M,Perth,WA,M25-29,45:36:00,NA
+2,1,Mainstone,Rhys,M,Perth,WA,M19-24,45:41:00,NA
+3,88,Hirai,Yasunari,M,Surfers Paradise,QL,M19-24,45:48:00,NA
+4,117,Studzinski,Alexander,M,Wiesbaden,,M30-34,46:01:00,NA
+5,170,Eggleton,Wallace,M,South Windsor,NS,M19-24,46:26:00,NA
+6,4,Allen,Malcolm,M,Shelly Beach ( Long J,NS,M40-44,48:20:00,NA
+7,6,Kostich,Alex,M,Los Angeles,CA,M40-44,49:13:00,NA
+8,168,Mann,Becca,F,Homer Glen,IL,F15-16,51:22:00,NA
+9,1126,Lee,Kareena,F,Twin Waters,AU,F19-24,51:35:00,NA
+10,15,De Mestre,John,M,Clontarf,NS,M50-54,52:03:00,NA
+11,3,Grimsey,Ridge,M,Cashmere,QU,M19-24,52:23:00,NA
+12,169,Poort,Jarrod,M,Shellcove,HI,M19-24,52:23:00,NA
+13,11,Grimsey,Trent,M,Fortitude Valley,QU,M25-29,52:34:00,NA
+14,78,Blackbeard,Paul,M,Como,WA,M55-59,4:48:00,NA
+15,17,Levy,Grant,M,Beverly Hills,CA,M50-54,53:07:00,NA
+16,103,Oeler,Kurt,M,San Anselmo,CA,M45-49,53:27:00,NA
+17,76,Bailey,Mason,M,Encinitas,CA,M50-54,53:31:00,NA
+18,108,Placak,Robert,M,San Rafael,CA,M55-59,53:36:00,NA
+19,33,McCaffery,Michael,M,Hillsborough,CA,M60-64,53:36:00,NA
+20,1273,Happ,Colin,M,Honolulu,HI,M17-18,54:04:00,NA
+21,86,Eisel,Beatrix,F,Wiesbaden,,F25-29,54:21:00,NA
+22,35,Thiel,Peter,M,Waverton,HI,M40-44,6:28:00,NA
+23,104,Oestringer,Cherelle,F,Honolulu,HI,F19-24,54:48:00,NA
+24,89,Hursty,Peter,M,Honolulu,HI,M40-44,7:39:00,NA
+25,183,Peirsol,Aaron,M,Newport Beach,CA,M30-34,8:19:00,NA
+26,167,Walker,Jess,F,Broadbeach,QL,F19-24,8:27:00,NA
+27,21,Makuta,Ryan,M,El Segundo,CA,M19-24,56:28:00,NA
+28,23,Nishimura,Christian,M,Honolulu,HI,M15-16,56:29:00,NA
+29,124,Webster,Kira,F,Honolulu,HI,F17-18,8:33:00,NA
+30,1280,Lawler,James,M,Brooklyn,NY,M30-34,56:36:00,NA
+31,84,Diehl,Van,M,Nashville,TN,M25-29,8:37:00,NA
+32,31,Saulny,Luis,M,Honolulu,HI,M30-34,56:41:00,NA
+33,50,Heltzel,Rick,M,Honolulu,HI,M55-59,8:44:00,NA
+34,181,Fitzgerald,Quinn,M,San Francisco,CA,M30-34,8:47:00,NA
+35,75,Atkison,Ryan,M,Toronto,ON,M25-29,8:50:00,NA
+36,176,Jones,Eney,F,Boulder,CO,F50-54,56:52:00,NA
+37,904,Arris,Todd,M,Hillsoborugh,HI,M45-49,56:56:00,NA
+38,45,Wright,Hunter,M,Santa Cruz,CA,M17-18,56:58:00,NA
+39,80,Collins,Jeffrey,M,Honolulu,HI,M15-16,9:00:00,NA
+40,48,Matsuyama,Natalie,F,Anaheim,CA,F19-24,57:02:00,NA
+41,128,Avery,Sarah,F,Dallas,TX,F35-39,57:05:00,NA
+42,49,Walton,Rebecca,F,Waipahu,HI,F17-18,9:05:00,NA
+43,149,Thomas,Bruce,M,Redondo Beach,CA,M55-59,9:30:00,NA
+44,111,Rodde,Brian,M,San Francisco,CA,M35-39,9:44:00,NA
+45,134,Hochstrasser,James,M,Madison,AL,M30-34,9:45:00,NA
+46,120,Umatate,Kenji,M,Chiba,CB,M30-34,9:46:00,NA
+47,121,Upshaw,Arlyn,F,Walnut Creek,CA,F19-24,9:48:00,NA
+48,1142,Cummins,Scott,M,Denver,CO,M35-39,57:59:00,NA
+49,142,Marr,Timothy,M,Honolulu,HI,M35-39,58:30:00,NA
+50,144,Morris,Merritt,F,Long Beach,CA,F30-34,58:32:00,NA
+51,46,Foster,Lia,F,Honolulu,HI,F15-16,58:47:00,NA
+52,480,Sharf,Michael,M,Orinda,CA,M25-29,58:48:00,NA
+53,125,Wesson,Parks,M,Long Beach,CA,M50-54,58:49:00,NA
+54,1118,Yntema,Douwe,M,Albuquerque,NM,M25-29,10:52:00,NA
+55,77,Bennett,Michael,M,Santa Cruz,CA,M50-54,10:54:00,NA
+56,101,Miller,Mmichael,M,Coorparoo,Q,M55-59,11:01:00,NA
+57,83,Davidoff,Cara,F,Los Angeles,CA,F25-29,11:03:00,NA
+58,138,Klebahn,Perry,M,San Francisco,CA,M45-49,11:05:00,NA
+59,102,Moy,Kevin,M,Honolulu,HI,M19-24,11:06:00,NA
+60,130,Cheung,Arthur,M,Honolulu,HI,M15-16,11:41:00,NA
+61,123,Webb,Robert,M,Manly,NS,M40-44,11:45:00,NA
+62,322,Goding,Bill,M,Waipahu,HI,M60-64,11:55:00,NA
+63,939,Makuta,Kira,F,El Segundo,CA,F17-18,1:00:08,NA
+64,464,Pound,Legrand,F,Kailua,HI,F13-14,1:00:27,NA
+65,303,Becks,Danielle,F,San Francisco,CA,F30-34,1:00:38,NA
+66,491,Taetzsch,Calvin,M,Kailua,HI,M30-34,1:00:46,NA
+67,406,Heim-Bowen,Suzanne,F,Walnut Creek,CA,F55-59,1:00:52,NA
+68,1138,Kaleoaloha,Kanoa,M,Aiea,HI,M17-18,1:01:02,NA
+69,139,Knowles,Rachel,F,Pleasanton,CA,F17-18,1:01:14,NA
+70,381,Czekala,Steven,M,Oakland,CA,M50-54,1:01:15,NA
+71,399,Gary,Kristin,F,New York,NY,F45-49,1:01:20,NA
+72,435,Ky,Bobby,M,Honolulu,HI,M15-16,1:01:31,NA
+73,347,Olliver,Simon,M,Christchurch,,M50-54,1:01:35,NA
+74,417,Jampel,Alexander,M,Honolulu,HI,M50-54,1:01:39,NA
+75,383,David,Miki,F,Honolulu,HI,F40-44,1:01:45,NA
+76,147,Soxpollard,Noah,M,Honolulu,HI,M17-18,1:01:49,NA
+77,140,Leong,Ryan,M,Kailua,HI,M40-44,1:01:50,NA
+78,106,Palimoo,Danny,M,Honolulu,HI,M13-14,1:01:53,NA
+79,482,Shea,Matthew,M,Long Beach,CA,M17-18,1:01:54,NA
+80,411,Houston,Katy,F,San Francisco,CA,F25-29,1:01:55,NA
+81,112,Rudloff,Christian,M,San Rafael,CA,M25-29,1:01:55,NA
+82,136,Ireland,Bill,M,Venice,CA,M50-54,1:01:59,NA
+83,98,McDonald,Keith,M,Coogee,NS,M40-44,1:02:04,NA
+84,414,Irwin,Jon,M,Thousand Oaks,CA,M50-54,1:02:26,NA
+85,126,Wood,Elizabeth,F,Honolulu,HI,F30-34,1:02:31,NA
+86,331,Jo,Nancy,F,New York,NY,F35-39,1:02:31,NA
+87,180,Mexon,Brad,M,Sydney,,M30-34,1:02:41,NA
+88,407,Heiss,Hanna,F,Honolulu,HI,F13-14,1:02:41,NA
+89,141,Lileikis,Joseph,M,Honolulu Hawaii,HI,M50-54,1:02:42,NA
+90,440,Lyon,Cameron,F,Kailua,HI,F15-16,1:02:45,NA
+91,467,Ramirez,Jacob,M,Kapolei,HI,M13-14,1:02:46,NA
+92,116,Schriger,Joan,F,Alameda,CA,F45-49,1:02:50,NA
+93,378,Cook,Jenny,F,Los Angeles,CA,F55-59,1:02:55,NA
+94,321,Garrett,Noah,M,San Marino,CA,M35-39,1:02:59,NA
+95,330,Ishizu,Shohei,M,Okinawa,,M30-34,1:03:01,NA
+96,109,Randall,Rachel,F,Kaneohe,HI,F19-24,1:03:02,NA
+97,179,Frank,Karbe,M,Mill Valley,CA,M45-49,1:03:05,NA
+98,445,Miller,Mark,M,Kailua,HI,M50-54,1:03:05,NA
+99,454,Namatame,Lina,F,Hnl,HI,F15-16,1:03:09,NA
+100,305,Blatt,Michael,M,Fillmore,CA,M55-59,1:03:20,NA
+101,173,Grabowsky,Gail,F,Honolulu,HI,F50-54,1:03:33,NA
+102,782,Petrides,Maia,F,Honolulu,HI,F15-16,1:03:36,NA
+103,994,Mark,Morgan,F,Honolulu,HI,F19-24,1:03:37,NA
+104,119,Takahashi,Jarrett,M,Honolulu,HI,M13-14,1:03:51,NA
+105,132,Gans,Egan,M,Mountain View,CA,M25-29,1:04:03,NA
+106,96,Mansoor,Heike,F,El Dorado Hills,CA,F50-54,1:04:29,NA
+107,328,Howes,Richard,M,Kailua,HI,M40-44,1:04:37,NA
+108,801,Sellner,Nathan,M,Honolulu,HI,M15-16,1:04:50,NA
+109,110,Reid,Mike,M,Savannah,GA,M50-54,1:04:50,NA
+110,312,Durieux,Chad,M,Pasadena,CA,M35-39,1:04:56,NA
+111,705,Fukumoto,Evan,M,Honolulu,HI,M15-16,1:05:06,NA
+112,145,Serra,Lloyd,M,Austin,TX,M60-64,1:05:19,NA
+113,178,West,Victoria,F,Honolulu,HI,F30-34,1:05:30,NA
+114,1143,Pederson,Nick,M,Honolulu,HI,M17-18,1:05:33,NA
+115,424,Kelly,Cameron,M,London,,M19-24,1:05:35,NA
+116,455,Neilan,David,M,Rancho Palos Verdes,CA,M45-49,1:05:36,NA
+117,987,Horner,Jaek,M,Waimanalo,HI,M13-14,1:05:36,NA
+118,474,Sakovich,Anneka,F,Manhattan Beach,CA,F40-44,1:05:36,NA
+119,420,Joslin,Dea,F,Petaluma,CA,F55-59,1:05:37,NA
+120,335,Lawton,Gary,M,Kailua,HI,M45-49,1:05:42,NA
+121,107,Phillips,Sue,F,Corvallis,OR,F50-54,1:05:49,NA
+122,392,Fischer,Trent,M,Waikoloa,HI,M40-44,1:05:59,NA
+123,463,Pound,Hallie,F,Kailua,HI,F17-18,1:05:59,NA
+124,410,Horne,Ashley,F,San Francisco,CA,F25-29,1:06:00,NA
+125,922,Gaughan,Jake,M,Honolulu,HI,M13-14,1:06:11,NA
+126,82,Dameron,Jason,M,Koloa,HI,M35-39,1:06:44,NA
+127,81,Copeland,William,M,San Francisco,CA,M25-29,1:06:48,NA
+128,1291,Silvas,Cara,F,Truckee,CA,F19-24,1:06:48,NA
+129,418,Jolly,Lynn,F,Redwood City,CA,F45-49,1:06:49,NA
+130,177,Langvad,Simon,M,Honolulu,HI,M25-29,1:06:54,NA
+131,509,Yang,James,M,Honolulu,HI,M35-39,1:07:00,NA
+132,137,Keegan,Peter,M,Reno,NV,M30-34,1:07:07,NA
+133,427,Kobayashi,Stan,M,Mililani,HI,M60-64,1:07:19,NA
+134,483,Shipp,Rachel,F,San Francisco,CA,F30-34,1:07:21,NA
+135,425,Kelly,Maggi,F,Berkeley,CA,F45-49,1:07:23,NA
+136,1124,Lengyel,Gabor,M,Half Moon Bay,CA,M50-54,1:07:26,NA
+137,94,Leonard,Daniel,M,Los Angeles,CA,M55-59,1:07:27,NA
+138,362,Aoki,Shin,M,Kanagawa,JP,M45-49,1:07:29,NA
+139,416,Iwamura,Russell,M,Honolulu,HI,M50-54,1:07:35,NA
+140,1117,McElligott,Sean,M,Honolulu,HI,M35-39,1:07:39,NA
+141,154,Watkins,Jessie,F,Honolulu,HI,F17-18,1:07:48,NA
+142,113,Rudloff,Edward,M,San Rafael,CA,M65-69,1:07:52,NA
+143,93,Lau,Austin,M,San Francisco,CA,M30-34,1:07:54,NA
+144,391,Endo,Taiyo,M,Honolulu,HI,M13-14,1:08:02,NA
+145,351,Ritter,Michael,M,Lahaina,HI,M50-54,1:08:04,NA
+146,469,Riordan,Quinn,M,Honolulu,HI,M45-49,1:08:05,NA
+147,171,Potter,Thomas,M,Princeville,HI,M50-54,1:08:06,NA
+148,925,Griffith,James,M,San Francisco,CA,M60-64,1:03:13,NA
+149,87,Fitzgerald,Zoe,F,Centennial Park Nsw,NS,F25-29,1:08:23,NA
+150,92,Latimer,Danielle,F,Honolulu,HI,F19-24,1:08:34,NA
+151,373,Chinn,Colin,M,Honolulu,HI,M55-59,1:08:40,NA
+152,1274,Hashimoto,Kozan,M,Honolulu,HI,M30-34,1:09:00,NA
+153,100,Milan,Craig,M,Miami,FL,M55-59,1:09:02,NA
+154,526,O’Conner,Robert,M,Kaneohe,HI,M35-39,1:09:03,NA
+155,405,Hayes,Nathaniel,M,Shoreline,WA,M11-12,1:09:06,NA
+156,355,Swartz,Joel,M,Half Moon Bay,CA,M55-59,1:09:08,NA
+157,628,Hise,Brad,M,San Francisco,HI,M40-44,1:09:19,NA
+158,182,Snelgrove,Joe,M,Kailua,HI,M30-34,1:09:24,NA
+159,367,Brown,Randy,M,San Carlos,CA,M65-69,1:09:40,NA
+160,370,Cheney,Scott,M,Santa Cruz,CA,M50-54,1:09:50,NA
+161,97,May,Brian,M,Sydney,NS,M50-54,1:09:51,NA
+162,398,Garcia,Casey,F,Waipahu,HI,F11-12,1:09:56,NA
+163,302,Archuletta,Jaime,M,Henderson,NV,M50-54,1:09:59,NA
+164,508,Wong,Ky,M,Honolulu,HI,M19-24,1:10:06,NA
+165,344,Monahan,Grace,F,Honolulu,HI,F01-10,1:10:07,NA
+166,433,Kunkel,Daniel,M,Honolulu,HI,M50-54,1:10:10,NA
+167,490,Suzuki,Yohei,M,Yokyo,,M35-39,1:10:16,NA
+168,820,Walton,Mariah,F,Waipahu,HI,F11-12,1:10:17,NA
+169,318,Fiore,Bruno,M,Monaco,,M45-49,1:10:18,NA
+170,468,Reinhardt,Joanna,F,Honolulu,HI,F40-44,1:10:19,NA
+171,358,Van Der Mespel,Mike,M,Wellington,,M50-54,1:10:22,NA
+172,360,Adcock,Richard,M,Reno,NV,M55-59,1:10:23,NA
+173,831,Worrall,Wilder,M,Honolulu,HI,M13-14,1:10:24,NA
+174,393,Forgit,Robert,M,Anchorage,HI,M50-54,1:10:25,NA
+175,484,Shiu,Edmund,M,Honolulu,HI,M13-14,1:10:25,NA
+176,979,Eaton,Diana,F,Honolulu,HI,F25-29,1:10:26,NA
+177,519,Beason,Mike,M,Honolulu,HI,M45-49,1:10:26,NA
+178,510,Zebedee,Suzanne,F,Menlo Park,CA,F50-54,1:10:28,NA
+179,368,Buchanan,Linda,F,Dixon,CA,F55-59,1:10:32,NA
+180,618,Dreyfuss,Beth,F,Los Angeles,CA,F45-49,1:10:35,NA
+181,515,Sheeley,Cappy,M,Honolulu,HI,M70-74,1:10:36,NA
+182,799,Scott,Joshua,M,Poulsbo,WA,M55-59,1:10:38,NA
+183,466,Ramirez,Gabe,M,Kapolei,HI,M17-18,1:10:40,NA
+184,326,Hops,Steven,M,San Clemente,CA,M60-64,1:10:43,NA
+185,492,Thompson,Steve,M,Granite Bay,CA,M60-64,1:10:48,NA
+186,444,Merchant,Jim,M,Honolulu,HI,M65-69,1:10:55,NA
+187,501,Watkins,Annamarie,F,Honolulu,HI,F50-54,1:10:57,NA
+188,458,Olson,Matthew,M,Honolulu,HI,M13-14,1:11:08,NA
+189,709,Gifford,Alexander,M,Glen Rock,NJ,M11-12,1:11:11,NA
+190,105,Olsthoorn,Tara,F,Canberra,AC,F30-34,1:11:21,NA
+191,487,Stites,Jane,F,Kailua,HI,F55-59,1:11:21,NA
+192,90,Irwin,Kathryn,F,Thousand Oaks,CA,F19-24,1:11:32,NA
+193,426,Kirkland,Sid,M,Indio,CA,M45-49,1:11:40,NA
+194,155,Wen,Patrick,M,Santa Moncia,CA,M40-44,1:11:45,NA
+195,316,Feiler,Chad,M,Carlsbad,CA,M40-44,1:11:45,NA
+196,479,Selman,Mike,M,Honolulu,HI,M55-59,1:11:48,NA
+197,371,Childers,Steve,M,Los Angeles,CA,M45-49,1:11:50,NA
+198,521,Watanabe,Jun,M,Honolulu,HI,M35-39,1:11:53,NA
+199,447,Morris,Gregory,M,Honolulu,HI,M40-44,1:11:55,NA
+200,701,Filimoehala,Trisha,F,Honolulu,HI,F11-12,1:11:58,NA
+201,506,Wigent,Shannon,F,Kalaheo,HI,F40-44,1:12:10,NA
+202,353,Sobczyk,Patryk,M,Warsaw,,M30-34,1:12:17,NA
+203,372,Chinn,Annette,F,Richmond,CA,F50-54,1:12:21,NA
+204,349,Perry,Rebecca,F,Oakland,CA,F45-49,1:12:27,NA
+205,964,Hanson,John,M,San Francisco,CA,M45-49,1:12:27,NA
+206,352,Rothschild,Beccah,F,Oakland,CA,F40-44,1:12:29,NA
+207,1009,Sawai,Kanoa,M,Wahiawa,HI,M13-14,1:12:36,NA
+208,396,Fujiki,Masami,M,Yokohama,,M55-59,1:12:36,NA
+209,400,Gerber,Gregory,M,Kaneohe,HI,M60-64,1:12:37,NA
+210,380,Counter,Kristin,F,Kailua,HI,F30-34,1:12:42,NA
+211,85,Duff,James,M,Berkeley,CA,M35-39,1:12:44,NA
+212,114,Runge,Malia,F,Flagstaff,AZ,F15-16,1:12:48,NA
+213,115,Runge,Peter,M,Flagstaff,AZ,M50-54,1:12:51,NA
+214,476,Saunders,Ward,M,Honolulu,HI,M60-64,1:12:52,NA
+215,386,Dixon,Patrick,M,Newport Beach,CA,M65-69,1:12:54,NA
+216,365,Barnett,Betty Ann,F,Honolulu,HI,F65-69,1:12:56,NA
+217,164,Young,Laura,F,Honolulu,HI,F15-16,1:13:16,NA
+218,499,Washizuka,Miki,F,Tokyo,,F25-29,1:13:22,NA
+219,146,Sloan,Bruce,M,Honolulu,HI,M65-69,1:13:29,NA
+220,470,Roberts,Michael,M,Honolulu,HI,M40-44,1:13:38,NA
+221,632,Kosiorek,Michael,M,Huntington,MA,M25-29,1:13:40,NA
+222,459,Ortlip,Jeff,M,Folsom,CA,M50-54,1:13:52,NA
+223,653,Suskiewicz,Karen,F,Redwood City,CA,F40-44,1:13:58,NA
+224,760,Ma,Christopher,M,Honolulu,HI,M19-24,1:13:59,NA
+225,759,Lyon,James,M,Kailua,HI,M11-12,1:14:04,NA
+226,615,Cook,Tom,M,Escondido,CA,M55-59,1:14:09,NA
+227,158,Willows,Paul,M,Collaroy,NS,M55-59,1:14:12,NA
+228,441,Maeda-Leon,Kimiko,F,Honolulu,HI,F15-16,1:14:19,NA
+229,627,Hemmi,Soichiro,M,Hyogo,,M30-34,1:14:19,NA
+230,415,Ishida,Kayla,F,Kalaheo,HI,F15-16,1:14:23,NA
+231,971,Best,Andrew,M,Kensington,NS,M45-49,1:14:25,NA
+232,525,Klinke,Uli,M,Honolulu,HI,M70-74,1:14:27,NA
+233,357,Upshaw,Bob,M,Walnut Creek,CA,M60-64,1:14:37,NA
+234,408,Hilgers,Allison,F,Long Beach,CA,F35-39,1:14:38,NA
+235,451,Muraoka,Scot,M,Honolulu,HI,M45-49,1:14:39,NA
+236,307,Brilliant,Susan,F,Redondo Beach,CA,F50-54,1:14:41,NA
+237,652,Stackhouse,David,M,Honolulu,HI,M45-49,1:14:43,NA
+238,457,Nohara,Jessica,F,Honolulu,HI,F30-34,1:14:50,NA
+239,389,Emiko,Yamada,F,Tokyo,HI,F35-39,1:14:51,NA
+240,636,Matthews,Peter,M,Sydney,,M40-44,1:15:07,NA
+241,437,Leraand,Tore,M,Honolulu,HI,M50-54,1:15:09,NA
+242,438,Lopopolo,Jerry,M,Manhattan Beach,CA,M45-49,1:15:10,NA
+243,346,Ohtaki,Takehiko,M,Tokyo,,M40-44,1:15:16,NA
+244,315,Fairbairn,Stewart,M,West Pennant Hills,NS,M60-64,1:15:22,NA
+245,472,Ryan,Russell,M,Honolulu,HI,M50-54,1:15:23,NA
+246,516,Orten,Jerry,M,Golden,CO,M55-59,1:15:25,NA
+247,1120,Westerweller,Maurice,M,North Bondi,ME,M65-69,1:15:29,NA
+248,343,Messinger,Tracey,F,Auckland,I,F40-44,1:15:33,NA
+249,677,Chu,Anson,M,Honolulu,HI,M25-29,1:15:37,NA
+250,1017,Wiard,Mark,M,Salidas,CO,M50-54,1:15:43,NA
+251,99,Miante,Bill,M,Kaneohe,HI,M30-34,1:15:44,NA
+252,334,Kann,Stephen,M,Sydney,NW,M35-39,1:15:52,NA
+253,465,Quinn,Phyllis,F,San Francisoc,CA,F55-59,1:15:58,NA
+254,654,Weiner,Jonathon,M,Kula,HI,M35-39,1:15:58,NA
+255,969,Aguilera Garramu o,Jorge Hernan,M,Palmira Valle Colombi,HI,M60-64,1:16:19,NA
+256,340,McCabe,Kathryn,F,Arlington,VA,F35-39,1:16:23,NA
+257,507,Williamson,Carly,F,Honolulu,HI,F25-29,1:16:34,NA
+258,379,Cornwell,Van,M,Kaneohe,HI,M40-44,1:16:35,NA
+259,984,Fujishige,Keith,M,Mililani Town,HI,M50-54,1:16:45,NA
+260,626,Helton,Barbara,F,San Clemente,CA,F60-64,1:16:48,NA
+261,710,Gifford,Robert,M,Glen Rock,NJ,M40-44,1:16:57,NA
+262,951,Price,Nancy,F,Medina,WA,F55-59,1:17:02,NA
+263,456,Niimi,Warren,M,Lanai City,HI,M55-59,1:17:13,NA
+264,339,May,Shaun,M,Sydney,NS,M13-14,1:17:32,NA
+265,770,Nagayama,Rie,F,Honolulu,HI,F35-39,1:17:37,NA
+266,998,Moyes,John,M,Auckland,,M60-64,1:17:38,NA
+267,320,Frost,Steven,M,Austin,TX,M60-64,1:17:44,NA
+268,1110,Wong,Casey,M,Honolulu,HI,M13-14,1:17:57,NA
+269,689,Decker,Kaiko,M,Honolulu,HI,M11-12,1:17:57,NA
+270,908,Barry,Marcia,F,Roanoke,VA,F65-69,1:18:08,NA
+271,461,Palla,Mike,M,Honolulu,HI,M45-49,1:18:08,NA
+272,354,Soltas,Rhett,M,Waialua,HI,M30-34,1:18:17,NA
+273,385,Denezzo,Nicholas,M,San Diego,CA,M25-29,1:18:24,NA
+274,999,Moyes,Terri,F,Auckland,,F55-59,1:18:26,NA
+275,481,Shea,Gregory,M,Long Beach,CA,M55-59,1:18:27,NA
+276,432,Kuhn,Steven,M,Kona,HI,M55-59,1:18:31,NA
+277,448,Morton,Peter,M,Keaau,HI,M60-64,1:18:31,NA
+278,640,Powers,Kris,F,Honolulu,HI,F30-34,1:18:39,NA
+279,325,Haworth,Mark,M,Mount Eliza,VI,M55-59,1:18:40,NA
+280,685,Corn,Diane,F,Kailua,HI,F55-59,1:18:45,NA
+281,311,Dindia,M Christine,F,Campbell,CA,F35-39,1:18:47,NA
+282,730,Horn,Rachel,F,Santa Barbara,CA,F25-29,1:18:48,NA
+283,774,Nishijima,Shintaro,M,Osaka,,M45-49,1:18:50,NA
+284,485,Solic,Jim,M,Carlsbad,CA,M50-54,1:18:51,NA
+285,522,Hausmann,Aidan,F,Long Branch,NJ,F30-34,1:18:54,NA
+286,388,Elder,James,M,Orono,MN,M70-74,1:18:57,NA
+287,1015,Teamoke,Tania,F,Auckland,,F50-54,1:18:58,NA
+288,394,Foster,Laurie,F,Honolulu,HI,F55-59,1:19:04,NA
+289,1276,Hengel,Heidi,F,Oakland,CA,F30-34,1:19:05,NA
+290,1151,Hirabayashi,Wayne,M,Honolulu,HI,M55-59,1:19:14,NA
+291,743,Kanaoka,Chikako,F,Yokohama,JP,F40-44,1:19:19,NA
+292,332,Johns,Tim,M,Honolulu,HI,M55-59,1:19:23,NA
+293,738,Jones,John,M,Newport Beach,CA,M35-39,1:19:31,NA
+294,172,Schleelein,Eric,M,San Francisco,CA,M55-59,1:19:41,NA
+295,982,Foo,Dylan,M,New York,NY,M35-39,1:19:47,NA
+296,151,Uehara,Mariane,F,Honolulu,HI,F30-34,1:20:06,NA
+297,651,Smith,Susan,F,Kapolei,HI,F35-39,1:20:12,NA
+298,806,Smith,Russell,M,Pahoa,HI,M45-49,1:20:16,NA
+299,453,Nakata,Kylee,F,Ewa Beach,HI,F15-16,1:20:16,NA
+300,749,Komori,Roger,M,Wahiawa,HI,M55-59,1:20:28,NA
+301,823,Webb,Denise,F,Honolulu,HI,F50-54,1:20:31,NA
+302,851,Gee,Tyler,M,San Francisco,CA,M30-34,1:20:32,NA
+303,625,Havice,Elizabeth,F,Berkeley,CA,F35-39,1:20:33,NA
+304,766,Merwick,Deb,F,Kailua,HI,F45-49,1:20:39,NA
+305,604,Berke,Chris,M,Agoura Hills,CA,M40-44,1:20:42,NA
+306,348,O’Neil,Kathleen,F,Honolulu,HI,F25-29,1:20:44,NA
+307,1287,Pound,Madison,F,Kailua,HI,F15-16,1:20:54,NA
+308,402,Gravener,John,M,Honolulu,HI,M50-54,1:15:56,NA
+309,648,Slater,Shane,M,Sydney,,M40-44,1:20:56,NA
+310,853,Kaufman,Travis,M,Honolulu,HI,M30-34,1:21:07,NA
+311,751,Ladwig,Brad,M,Honolulu,HI,M45-49,1:21:13,NA
+312,812,Taylor,Amy,F,Tucson,AZ,F35-39,1:21:18,NA
+313,1037,Farr,Richard,M,Redondo Beach,CA,M55-59,1:21:19,NA
+314,783,Phillips,Bill,M,Sydney,AU,M70-74,1:21:19,NA
+315,1012,Smart,Shari,F,Honolulu,HI,F50-54,1:21:23,NA
+316,850,Gurney,Sean,M,Honolulu,HI,M40-44,1:21:26,NA
+317,605,Best,Amanda,F,Long Beach,CA,F30-34,1:21:31,NA
+318,607,Brady,Jennifer,F,Kailua,HI,F25-29,1:21:39,NA
+319,678,Chun,Stephen,M,Dallas,TX,M30-34,1:21:48,NA
+320,848,Paiaina,Kealii,M,Kailua,HI,M40-44,1:21:54,NA
+321,804,Simunovich,Dawn,F,Kailua,HI,F25-29,1:22:09,NA
+322,690,Dilks,Michael,M,Kailua,HI,M35-39,1:22:16,NA
+323,338,Mansoor,Jackie,F,El Dorado Hills,CA,F19-24,1:22:22,NA
+324,310,Di Nezio,Pedro,M,Honolulu,HI,M35-39,1:22:31,NA
+325,717,Harris,Jeffrey,M,Honolulu,HI,M55-59,1:22:40,NA
+326,620,Gonzales-Gile,Lisa,F,Edwards,CO,F55-59,1:22:44,NA
+327,422,Kawauchi,Carl,M,Aiea,HI,M70-74,1:17:46,NA
+328,401,Grant,Alan,M,Geelong,VI,M60-64,1:22:55,NA
+329,771,Namatame,Lisa,F,Hnl,HI,F15-16,1:22:57,NA
+330,838,Tsamoydakis,Christopher,M,Kailua,HI,M25-29,1:22:59,NA
+331,746,Kim,Charles,M,Honolulu,HI,M50-54,1:23:00,NA
+332,821,Washburn,David,M,Honolulu,HI,M40-44,1:23:05,NA
+333,504,Webb,Skylar,F,Kaneohe,HI,F11-12,1:23:08,NA
+334,503,Webb,Alex,M,Kaneohe,HI,M45-49,1:23:08,NA
+335,768,Motobu,Alton,M,Aiea,HI,M60-64,1:23:08,NA
+336,704,Fukuhara,Craig,M,Aiea,HI,M55-59,1:23:22,NA
+337,791,Royce,Steve,M,Solana Beach,CA,M55-59,1:23:32,NA
+338,511,Blatt,Cindy,F,Fillmore,CA,F60-64,1:23:33,NA
+339,1261,Boyer,Duane,M,Palm Springs,CA,M55-59,1:23:36,NA
+340,679,Clark,Elizabeth A,F,Larkspur,CA,F60-64,1:23:40,NA
+341,1272,Georgia,Danielle,F,Honolulu,HI,F13-14,1:23:50,NA
+342,387,Eisenberg,Lauren,F,Santa Cruz,CA,F45-49,1:23:57,NA
+343,609,Burke,Tom,M,Honolulu,HI,M65-69,1:23:57,NA
+344,309,Chang,Mike,M,Redondo Beach,CA,M45-49,1:23:59,NA
+345,1007,Roll,Todd,M,Honolulu,HI,M45-49,1:24:05,NA
+346,1140,Hartman,Kristi,F,Honolulu,HI,F35-39,1:24:09,NA
+347,1001,Nejadhashemi,Nader,M,Playa Del Rey,CA,M45-49,1:24:11,NA
+348,436,Lauwers,Gregory,M,North Androver,MA,M55-59,1:24:13,NA
+349,603,Bender,Brian,M,New York,HI,M40-44,1:24:16,NA
+350,977,Dietrich,Joe,M,Stockton,CA,M60-64,1:19:24,NA
+351,341,Mehrali,Mark,M,Camarillo,CA,M50-54,1:24:26,NA
+352,698,Fiddes,Robert,M,Bellevue,WA,M65-69,1:24:26,NA
+353,785,Quinn,Marion,F,Sydney,AU,F45-49,1:24:37,NA
+354,622,Gurtcheff,Chris,M,Newbury Park,CA,M40-44,1:24:37,NA
+355,960,Gonzales,Ron,M,Hagatna,GU,M50-54,1:24:51,NA
+356,745,Kilbourn,Laurie,F,Lake Oswego,OR,F45-49,1:24:59,NA
+357,680,Climaldi,John,M,Honolulu,HI,M50-54,1:25:04,NA
+358,796,Sato,Pamie,F,Honolulu,HI,F45-49,1:25:05,NA
+359,681,Cloutier,Mark,M,Berkeley,CA,M55-59,1:25:14,NA
+360,489,Strohmeyer,Meghan,F,Honolulu,HI,F19-24,1:25:17,NA
+361,488,Strohmeyer,Ashley,F,Austin,TX,F15-16,1:25:17,NA
+362,711,Gould,Ken,M,Newport Beach,CA,M50-54,1:25:24,NA
+363,772,Nelson,Joshua,M,Honolulu,HI,M35-39,1:25:29,NA
+364,794,Santiago,Norma,F,Honolulu,HI,F50-54,1:25:29,NA
+365,954,Shimabuku,Rick,M,Mililani,HI,M45-49,1:25:35,NA
+366,319,Forbes,Susan,F,Kaunakakai,HI,F50-54,1:25:37,NA
+367,497,Volpe,Rob,M,San Francisco,CA,M45-49,1:25:47,NA
+368,826,Wheeler,Tom,M,Honolulu,HI,M55-59,1:25:54,NA
+369,165,Young,Richard,M,Honolulu,HI,M60-64,1:25:57,NA
+370,449,Moseley,Pope,M,Albuquerque,NM,M60-64,1:26:01,NA
+371,718,Harrison,Charles Ed,M,Honolulu,HI,M50-54,1:26:27,NA
+372,777,Omoto,Tammie,F,Honolulu,HI,F40-44,1:26:30,NA
+373,797,Saunders,Valisa,F,Honolulu,HI,F60-64,1:26:31,NA
+374,673,Carson,Paul,M,Kaneohe,HI,M50-54,1:26:39,NA
+375,847,Onuma,Gary,M,Lanai City,HI,M65-69,1:27:13,NA
+376,697,Farr,Mary Ellen,F,Redondo Beach,CA,F55-59,1:27:18,NA
+377,614,Clifford,Miriam,F,Redwood City,CA,F50-54,1:27:18,NA
+378,608,Brown,Bonnie,F,Wood Side,CA,F45-49,1:27:22,NA
+379,767,Mistlebauer,Shaun,M,Kaneohe,HI,M55-59,1:27:23,NA
+380,726,Hill,William,M,Mililani,HI,M35-39,1:27:33,NA
+381,828,Wofford,Cale,M,Honoulu,HI,M40-44,1:27:36,NA
+382,723,Hayashida,Brighton,M,Kaneohe,HI,M15-16,1:27:36,NA
+383,676,Chinen,Doulton,M,Honolulu,HI,M13-14,1:27:38,NA
+384,1256,Acoba,Kaioli,M,Hanapepe,HI,M25-29,1:27:39,NA
+385,670,Buss,Jill,F,Kailua,HI,F55-59,1:27:40,NA
+386,830,Worrall,Chris,M,Honolulu,HI,M50-54,1:27:43,NA
+387,805,Six,Allan,M,Honolulu,HI,M55-59,1:27:43,NA
+388,769,Mydelski,Paul,M,Medford,MA,M55-59,1:27:53,NA
+389,452,Myers,Brad,M,Honolulu,HI,M55-59,1:27:54,NA
+390,184,Mackenzie,Keith,M,Waretown,NJ,M25-29,1:27:57,NA
+391,842,Guedj,Jack,M,Los Altos,CA,M55-59,1:27:57,NA
+392,174,Madden,Philip,M,Sydney,NY,M55-59,1:27:58,NA
+393,1145,Ketterer,Conrad,M,London,,M45-49,1:28:16,NA
+394,610,Carnachan,Mark,M,Tauranga,,M35-39,1:28:20,NA
+395,1026,Colburn,Megan,F,Honolulu,HI,F13-14,1:28:21,NA
+396,727,Hillman,Stephen,M,Issaquah,WA,M50-54,1:28:35,NA
+397,517,Tan,Mark,M,San Jose,CA,M45-49,1:28:38,NA
+398,518,Kamai,Christine,F,Kailua,HI,F45-49,1:28:39,NA
+399,1107,Why,Chris,F,Honolululu,HI,F55-59,1:28:40,NA
+400,1149,Weikum,John,M,Ewa Beach,HI,M60-64,1:28:47,NA
+401,795,Saraniti,Samantha,F,Waialua,HI,F40-44,1:28:49,NA
+402,1011,Sixeas,Joe,M,Falls Church,VA,M45-49,1:28:53,NA
+403,1210,Hildebrant,Mark,M,Kailua,HI,M55-59,1:29:00,NA
+404,1281,Mangeno,Kristin,F,Vienna,VA,F40-44,1:29:08,NA
+405,473,Saegusa,Toshiyuki,M,Honolulu,HI,M45-49,1:29:14,NA
+406,611,Chan,Alvin,M,Honolulu,HI,M55-59,1:29:17,NA
+407,741,Kalani,Jeff,M,Honolulu,HI,M40-44,1:29:21,NA
+408,776,Oguchi,Mariko,F,Kanagawa-Ken,,F55-59,1:29:24,NA
+409,708,Garlin,Wade,M,Honolulu,HI,M35-39,1:29:35,NA
+410,601,Alder,Tim,M,Honolulu,HI,M35-39,1:29:36,NA
+411,935,Leonetti,Francesca,F,Seattle,W,F45-49,1:29:37,NA
+412,633,Kreitzer,Beth,F,Auckland,,F35-39,1:29:37,NA
+413,616,Donaldson,Jim,M,Westleigh,NS,M55-59,1:29:38,NA
+414,477,Schalit,Hillary,F,Santa Cruz,CA,F50-54,1:29:42,NA
+415,152,Vandenberg,Kelly,F,Honolulu,HI,F30-34,1:29:43,NA
+416,613,Clark,Bruce,M,Kaneohe,HI,M70-74,1:24:45,NA
+417,779,Paradise,Rosalie,F,Honolulu,HI,F40-44,1:29:46,NA
+418,646,Schlimm,Gregory,M,Washington,DC,M50-54,1:29:47,NA
+419,649,Smart,Sierra,F,Honolulu,HI,F11-12,1:29:54,NA
+420,686,Damon,Hugh,M,Honolulu,HI,M50-54,1:30:00,NA
+421,672,Carlomany,Michael,M,Mililani,HI,M40-44,1:30:01,NA
+422,841,Namiki,Roger,M,Honolulu,HI,M60-64,1:30:02,NA
+423,612,Chong,Andrew,M,Mililani,HI,M45-49,1:30:05,NA
+424,617,Dowling,Sean,M,Honolulu,HI,M50-54,1:30:12,NA
+425,644,Ross,Greg,M,Kaiapoi,,M50-54,1:30:14,NA
+426,840,Shimkus,Nic,M,Honolulu,HI,M35-39,1:30:18,NA
+427,713,Graham,Bob,M,Kahuku,HI,M65-69,1:30:20,NA
+428,514,Palumbo Ii,Nicholas,M,Lanai,HI,M35-39,1:30:20,NA
+429,728,Hirota,Jami,F,Honolulu,HI,F40-44,1:30:26,NA
+430,731,Hoshino,Kevin,M,Honolulu,HI,M40-44,1:30:30,NA
+431,345,Nagayama,Keiichiro,M,"Cyuo-Ku, Tokyo",,M40-44,1:30:31,NA
+432,1301,Zlatoper,Michael,M,Corte Madera,CA,M35-39,1:30:39,NA
+433,1122,Becerril,David,M,Lahaina,HI,M55-59,1:30:44,NA
+434,621,Grounds,Gene,M,Honolulu,HI,M75-79,1:30:47,NA
+435,495,Tutewohl,Raymon,M,Ewa Beach,HI,M15-16,1:30:47,NA
+436,734,Jackson,Drew,M,Washington,DC,M45-49,1:30:48,NA
+437,755,Lee,Nora,F,Hermosa Beach,CA,F50-54,1:30:56,NA
+438,682,Cobb,Ron,M,Lake Oswego,OR,M55-59,1:31:03,NA
+439,667,Broughton,Hugh,M,Pahoa,HI,M45-49,1:31:04,NA
+440,478,Schwaner,John,M,Sacramento,CA,M60-64,1:31:04,NA
+441,834,Salim,Germaine,F,Honolulu,HI,F30-34,1:31:12,NA
+442,163,Young,Kristen,F,Honolulu,HI,F19-24,1:31:13,NA
+443,662,Bergstrom,Rick,M,Honolulu,HI,M55-59,1:31:17,NA
+444,693,Doi,Keish,M,Kailua Kona,HI,M45-49,1:21:20,NA
+445,827,Witherwax,Ronan,M,Honolulu,HI,M13-14,1:31:20,NA
+446,716,Hanaoka,Brendan,M,Honolulu,HI,M11-12,1:31:20,NA
+447,948,Peila,Chip,M,Makawao,HI,M50-54,1:31:32,NA
+448,931,Kaiu,Cecily,F,Honolulu,HI,F40-44,1:31:51,NA
+449,815,Tschirgi,Charter,M,Kaneohe,HI,M35-39,1:31:53,NA
+450,786,Rawlins,Brad,M,Newport Beach,CA,M60-64,1:32:00,NA
+451,657,Aitro,Michelle,F,Kailua,HI,F40-44,1:32:09,NA
+452,737,Jones,Carter,M,Honolulu,HI,M40-44,1:32:19,NA
+453,630,Ishizu,Mizuho,F,Chiba,,F25-29,1:32:25,NA
+454,989,Kanazashi,Shotaro,M,Shizuoka,,M45-49,1:32:30,NA
+455,781,Perry,Anne,F,Honolulu,HI,F55-59,1:32:31,NA
+456,1020,Belcher,Mathew,M,Kamuela,HI,M55-59,1:32:38,NA
+457,1266,Dearing,Kirrily,F,Honolulu,HI,F45-49,1:32:39,NA
+458,661,Baker,Mark,M,Kailua,HI,M55-59,1:32:41,NA
+459,1116,Haugse,Stephen,M,Honolulu,HI,M25-29,1:32:46,NA
+460,1306,Carlan,Kit,M,Kaneohe,HI,M55-59,1:32:46,NA
+461,691,Dodge,Jeffrey,M,Honolulu,HI,M60-64,1:32:47,NA
+462,443,McCutcheon,Eric,M,Honolulu,HI,M50-54,1:32:54,NA
+463,980,Eberhart,Erika,F,Honolulu,HI,F40-44,1:32:59,NA
+464,933,Kitamura,Michael,M,Honolulu,HI,M60-64,1:33:00,NA
+465,317,Ferreira,Sandra,F,Kaneohe,HI,F45-49,1:33:05,NA
+466,961,Nelson,James,M,Honolulu,HI,M60-64,1:33:15,NA
+467,1010,Scarton,Cheryl,F,Honolulu,HI,F35-39,1:33:33,NA
+468,324,Hansen,Tina,F,White Rock,BC,F45-49,1:33:38,NA
+469,498,Walker,Michael,M,Honolulu,HI,M50-54,1:33:39,NA
+470,641,Roderick,Chris,M,Santa Barbara,CA,M65-69,1:33:43,NA
+471,635,Marr,Blake,M,Mililani,HI,M60-64,1:24:07,NA
+472,1332,Miyake,Eddie,M,Honolulu,HI,M13-14,1:34:12,NA
+473,655,Wharton,Roberto,M,Honolulu,HI,M35-39,1:34:14,NA
+474,725,Heiss,Alexa,F,Honolulu,HI,F40-44,1:34:14,NA
+475,1069,Lovern,Eric,M,Honolulu,HI,M45-49,1:34:16,NA
+476,784,Presley,Todd,M,Honolulu,HI,M50-54,1:34:21,NA
+477,1139,Thiel,Elizabeth,F,Kailua,HI,F35-39,1:34:25,NA
+478,643,Rose,Cherryl,F,Hermosa Beach,CA,F50-54,1:34:28,NA
+479,846,Orten,Jamie,F,Golden,CO,F55-59,1:34:39,NA
+480,748,Koizumi,Kumiko,F,Yokohama,,F55-59,1:34:52,NA
+481,656,Achilles,Meghan,F,Sydney,,F25-29,1:34:52,NA
+482,798,Schoen,Y David,M,Honolulu,HI,M40-44,1:34:52,NA
+483,148,Stadwick,Randy,M,Mililani,HI,M40-44,1:35:03,NA
+484,729,Hiyakumoto,Van,M,Honolulu,HI,M40-44,1:35:11,NA
+485,606,Bottorff,Jack,M,Honolulu,HI,M40-44,1:35:13,NA
+486,1013,Street,Storme,F,Falls Church,VA,F35-39,1:35:14,NA
+487,802,Sharp,Dustin,M,Honolulu,HI,M40-44,1:35:35,NA
+488,1002,Ohtsubo,Jin,M,Tokyo,,M45-49,1:35:36,NA
+489,665,Boatman,Daniel,M,Ewa Beach,HI,M30-34,1:35:40,NA
+490,156,Wilder,Nicole,F,Honolulu,HI,F25-29,1:35:45,NA
+491,1277,Hester,Lawrence,M,Honolulu,HI,M30-34,1:35:53,NA
+492,1284,Michels,Maureen,F,Kailua,HI,F13-14,1:35:58,NA
+493,688,Dayondon,Odeelo,M,Honolulu,HI,M30-34,1:36:02,NA
+494,1049,Haskins,Hunter,M,Kaneohe,HI,M30-34,1:36:07,NA
+495,990,Kaumeheiwa,Bridget,F,Kahului,HI,F45-49,1:36:08,NA
+496,789,Rogers,Rodman,M,Sausalto,CA,M50-54,1:36:08,NA
+497,695,Erwin,Kati,F,Kailua,HI,F25-29,1:36:18,NA
+498,907,Baker,Jessica,F,Lahaina,HI,F30-34,1:36:18,NA
+499,753,Lambertson,Robert,M,Redwood City,CA,M55-59,1:36:22,NA
+500,740,Kahn,Emily,F,Kaneohe,HI,F30-34,1:36:23,NA
+501,712,Graff,Ryan,M,San Rafael,CA,M40-44,1:36:26,NA
+502,412,Hovden,Laura,F,Woodside,CA,F50-54,1:36:28,NA
+503,439,Loveridge,Jamie,F,Elk Grove,CA,F17-18,1:36:30,NA
+504,369,Castagnaro,Russell,M,Honolulu,HI,M45-49,1:36:38,NA
+505,1043,Gerschoffer,Mark,M,Honolulu,HI,M50-54,1:36:48,NA
+506,732,Ishida,Eric,M,Kalaheo,HI,M55-59,1:36:49,NA
+507,986,Gough,Ray,M,Eastboure,,M70-74,1:36:49,NA
+508,671,Campbell,Margaret,F,Kailua,HI,F30-34,1:36:59,NA
+509,733,Isoe,Hironoshin,M,Honolulu,HI,M35-39,1:37:00,NA
+510,694,Emery,Kevin,M,Kaneohe,HI,M50-54,1:37:20,NA
+511,976,Cramer,Tyler,M,San Diego,CA,M60-64,1:37:22,NA
+512,639,Paquin,Deborah,F,Laguna Niguel,CA,F55-59,1:37:36,NA
+513,308,Brown,Barbara,F,Vallejo,CA,F60-64,1:37:38,NA
+514,1098,Snyder,Jeff,M,Honolulu,HI,M40-44,1:37:43,NA
+515,1123,Dost,Stephanie,F,Kailua,HI,F25-29,1:37:43,NA
+516,1016,Wentzel,Joseph,M,Mesa,AZ,M45-49,1:38:11,NA
+517,790,Rosa,John,M,Honolulu,HI,M45-49,1:38:20,NA
+518,638,Muraoka,Maho,F,Honolulu,HI,F30-34,1:38:25,NA
+519,413,Hurdley,Chris,M,Auckland,HI,M65-69,1:33:32,NA
+520,1137,Moreno,Nikki,F,Honolulu,HI,F30-34,1:38:35,NA
+521,1129,Moore,Michael,M,Honolulu,HI,M55-59,1:38:46,NA
+522,687,Davis,George,M,Honolulu,HI,M55-59,1:38:47,NA
+523,996,McBride,Rebecca,F,Honolulu,HI,F40-44,1:38:48,NA
+524,917,Dale,Kevin,M,Honolulu,HI,M50-54,1:39:31,NA
+525,650,Smith,Michael,M,Honolulu,HI,M40-44,1:39:33,NA
+526,696,Farnham,Stote,M,Honolulu,HI,M65-69,1:39:56,NA
+527,1260,Biven,Glenn,M,Honolulu,HI,M55-59,1:39:59,NA
+528,314,Edwards,Mark,M,Black Diamond,WA,M45-49,1:40:01,NA
+529,313,Edwards,Jennifer,F,Black Diamond,WA,F40-44,1:40:02,NA
+530,720,Hartman,Robert,M,Lahaina,HI,M65-69,1:40:12,NA
+531,1036,Faletoi,Lydia,F,Mililani,H,F50-54,1:40:18,NA
+532,157,Willows,Annette,F,Freshwater,,F50-54,1:40:24,NA
+533,1310,Hawk,Kelly,F,Honolulu,HI,F17-18,1:40:25,NA
+534,1090,Philipson,Robert,M,Los Angeles,CA,M60-64,1:40:30,NA
+535,1077,Moore,Cat,F,Santa Monica,CA,F50-54,1:40:30,NA
+536,619,Fairbairn,Graham,M,Sydney,NS,M25-29,1:40:36,NA
+537,944,Muraoka,Yoshi,M,Honolulu,HI,M50-54,1:40:44,NA
+538,660,Asmus,Richard,M,Longview,WA,M60-64,1:40:56,NA
+539,79,Bottoni,Craig,M,Honolulu,HI,M45-49,1:40:57,NA
+540,761,Maglasang,Reina,F,Honolulu,HI,F13-14,1:41:01,NA
+541,642,Rodgers,Grady,M,Mountain View,HI,M40-44,1:41:01,NA
+542,814,Tom,Allie,F,Honolulu,HI,F13-14,1:41:01,NA
+543,1150,Brain,Russell,M,Waipahu,HI,M35-39,1:41:03,NA
+544,486,Stewart,Lee,M,Ewa Beach,HI,M50-54,1:41:04,NA
+545,684,Conway,Thomas,M,Kailua,HI,M50-54,1:41:09,NA
+546,973,Brubaker,Jason,M,McKinney,TX,M19-24,1:41:10,NA
+547,962,Petrillo,Thomas,M,Chicago,IL,M30-34,1:41:11,NA
+548,793,Sakai,James,M,Kailua Kona,HI,M55-59,1:41:14,NA
+549,780,Park,Candace,F,Honolulu,HI,F50-54,1:41:20,NA
+550,817,Tuthill,Jennifer,F,Kailua,HI,F30-34,1:41:22,NA
+551,1058,Kobayashi,Owen,M,Honolulu,HI,M60-64,1:41:25,NA
+552,967,Pashkow,Peg,F,Los Angeles,CA,F65-69,1:41:31,NA
+553,1283,McSweeney,Annamarie,F,Emerald Hills,CA,F50-54,1:41:39,NA
+554,750,Kosiorek,Gail,F,Kaneohe,HI,F60-64,1:42:06,NA
+555,937,MacMillan,Jill,F,Honolulu,HI,F65-69,1:42:17,NA
+556,1121,Becker,Adam,M,Honolulu,HI,M45-49,1:42:24,NA
+557,524,Davis,Chelsie,F,Highlands,NJ,F19-24,1:42:28,NA
+558,1148,Wong,Tomoko,F,Aiea,HI,F50-54,1:42:29,NA
+559,187,Motsinger,Tom,M,Phoenix,AZ,M45-49,1:42:31,NA
+560,837,Orfe,Jessica,F,Honolulu,HI,F25-29,1:42:36,NA
+561,692,Dodson,Brian,M,Honolulu,HI,M50-54,1:42:37,NA
+562,376,Clinton,Lani,F,Honolulu,HI,F30-34,1:42:51,NA
+563,707,Gardiner,Robert,M,Pearl City,HI,M45-49,1:42:51,NA
+564,818,Wagner,Arthur,M,Kailua,HI,M45-49,1:42:53,NA
+565,423,Keliikuli,David A.,M,Honolulu,HI,M60-64,1:43:16,NA
+566,1154,Deuchar,Anne Simley,F,Honolulu,HI,F40-44,1:43:31,NA
+567,374,Clark,Douglas,M,Garden Grove,CA,M40-44,1:43:37,NA
+568,991,Kuhlmann,Amber,F,Kailua,HI,F35-39,1:43:51,NA
+569,1059,Kodama,Akiko,F,Kobe,HI,F55-59,1:44:08,NA
+570,1032,Ecker,Kaeti,F,Kailua-Kona,HI,F65-69,1:34:12,NA
+571,1030,Day,Brenda,F,Greenway,AC,F65-69,1:44:17,NA
+572,957,Shyne,Cindy,F,Honolulu,HI,F45-49,1:44:27,NA
+573,624,Hannmann,William,M,Honolulu,HI,M50-54,1:44:38,NA
+574,1042,Fumiko,Yamada,F,Tokyo,HI,F65-69,1:44:41,NA
+575,995,Mattice,David,M,Volcano,HI,M55-59,1:44:44,NA
+576,1082,Nakano-Holmes,Julia,F,Honolulu,HI,F55-59,1:45:01,NA
+577,1000,Nakamura,Kaori,F,Aiea,HI,F50-54,1:45:08,NA
+578,787,Risse,Thomas,M,Honolulu,HI,M40-44,1:45:19,NA
+579,471,Rodoni,Rhiannon,F,Redwood City,CA,F45-49,1:45:27,NA
+580,965,Arshakuni,Ann,F,Redwood City,CA,F50-54,1:45:27,NA
+581,719,Hartley,Steve,M,Atlanta,GA,M55-59,1:45:27,NA
+582,1066,Leng,Sharon,F,Honolulu,HI,F55-59,1:45:28,NA
+583,1288,Scott,Jen,F,Honolulu,HI,F40-44,1:45:31,NA
+584,942,Matsumoto,Roy,M,Honolulu,HI,M50-54,1:45:50,NA
+585,1086,Oguchi,Eiji,M,Kanagawa-Ken,,M60-64,1:45:57,NA
+586,914,Cash,Greg,M,Lake Balboa,CA,M65-69,1:45:58,NA
+587,1068,London,Jada,F,Honolulu,HI,F60-64,1:46:04,NA
+588,1106,Walsh,Michael,M,Honolulu,HI,M65-69,1:46:08,NA
+589,916,Cronan,Frank,M,San Pedro,CA,M60-64,1:46:09,NA
+590,854,Boyce,James,M,Kailua,HI,M35-39,1:46:12,NA
+591,970,Behringer,Richard,M,Houston,TX,M55-59,1:46:12,NA
+592,1033,Endo,Akira,M,Honolulu,HI,M40-44,1:46:15,NA
+593,946,Nobuko,Yokota,F,Ibaraki,,F60-64,1:36:18,NA
+594,752,Lambertson,Marshall,M,Redwood City,CA,M19-24,1:46:20,NA
+595,1278,Irwin,John,M,Kailua,HI,M35-39,1:46:21,NA
+596,1057,Kirton,Jane,F,Honolulu,HI,F70-74,1:46:24,NA
+597,1006,Riekeberg,Robert,M,Oxnard,CA,M60-64,1:46:25,NA
+598,1320,Powell-Dunford,Nicole,F,Honolulu,HI,F35-39,1:46:28,NA
+599,629,Holt,Robin,M,Waikiki,HI,M65-69,1:46:38,NA
+600,811,Tano,Joanne,F,Honolulu,HI,F45-49,1:46:43,NA
+601,1056,Kalkbrenner,Lindsey,F,Santa Clara,CA,F30-34,1:46:52,NA
+602,763,McCrary,Keola,M,Mililani,HI,M35-39,1:46:54,NA
+603,700,Filek,Ryan,M,Honolulu,HI,M19-24,1:46:55,NA
+604,460,Padien,Keith,M,San Francisco,CA,M35-39,1:47:05,NA
+605,523,Hausmann,Shane,M,Holmdel,NJ,M19-24,1:42:26,NA
+606,637,McFarland,Joanna,F,Seattle,WA,F25-29,1:47:30,NA
+607,520,Koval,John,M,Mont.Village,MD,M19-24,1:47:33,NA
+608,758,Lyon,Blake,M,Kailua,HI,M19-24,1:47:37,NA
+609,645,Schaper,Vince,M,Saint Paul,MN,M45-49,1:47:38,NA
+610,1046,Griffin,Glenn,M,Waimanalo,HI,M40-44,1:47:42,NA
+611,1054,Ishida,Makoto,M,Honolulu,HI,M40-44,1:47:48,NA
+612,631,Kamimura,Gordon,M,Honolulu,HI,M45-49,1:48:00,NA
+613,175,Kikukawa,Genevieve,F,Kaunakakai,HI,F13-14,1:48:02,NA
+614,909,Blackwell,David,M,Sydney,NS,M55-59,1:48:16,NA
+615,1025,Chen,Calvin,M,San Mateo,CA,M50-54,1:48:17,NA
+616,668,Burch,Scott,M,Kailua,HI,M40-44,1:48:21,NA
+617,1080,Nagano,Aiko,F,Chiba,,F60-64,1:38:22,NA
+618,1114,Yuen-Schat,Hong Zeng,M,Honolulu,HI,M45-49,1:48:29,NA
+619,949,Perreira,Tracy,M,Honolulu,HI,M40-44,1:48:35,NA
+620,1060,Kulik,Brian,M,Honolulu,HI,M45-49,1:48:46,NA
+621,664,Black,Russell,M,Bellevue Hill,NS,M60-64,1:49:06,NA
+622,361,Anderson,Earl,M,Honolulu,HI,M55-59,1:49:18,NA
+623,1135,Hennion,Duane,M,Honolulu,HI,M40-44,1:49:22,NA
+624,938,Maeda,Michelle,F,Honolulu,HI,F45-49,1:49:24,NA
+625,1021,Beust,Mary,F,Kailua,HI,F45-49,1:49:31,NA
+626,1087,Ohta,Celeste,F,Honolulu,HI,F45-49,1:49:37,NA
+627,849,Irvine,Joshua,M,Albuquerque,NM,M30-34,1:50:01,NA
+628,715,Grimmer,Gary,M,Kaneohe,HI,M60-64,1:50:03,NA
+629,803,Shockro,Ellen K,F,Newport Beach,CA,F70-74,1:50:07,NA
+630,778,Ortlip,Susan,F,Folsom,CA,F45-49,1:50:11,NA
+631,929,Jim,Maile,F,Honolulu,HI,F13-14,1:50:27,NA
+632,928,Jim,Kevin,M,Honolulu,HI,M50-54,1:50:27,NA
+633,1092,Reid,Brett,M,Capitola,CA,M40-44,1:50:39,NA
+634,852,Powell,Daniel,M,Solana Beach,CA,M50-54,1:50:47,NA
+635,1259,Barrell,Geoff,M,Auckland,AK,M55-59,1:50:54,NA
+636,329,Inamoto,Kenichi,M,Honolulu,HI,M45-49,1:51:10,NA
+637,699,Field,Sandra,F,Los Alamitos,CA,F55-59,1:51:20,NA
+638,714,Gregory,Daniel,M,Durango,CO,M55-59,1:51:41,NA
+639,825,Weisman,Gary,M,Honolulu,HI,M60-64,1:52:16,NA
+640,1104,Teece,Alex,M,Honolulu,HI,M25-29,1:52:29,NA
+641,1047,Hagerman,Jodie,F,Honolulu,HI,F50-54,1:52:43,NA
+642,1040,Fraser,Marcy,F,San Francisco,CA,F60-64,1:42:47,NA
+643,431,Kozacik,Richard,M,Honolulu,HI,M50-54,1:53:01,NA
+644,122,Walter,Nick,M,Honolulu,HI,M30-34,1:53:06,NA
+645,384,Dean,Stephanie,F,Kailua,HI,F30-34,1:53:22,NA
+646,1094,Saotomezaka,Tomoko,F,Chiba,,F45-49,1:53:26,NA
+647,1309,Hawk,Jeffrey,M,Honolulu,HI,M45-49,1:53:39,NA
+648,150,Tsuda,Jeffery,M,Wapahu,HI,M60-64,1:53:45,NA
+649,754,Lee,Geoffrey,M,Honolulu,HI,M35-39,1:54:17,NA
+650,1038,Ford,Tracey,F,Kaneohe,HI,F40-44,1:54:27,NA
+651,775,Nishikawa,Lori,F,Wailuku,HI,F19-24,1:54:29,NA
+652,1311,Hawk,Madeline,F,Honolulu,HI,F15-16,1:54:32,NA
+653,513,Minihan,Mike,M,Honolulu,HI,M45-49,1:54:33,NA
+654,706,Fukuya,Reid,M,Honolulu,HI,M25-29,1:55:02,NA
+655,988,Inuzuka,Tadashi,M,Tokyo,,M55-59,1:55:07,NA
+656,747,Knight,Vernon,M,Honolulu,HI,M75-79,1:55:23,NA
+657,1147,Rupert,Amy,F,Brandywine,MD,F35-39,1:55:26,NA
+658,983,Francis,Ian,M,Honolulu,HI,M40-44,1:55:27,NA
+659,1344,Nakamoto,Ray,M,Honolulu,HI,M65-69,1:55:36,NA
+660,756,Leskovitz,Ernie,M,Honolulu,HI,M75-79,1:55:48,NA
+661,1102,Takeshita,Junji,M,Honolulu,HI,M50-54,1:55:51,NA
+662,1073,Malone,Michael,M,Honolulu,HI,M50-54,1:55:54,NA
+663,1088,Paulino,Rick,M,Ewa Beach,HI,M50-54,1:55:58,NA
+664,978,Dinsmoor,Nick,M,Kailua,HI,M40-44,1:56:01,NA
+665,1133,Hunter-Wilkinson,Addie,F,Honolulu,HI,F19-24,1:56:03,NA
+666,1113,Young,Carol,F,Honolulu,HI,F60-64,1:56:13,NA
+667,1097,Smith,Dick,M,Hanalei,HI,M70-74,1:56:22,NA
+668,161,Yamada,Chie,F,Tokyo,,F40-44,1:56:22,NA
+669,807,Suthard,Bryan,M,Honolulu,HI,M45-49,1:56:30,NA
+670,921,Galle,Jimmy,M,Sausalito,CA,M50-54,1:56:34,NA
+671,1295,Tanaka,Yuki,F,Honolulu,HI,F45-49,1:56:34,NA
+672,1083,Ng,Julie,F,Honolulu,HI,F45-49,1:56:36,NA
+673,1064,Ledbetter,Nick,M,Issaquah,WA,M55-59,1:56:46,NA
+674,166,Zakabi,Lynette,F,Wailuku,HI,F50-54,1:57:01,NA
+675,364,Bacerra,Beate,F,Waianae,HI,F55-59,1:57:27,NA
+676,915,Crean,John,M,Sonoma,CA,M50-54,1:58:19,NA
+677,1103,Tanaka,Wayne,M,Honolulu,HI,M50-54,1:59:05,NA
+678,1028,Conley,Amy,F,Kailua,HI,F50-54,1:59:39,NA
+679,912,Carbone,Beth,F,Honolulu,HI,F50-54,2:00:09,NA
+680,1027,Colvin,Jeremy,M,Honolulu,HI,M40-44,2:00:20,NA
+681,1305,Brotherton-Pleiss,Christine,F,Honolulu,HI,F55-59,2:00:31,NA
+682,429,Koval,Amanda,F,Gaithersburg,MD,F25-29,2:00:37,NA
+683,1067,Litman,Jacklyn,F,Burlingame,CA,F60-64,2:00:47,NA
+684,1093,Roberts,Eric,M,Honolulu,HI,M40-44,2:00:53,NA
+685,945,Nilges,Mary,F,Kailua,HI,F50-54,2:00:57,NA
+686,1337,Dorn,Susanne,F,Honolulu,HI,F45-49,2:01:04,NA
+687,1208,Ginoza,Carol,F,Honolulu,HI,F55-59,2:01:08,NA
+688,1076,Mew,Justin,M,Honolulu,HI,M55-59,2:01:15,NA
+689,968,Adams,David M,M,Wilsonville,OR,M50-54,2:01:37,NA
+690,1078,Morgan,Susan,F,Lahiana,HI,F50-54,2:01:43,NA
+691,666,Boquette,Charmaine,F,Honolulu,HI,F40-44,2:02:10,NA
+692,131,Foronda,Pedro,M,Wailuku,HI,M55-59,2:02:24,NA
+693,1024,Castelo,Patrick,M,Kaneohe,HI,M35-39,2:02:28,NA
+694,927,Jamieson,Alton,M,Auckland,AK,M65-69,2:02:47,NA
+695,1211,Hirano,Toshiaki,M,"Fuji-Shi, Shizuoka",,M40-44,2:02:55,NA
+696,736,Johnson,Ingrid,F,Ewa Beach,HI,F70-74,2:03:05,NA
+697,1031,Dean,Ronald,M,Honolulu,HI,M65-69,2:03:11,NA
+698,721,Hawk,Christina,M,Honolulu,HI,M35-39,2:03:36,NA
+699,940,Mansfield,Lee,M,Kailua,HI,M60-64,2:04:21,NA
+700,1081,Nakakura,Jeanine,F,Aiea,HI,F50-54,2:04:36,NA
+701,835,Cowland,Wendy,F,Kailua,HI,F35-39,2:04:39,NA
+702,1153,Kim,Sonia,F,Los Angeles,CA,F40-44,2:04:47,NA
+703,906,Bair,Christopher,M,Kailua,HI,M25-29,2:04:56,NA
+704,1307,Chaykin,Larry,M,Waianae,HI,M55-59,2:04:59,NA
+705,836,Tom,Deborah,F,Kailua,HI,F50-54,2:05:19,NA
+706,844,Gebhard,Jerry,M,Honolulu,HI,M65-69,2:05:38,NA
+707,845,Gebhard,Matt,M,Mt Gretna,PA,M40-44,2:05:38,NA
+708,397,Fujimori,Darin,M,Honolulu,HI,M35-39,2:05:52,NA
+709,1089,Pelagio,Ronald,M,Pearl City,HI,M40-44,2:00:52,NA
+710,1101,Sturgis,Alfred,M,Honolulu,HI,M60-64,2:06:08,NA
+711,382,Dale,Marta,F,Waimanalo,HI,F55-59,2:06:14,NA
+712,808,Swanson,Matt,M,Folsom,CA,M45-49,2:06:30,NA
+713,675,Cayzer,Stuart,M,Hawaii Kai,HI,M35-39,2:06:38,NA
+714,1317,Miyaki,Kenneth,M,Pearl City,HI,M55-59,2:07:01,NA
+715,1215,Mayfield,Jim,M,Lihue,HI,M55-59,2:07:39,NA
+716,943,Misawa,Sotaro,M,Honolulu,HI,M30-34,2:07:40,NA
+717,1115,Zee,Karen,F,Honolulu,HI,F35-39,2:07:56,NA
+718,434,Kwai Ben,Valerie,F,San Jose,CA,F50-54,2:08:36,NA
+719,722,Hawk,Noah,M,Honolulu,HI,M40-44,2:03:38,NA
+720,505,Wels,Edward,M,Honolulu,HI,M50-54,2:08:46,NA
+721,1004,Pipes,Gregory,M,Kailua,HI,M35-39,2:09:29,NA
+722,1155,Luther,Thomas,M,Ewa Beach,HI,M55-59,2:09:31,NA
+723,1144,Herzik,Wes,M,Honolulu,HI,M40-44,2:09:45,NA
+724,1018,Auhll,Lori,F,Honolulu,HI,F75-79,2:09:47,NA
+725,1055,James,Mark,M,Honolulu,HI,M60-64,2:09:56,NA
+726,839,Kitts,Eugene,M,Pearl City,HI,M65-69,2:10:07,NA
+727,1221,Roworth,Scott,M,Aiea,HI,M60-64,2:10:20,NA
+728,1099,Stevens,Carin,F,Honolulu,HI,F50-54,2:10:26,NA
+729,1063,Lambertson,John,M,Venice,CA,M55-59,2:10:40,NA
+730,1039,Francis,Shannon,F,Honolulu,HI,F40-44,2:10:54,NA
+731,934,Kobayashi,Noriko,F,Tokyo,,F50-54,2:10:57,NA
+732,744,Keller,Alexander,M,Schmitten,,M45-49,2:11:13,NA
+733,674,Cavanaugh,Nancy,F,Mililani,HI,F55-59,2:11:27,NA
+734,923,Gomyo,Takafumi,M,Honolulu,HI,M35-39,2:12:09,NA
+735,902,Ando,Jun,M,Tokyo,,M35-39,2:12:16,NA
+736,160,Wong,Brent,M,Pearl City,HI,M35-39,2:12:45,NA
+737,1285,Mikagi,Kaori,F,Honolulu,HI,F40-44,2:12:59,NA
+738,1156,Vonblankburg,Tamra,F,Honolulu,HI,F45-49,2:13:04,NA
+739,1225,Skouge,Sharon Lynn,F,Honolulu,HI,F65-69,2:13:54,NA
+740,390,Endo,Akemi,F,Honolulu,HI,F40-44,2:14:09,NA
+741,1045,Glum,George,M,New City,NY,M50-54,2:14:17,NA
+742,911,Blevins,Lee,M,Honolulu,HI,M45-49,2:14:37,NA
+743,377,Cole-Brooks,Leslie,F,Honolulu,HI,F50-54,2:16:07,NA
+744,1325,Viescas,Rick,M,Hanapepe,HI,M60-64,2:16:20,NA
+745,1044,Gibler,Linda,F,Kailua,HI,F45-49,2:17:18,NA
+746,1271,Garcia,Anna,F,Waipahu,HI,F40-44,2:18:06,NA
+747,765,McManamon,Michael,M,Honolulu,HI,M75-79,2:19:01,NA
+748,395,Frogley,Chris,M,Roanoke,VA,M70-74,2:19:07,NA
+749,159,Wimer,Gene,M,Honolulu,HI,M55-59,2:19:24,NA
+750,901,Adam-Terem,Rosemary,F,Honolulu,HI,F60-64,2:19:58,NA
+751,442,Maher,Lesley,F,Denistone East,HI,F60-64,2:20:52,NA
+752,446,Morikawa,Kyoko,F,Tokyo,,F65-69,2:20:59,NA
+753,972,Briones,Lou,M,Los Angeles,CA,M65-69,2:21:43,NA
+754,1035,Erwin,Katherine,F,Kailua,HI,F60-64,2:22:19,NA
+755,1085,Nowicki,Michal,M,Honolulu,HI,M25-29,2:22:37,NA
+756,941,Martinez,Sarah I.,F,Makawao,HI,F40-44,2:23:23,NA
+757,153,Walter,Greg,M,Kihei,HI,M65-69,2:23:24,NA
+758,958,Somerville,Michelle,F,Wellington,,F50-54,2:24:48,NA
+759,903,Anselmo,Larry,M,Mililani,HI,M50-54,2:24:55,NA
+760,1127,Kikukawa,Phillip,M,Kaunakakai,HI,M55-59,2:25:20,NA
+761,1504,Boyles,Steve,M,Santa Fe,NM,M50-54,2:25:21,NA
+762,1062,Kwong,Angela,F,Kaneohe,HI,F50-54,2:25:26,NA
+763,1338,Fitzgerald,Dennis,M,Honolulu,HI,M35-39,2:25:35,NA
+764,1341,Saito,Jisella,F,Honolulu,HI,F11-12,2:25:36,NA
+765,1204,Colburn,Amanda,F,Honolulu,HI,F11-12,2:25:37,NA
+766,1314,Lee,Keenan,M,Honolulu,HI,M13-14,2:25:53,NA
+767,1112,Yoo,Steven,M,Honolulu,HI,M30-34,2:26:12,NA
+768,1203,Black,Bryan,M,Auckland,HI,M65-69,2:27:02,NA
+769,1318,Ollada,Ray,M,Centennial,CO,M50-54,2:27:42,NA
+770,1319,Over,Tai,M,Ewa Beach,HI,M55-59,2:27:42,NA
+771,1264,Clemons,Anne,F,San Geronimo,CA,F45-49,2:27:45,NA
+772,959,Buskirk,Patricia Amaral,F,Honolulu,HI,F50-54,2:29:29,NA
+773,843,McCarney,Lori,F,Honolulu,HI,F60-64,2:30:49,NA
+774,1267,Decker,Kalani,M,Honolulu,HI,M11-12,2:30:53,NA
+775,1209,Hanaoka,Kayleigh,F,Honolulu,HI,F01-10,2:30:54,NA
+776,936,MacDowell,Kathy,F,Waipahu,HI,F60-64,2:33:16,NA
+777,813,Teshima,Allen,M,Honolulu,HI,M70-74,2:33:17,NA
+778,430,Koval,John,M,Montgomery Village,MD,M60-64,2:33:55,NA
+779,1202,Bender,Paula,F,Honolulu,HI,F55-59,2:34:03,NA
+780,1262,Burns,Suzanne,F,Ruckersville,VA,F65-69,2:34:20,NA
+781,1216,McNeil,Michelle,F,Honolulu,HI,F55-59,2:35:49,NA
+782,1065,Lee,Brendon,M,Pearl City,HI,M45-49,2:26:38,NA
+783,1308,Fukumoto,Gail,F,Honolulu,HI,F17-18,2:37:22,NA
+784,1289,Shuai,Michelle,F,Honolulu,HI,F11-12,2:37:23,NA
+785,963,Stevens,Rhoads,M,Honolulu,HI,M60-64,2:39:35,NA
+786,1339,Shen,Stanley,M,Honolulu,HI,M45-49,2:40:14,NA
+787,135,Husain,Nizwer,M,Waianae,HI,M55-59,2:40:17,NA
+788,1061,Kvam,Erik,M,Honolulu,HI,M55-59,2:40:52,NA
+789,819,Waldhoff,Jay P,M,Honolulu,HI,M60-64,2:41:22,NA
+790,910,Blanton,Chet The Jet,M,Honolulu,HI,M55-59,2:34:18,NA
+791,1217,Moran,Linda,F,Waipahu,HI,F55-59,2:44:32,NA
+792,926,Haderle,Margaret,F,Keauhou,HI,F45-49,2:45:17,NA
+793,993,Lynch,Ian,M,Honolulu,HI,M40-44,2:45:27,NA
+794,1131,McGowan,John,M,Honolulu,HI,M45-49,2:47:24,NA
+795,1335,Stewart,Deirdre,F,Balmain,,F50-54,2:47:50,NA
+796,1336,Wood,Tonia,F,Marrickville,,F55-59,2:47:50,NA
+797,1303,Basiliere,Michele,F,Santa Fe,NM,F45-49,2:47:55,NA
+798,1041,Fukuoka,Chris,M,Honolulu,HI,M70-74,2:48:08,NA
+799,1322,Ramos,Linford M,M,Waianae,HI,M55-59,2:49:08,NA
+800,1109,Winchatz,Pilita,F,Honolulu,HI,F30-34,2:49:18,NA
+801,1029,Cotton,Jenny,F,Sonoma,CA,F50-54,2:51:17,NA
+802,1201,Abe,Eiichi,M,Honolulu,HI,M45-49,2:51:55,NA
+803,1224,Omiya,Dan,M,Hon,HI,M50-54,2:52:23,NA
+804,1223,Burns,Dennis,M,Kailua,HI,M70-74,2:53:13,NA
+805,1226,Yuen,Greg,M,Honolulu,HI,M60-64,2:53:48,NA
+806,1323,Russo,Brian,M,Honolulu,HI,M30-34,2:55:33,NA
+807,1220,Rahmani-Shirazi,Ashiyan,M,Honolulu,HI,M35-39,2:56:19,NA
+808,1270,Espino,Laura,F,Oakland,CA,F25-29,2:56:23,NA
+809,739,Jones,Mike,M,Honolulu,HI,M30-34,2:56:27,NA
+810,1048,Hall,Carolyn,F,Honolulu,HI,F60-64,2:57:08,NA
+811,913,Carlson,Ron,M,Honolulu,HI,M70-74,2:58:05,NA
+812,1130,Madamba,Olivia Denee,F,Honolulu,HI,F50-54,2:58:07,NA
+813,955,Shimabukuro,Petula,F,Honolulu,HI,F45-49,2:58:11,NA
+814,1111,Yamamoto,Brian,M,Honolulu,HI,M55-59,2:58:11,NA
+815,932,Kanemitsu,Roy,M,Mililani,HI,M55-59,2:58:16,NA
+816,974,Burdett,Yvette,F,Waipahu,HI,F40-44,2:58:21,NA
+817,129,Bartolome,Jerry,M,Mililani,HI,M40-44,2:59:27,NA
+818,1275,Helberg,Dave,M,Honolulu,HI,M40-44,2:55:24,NA
+819,659,Ariyoshi,Donna,F,Honolulu,HI,F50-54,3:01:03,NA
+820,918,Dalisay,Francis,M,Honolulu,HI,M35-39,3:01:19,NA
+821,1100,Stewart,Elizabeth,F,Lane Cove,HI,F50-54,3:01:27,NA
+822,1108,Willis,Norm,M,Kapolei,HI,M50-54,3:02:02,NA
+823,1134,McClendon,Robert,M,Montesano,WA,M55-59,3:02:05,NA
+824,1214,Kaaloa,Wayne,M,Waimanalo,HI,M55-59,3:04:37,NA
+825,919,Dawson,Laurie,F,Folsom,CA,F55-59,3:04:40,NA
+826,1128,Herman,Louis,M,Honolulu,HI,M80-99,3:05:13,NA
+827,1302,Akaka,Kimo,M,Honolulu,HI,M50-54,3:10:24,NA
+828,1263,Chan,Alex,M,Saugus,HI,M17-18,3:10:24,NA
+829,953,Shibaoka,Katsumi,M,Honolulu,HI,M40-44,3:12:31,NA
+830,1072,Luscomb,Kelly,F,Kailua,HI,F30-34,3:12:42,NA
+831,1071,Luscomb,Candy,F,Kailua,HI,F55-59,3:12:43,NA
+832,1023,Caldwell,Keith,M,Kailua,HI,M50-54,3:12:44,NA
+833,947,Koyama,Tatsuya,M,Honolulu,HI,M50-54,3:19:37,NA
+834,1299,Van Weeghel,Charlotte,F,Venice,CA,F45-49,3:20:54,NA
+835,1096,Slawson-Eich,Gail,F,Honolulu,HI,F45-49,3:12:36,NA

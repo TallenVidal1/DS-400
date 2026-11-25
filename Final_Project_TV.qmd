@@ -255,3 +255,90 @@ inspect_page <- function(year) {
 
 walk(c(1989, 2003, 2008, 2014), inspect_page)
 ```
+
+```{r}
+# Dump every table from the Waikiki Roughwater results pages that the main
+# script could not read (1989, 2003–2014), one CSV per table, so each year's
+# layout can be checked before anything is merged into the main dataset.
+#
+# Values are kept exactly as text, as shown on the page. The only changes:
+#   * blank rows and repeated header rows are dropped
+#   * a row whose only content is its first cell (e.g. "MALE OVERALL RESULTS",
+#     "FEMALE AGE GROUP: FIN") is treated as a section label and moved into a
+#     `section` column for the rows under it
+#   * if a table has no header row, its columns are named x1, x2, ... (no names
+#     are guessed)
+
+library(rvest)
+library(dplyr)
+library(purrr)
+library(stringr)
+library(readr)
+
+years   <- c(1989, 2003:2004, 2006:2014)
+out_dir <- "raw_tables"
+dir.create(out_dir, showWarnings = FALSE)
+
+# A header row has at least 3 filled cells and mentions "place" or "name".
+is_header_row <- function(r) {
+  sum(r != "") >= 3 && any(str_detect(r, "(?i)place|name"))
+}
+
+tidy_any_table <- function(raw) {
+  m <- as.data.frame(lapply(raw, \(x) str_squish(as.character(x))),
+                     stringsAsFactors = FALSE)
+  m <- m[apply(m, 1, \(r) any(r != "")), , drop = FALSE]
+  if (nrow(m) == 0) return(NULL)
+  
+  hdr_idx <- which(apply(m, 1, is_header_row))
+  if (length(hdr_idx) > 0) {
+    header <- as.character(unlist(m[hdr_idx[1], ]))
+    is_hdr <- apply(m, 1, \(r) identical(as.character(r), header))
+    m <- m[!is_hdr, , drop = FALSE]
+    nm <- ifelse(header == "", paste0("x", seq_along(header)), header)
+  } else {
+    nm <- paste0("x", seq_len(ncol(m)))
+  }
+  names(m) <- make.unique(nm)
+  
+  if (ncol(m) >= 2) {
+    others     <- m[, -1, drop = FALSE]
+    is_section <- m[[1]] != "" & apply(others, 1, \(r) all(r == ""))
+    labels     <- c(NA_character_, m[[1]][is_section])
+    m$section  <- labels[cumsum(is_section) + 1]
+    m <- m[!is_section, , drop = FALSE]
+  } else {
+    m$section <- NA_character_
+  }
+  list(data = m, header_found = length(hdr_idx) > 0)
+}
+
+dump_page <- function(year) {
+  url <- paste0("https://waikikiroughwaterswim.com/results-", year, "/")
+  message("Reading ", year)
+  Sys.sleep(1)
+  tables <- tryCatch(
+    read_html(url) |> html_elements("table") |>
+      html_table(header = FALSE, convert = FALSE),
+    error = \(e) { message("  ", year, ": ", conditionMessage(e)); list() }
+  )
+  imap_dfr(tables, \(raw, i) {
+    res <- tidy_any_table(raw)
+    if (is.null(res)) return(NULL)
+    f <- file.path(out_dir, sprintf("%d_table%d.csv", year, i))
+    write_csv(res$data, f, na = "NA")
+    tibble(
+      year = year, table = i,
+      rows = nrow(res$data),
+      header_found = res$header_found,
+      columns  = paste(setdiff(names(res$data), "section"), collapse = " | "),
+      sections = paste(unique(na.omit(res$data$section)), collapse = " | "),
+      file = f
+    )
+  })
+}
+
+index <- map_dfr(years, dump_page)
+write_csv(index, file.path(out_dir, "_index.csv"))
+print(select(index, year, table, rows, header_found, columns), n = Inf, width = Inf)
+```

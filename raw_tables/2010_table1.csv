@@ -1,0 +1,909 @@
+x1,x2,x3,section
+23 LUANE ROWE 10 1 F-OPEN WAVERTON 51,18,,Place FName LName Bib Div Plc Div City State Time
+29 MELISSA MYERS 296 2 F-OPEN 52,38,,Place FName LName Bib Div Plc Div City State Time
+45 ENEY JONES 23 3 F-OPEN BOULDER CO 54,34,,Place FName LName Bib Div Plc Div City State Time
+1 TRAVIS NEDERPELT 279 1 M-OPEN CRAIGIE WA 45,40,,Place FName LName Bib Div Plc Div City State Time
+2 CHARLES PETE 292 2 M-OPEN LA HABRA CA 45,46,,Place FName LName Bib Div Plc Div City State Time
+3 ALEX MEYER 218 3 M-OPEN CAMBRIDGE MA 45,53,,Place FName LName Bib Div Plc Div City State Time
+FEMALE AGE GROUP,11 – 12,,Place FName LName Bib Div Plc Div City State Time
+216 LARA YASUMI 1089 1 F11-12 HONOLULU HI 1,05,20,Place FName LName Bib Div Plc Div City State Time
+242 MAIA PETRIDES 462 2 F11-12 HONOLULU HI 1,06,38,Place FName LName Bib Div Plc Div City State Time
+320 GILLIAN KELLY 340 3 F11-12 HONOLULU HI 1,11,13,Place FName LName Bib Div Plc Div City State Time
+333 ZOEY FOX 1240 4 F11-12 1,11,58,Place FName LName Bib Div Plc Div City State Time
+MALE AGE GROUP,11 – 12,,Place FName LName Bib Div Plc Div City State Time
+210 STEVEN DERMAN 473 1 M11-12 HONOLULU HI 1,05,03,Place FName LName Bib Div Plc Div City State Time
+234 CHRISTIAN NISHIMURA 425 2 M11-12 HONOLULU HI 1,06,20,Place FName LName Bib Div Plc Div City State Time
+283 ARTHUR CHEUNG 757 3 M11-12 HONOLULU HI 1,09,15,Place FName LName Bib Div Plc Div City State Time
+287 NOAH AMES 1107 4 M11-12 HONOLULU HI 1,09,35,Place FName LName Bib Div Plc Div City State Time
+347 JOSHUA TOY 1067 5 M11-12 KAILUA HI 1,13,03,Place FName LName Bib Div Plc Div City State Time
+393 KELLY MARSHALL 1075 6 M11-12 HONOLULU HI 1,15,22,Place FName LName Bib Div Plc Div City State Time
+524 ROBERT MAU 1168 7 M11-12 HONOLULU HI 1,22,05,Place FName LName Bib Div Plc Div City State Time
+558 EVAN FUKUMOTO 1164 8 M11-12 HONOLULU HI 1,24,07,Place FName LName Bib Div Plc Div City State Time
+597 HANSEN BELLOWS 1103 9 M11-12 SOQUEL CA 1,26,45,Place FName LName Bib Div Plc Div City State Time
+635 BERRIGAN KILGO 685 10 M11-12 DURANGO CO 1,28,56,Place FName LName Bib Div Plc Div City State Time
+FEMALE AGE GROUP,13 – 14,,Place FName LName Bib Div Plc Div City State Time
+50 RACHEL KNOWLES 1186 1 F13-14 PLEASANTON CA 54,42,,Place FName LName Bib Div Plc Div City State Time
+76 JASMINE MAU 267 2 F13-14 HONOLULU HI 56,08,,Place FName LName Bib Div Plc Div City State Time
+97 REBECCA WALTON 528 3 F13-14 WAIPAHU HI 57,34,,Place FName LName Bib Div Plc Div City State Time
+110 SUMMER HARRISON 295 4 F13-14 58,44,,Place FName LName Bib Div Plc Div City State Time
+116 NATSUKO MURANAKA 126 5 F13-14 KANEOHE HI 58,48,,Place FName LName Bib Div Plc Div City State Time
+134 CORRINE SHIGETA 145 6 F13-14 HONOLULU HI 1,00,13,Place FName LName Bib Div Plc Div City State Time
+145 JESSIE WATKINS 143 7 F13-14 HONOLULU HI 1,01,08,Place FName LName Bib Div Plc Div City State Time
+280 KAYLA HEISS 176 8 F13-14 HONOLULU HI 1,08,44,Place FName LName Bib Div Plc Div City State Time
+311 TAYLOR BOGDAHN 545 9 F13-14 HONOLULU HI 1,10,44,Place FName LName Bib Div Plc Div City State Time
+357 STEPHANIE SPEAR 309 10 F13-14 HONOLULU HI 1,13,32,Place FName LName Bib Div Plc Div City State Time
+MALE AGE GROUP,13 – 14,,Place FName LName Bib Div Plc Div City State Time
+93 ZACHARY WOO 669 1 M13-14 HONOLULU HI 57,29,,Place FName LName Bib Div Plc Div City State Time
+107 JOSHUA YUEN-SCHAT 793 2 M13-14 HONOLULU HI 58,12,,Place FName LName Bib Div Plc Div City State Time
+121 NOAH DEER 280 3 M13-14 HONOLULU HI 59,04,,Place FName LName Bib Div Plc Div City State Time
+146 COLIN-JAMES FELLEZS 1092 4 M13-14 MILILANI HI 1,01,11,Place FName LName Bib Div Plc Div City State Time
+149 NOAH SOXPOLLARD 711 5 M13-14 HONOLULU HI 1,01,18,Place FName LName Bib Div Plc Div City State Time
+221 SAM SUTHERLAND 858 6 M13-14 1,05,50,Place FName LName Bib Div Plc Div City State Time
+233 KANOA KALEOALOHA 320 7 M13-14 AIEA HI 1,06,19,Place FName LName Bib Div Plc Div City State Time
+349 AARON KIYOTOKI 1242 8 M13-14 1,13,04,Place FName LName Bib Div Plc Div City State Time
+392 MATTHEW PATTERSON 515 9 M13-14 HONOLULU HI 1,15,20,Place FName LName Bib Div Plc Div City State Time
+515 AKIRA HOLMES 1175 10 M13-14 HONOLULU HI 1,21,35,Place FName LName Bib Div Plc Div City State Time
+605 STEVEN TAKESHITA 1105 11 M13-14 HONOLULU HI 1,26,58,Place FName LName Bib Div Plc Div City State Time
+833 TOMOKI KOBAYASHI 1167 12 M13-14 HONOLULU HI 1,54,27,Place FName LName Bib Div Plc Div City State Time
+FEMALE AGE GROUP,15 – 18,,Place FName LName Bib Div Plc Div City State Time
+66 LILLYBELLE DEER 281 1 F15-18 HONOLULU HI 55,34,,Place FName LName Bib Div Plc Div City State Time
+106 CHARLEA GOODNESS 128 2 F15-18 HONOLULU HI 58,09,,Place FName LName Bib Div Plc Div City State Time
+113 STEPHANIE REBRO 429 3 F15-18 HONOLULU HI 58,47,,Place FName LName Bib Div Plc Div City State Time
+131 ALYSSA FOO 416 4 F15-18 HONOLULU HI 1,00,10,Place FName LName Bib Div Plc Div City State Time
+132 SARA KAHANAMOKU 144 5 F15-18 HALEIWA HI 1,00,13,Place FName LName Bib Div Plc Div City State Time
+185 DIANA CIRAULO 162 6 F15-18 LOS ANGELES CA 1,03,20,Place FName LName Bib Div Plc Div City State Time
+267 REVERIE HARA 175 7 F15-18 HONOLULU HI 1,08,03,Place FName LName Bib Div Plc Div City State Time
+306 RANDI GONGOB 198 8 F15-18 HONOLULU HI 1,10,30,Place FName LName Bib Div Plc Div City State Time
+308 DEVYNN KANESHIRO 195 9 F15-18 WAIPAHU HI 1,10,31,Place FName LName Bib Div Plc Div City State Time
+323 TAYLOR NIDDS 1147 10 F15-18 HONOLULU HI 1,11,22,Place FName LName Bib Div Plc Div City State Time
+335 GIANNA VANCE 412 11 F15-18 HONOLULU HI 1,12,00,Place FName LName Bib Div Plc Div City State Time
+360 TRISHA ISHIKAWA 1087 12 F15-18 HONOLULU HI 1,13,45,Place FName LName Bib Div Plc Div City State Time
+379 AUSTIN BELLOWS 1077 13 F15-18 SOQUEL CA 1,14,42,Place FName LName Bib Div Plc Div City State Time
+400 SARAH MUNAR 476 14 F15-18 HONOLULU HI 1,15,37,Place FName LName Bib Div Plc Div City State Time
+460 LYNN TAKESHITA 360 15 F15-18 HONOLULU HI 1,18,35,Place FName LName Bib Div Plc Div City State Time
+503 ASHLEY WALL 1149 16 F15-18 HONOLULU HI 1,21,06,Place FName LName Bib Div Plc Div City State Time
+623 TORI FITCH 1135 17 F15-18 HONOLULU HI 1,28,04,Place FName LName Bib Div Plc Div City State Time
+MALE AGE GROUP,15 – 18,,Place FName LName Bib Div Plc Div City State Time
+6 JOSH BEARD 212 1 M15-18 SOUTH COOGEE 47,17,,Place FName LName Bib Div Plc Div City State Time
+13 KACY JOHNSON 217 2 M15-18 HONOLULU HI 48,06,,Place FName LName Bib Div Plc Div City State Time
+15 JAYSON HAGI 228 3 M15-18 HONOLULU HI 48,48,,Place FName LName Bib Div Plc Div City State Time
+16 LOUI FRIESS 215 4 M15-18 CHIPPING NORTON 49,03,,Place FName LName Bib Div Plc Div City State Time
+20 IAN DUNHAM-WHEELER 226 5 M15-18 HONOLULU HI 50,01,,Place FName LName Bib Div Plc Div City State Time
+38 KALE AI 34 6 M15-18 HONOLULU HI 54,20,,Place FName LName Bib Div Plc Div City State Time
+42 TAIGA HASHIMOTO 123 7 M15-18 HONOLULU HI 54,28,,Place FName LName Bib Div Plc Div City State Time
+44 JACOB URBANO 117 8 M15-18 KAILUA HI 54,30,,Place FName LName Bib Div Plc Div City State Time
+47 RYAN SAUNDERS 106 9 M15-18 HONOLULU HI 54,36,,Place FName LName Bib Div Plc Div City State Time
+48 NOEL KAWAMO 257 10 M15-18 HONOLULU HI 54,37,,Place FName LName Bib Div Plc Div City State Time
+64 EVAN ROSCA 155 11 M15-18 HONOLULU HI 55,32,,Place FName LName Bib Div Plc Div City State Time
+69 JASON FRIFELDT 254 12 M15-18 HONOLULU HI 55,50,,Place FName LName Bib Div Plc Div City State Time
+78 ROBBIE KIESSLING 786 13 M15-18 HONOLULU HI 56,16,,Place FName LName Bib Div Plc Div City State Time
+79 AUKAI GILLILAND 1184 14 M15-18 KAILUA HI 56,34,,Place FName LName Bib Div Plc Div City State Time
+80 RYAN PICKETT 235 15 M15-18 HONOLULU HI 56,35,,Place FName LName Bib Div Plc Div City State Time
+92 SEAN TERADA 103 16 M15-18 HONOLULU HI 57,27,,Place FName LName Bib Div Plc Div City State Time
+100 DREW SACOMAN 264 17 M15-18 HONOLULU HI 57,47,,Place FName LName Bib Div Plc Div City State Time
+122 PETER CHI 251 18 M15-18 HONOLULU HI 59,06,,Place FName LName Bib Div Plc Div City State Time
+167 PETER FISCHER 435 19 M15-18 WAHIAWA HI 1,02,31,Place FName LName Bib Div Plc Div City State Time
+241 KY WONG 327 20 M15-18 HONOLULU HI 1,06,36,Place FName LName Bib Div Plc Div City State Time
+255 ALEX HENDERSON 207 21 M15-18 WAHIAWA HI 1,07,34,Place FName LName Bib Div Plc Div City State Time
+346 ASHTON SROCK 1063 22 M15-18 KAPOLEI HI 1,12,58,Place FName LName Bib Div Plc Div City State Time
+361 SHIREEN KHERADPEY 1234 23 M15-18 1,13,45,Place FName LName Bib Div Plc Div City State Time
+398 ERIK LEE 1188 24 M15-18 HONOLULU HI 1,15,30,Place FName LName Bib Div Plc Div City State Time
+440 KALEIKOA KALEOALOHA 354 25 M15-18 AIEA HI 1,17,34,Place FName LName Bib Div Plc Div City State Time
+513 ANDREW LUM 1231 26 M15-18 1,21,33,Place FName LName Bib Div Plc Div City State Time
+514 PATRICK LUM 1000 27 M15-18 HONOLULU HI 1,21,34,Place FName LName Bib Div Plc Div City State Time
+590 PAYTON NAGELMANN 847 28 M15-18 1,26,33,Place FName LName Bib Div Plc Div City State Time
+845 SHINGO NAKAJIMA 1030 29 M15-18 HONOLULU HI 1,57,59,Place FName LName Bib Div Plc Div City State Time
+862 YUTA OMORI 1035 30 M15-18 HONOLULU HI 2,04,49,Place FName LName Bib Div Plc Div City State Time
+FEMALE AGE GROUP,19 – 24,,Place FName LName Bib Div Plc Div City State Time
+46 CHRISTINA BORING 50 1 F19-24 HONOLULU HI 54,35,,Place FName LName Bib Div Plc Div City State Time
+51 KATHRYN TAYLOR 141 2 F19-24 HONOLULU HI 54,46,,Place FName LName Bib Div Plc Div City State Time
+70 ELIZABETH-ROSE HANO 129 3 F19-24 HONOLULU HI 55,54,,Place FName LName Bib Div Plc Div City State Time
+88 ILIA REYES 173 4 F19-24 HONOLULU HI 57,14,,Place FName LName Bib Div Plc Div City State Time
+95 HAYDN MACLEAN 259 5 F19-24 HONOLULU HI 57,31,,Place FName LName Bib Div Plc Div City State Time
+111 ARIEL STEPHENS 178 6 F19-24 HONOLULU HI 58,46,,Place FName LName Bib Div Plc Div City State Time
+112 VALERIE PAGETT 109 7 F19-24 HONOLULU HI 58,46,,Place FName LName Bib Div Plc Div City State Time
+114 SOFIA MUSTELIN 423 8 F19-24 HONOLULU HI 58,47,,Place FName LName Bib Div Plc Div City State Time
+115 MADDIE TAKAKI 432 9 F19-24 HONOLULU HI 58,48,,Place FName LName Bib Div Plc Div City State Time
+126 ANNATHEA ACCORNERO 413 10 F19-24 HONOLULU HI 59,54,,Place FName LName Bib Div Plc Div City State Time
+133 MAURA BARRETT 169 11 F19-24 HONOLULU HI 1,00,13,Place FName LName Bib Div Plc Div City State Time
+141 SARAH YASUI 446 12 F19-24 HONOLULU HI 1,00,37,Place FName LName Bib Div Plc Div City State Time
+153 KYLEY EISENMAN 137 13 F19-24 HONOLULU HI 1,01,38,Place FName LName Bib Div Plc Div City State Time
+169 NICOLE LARSON 419 14 F19-24 HONOLULU HI 1,02,42,Place FName LName Bib Div Plc Div City State Time
+170 RACHEL COTE 415 15 F19-24 HONOLULU HI 1,02,46,Place FName LName Bib Div Plc Div City State Time
+179 MARCAIL MCLEAN 860 16 F19-24 1,03,00,Place FName LName Bib Div Plc Div City State Time
+189 ANNA TOGIAS 410 17 F19-24 TORONTO ON 1,03,31,Place FName LName Bib Div Plc Div City State Time
+217 COURTNEY WEIGAND 211 18 F19-24 JAMUL CA 1,05,23,Place FName LName Bib Div Plc Div City State Time
+238 EMILY KING 291 19 F19-24 HONOLULU HI 1,06,28,Place FName LName Bib Div Plc Div City State Time
+259 JESSICA STACY 107 20 F19-24 HONOLULU HI 1,07,46,Place FName LName Bib Div Plc Div City State Time
+286 CHRISTA PRIOR 428 21 F19-24 HONOLULU HI 1,09,34,Place FName LName Bib Div Plc Div City State Time
+367 MOLLY SHARP 313 22 F19-24 HONOLULU HI 1,14,11,Place FName LName Bib Div Plc Div City State Time
+437 LARA MAGNABOSCO 788 23 F19-24 HONOLULU HI 1,17,30,Place FName LName Bib Div Plc Div City State Time
+552 MICKI REAM 826 24 F19-24 HONOLULU HI 1,23,41,Place FName LName Bib Div Plc Div City State Time
+581 MATTHEW LAM 732 25 F19-24 KANEOHE HI 1,26,04,Place FName LName Bib Div Plc Div City State Time
+604 LAUREN MADAFFARI 1215 26 F19-24 NORWALK CT 1,26,53,Place FName LName Bib Div Plc Div City State Time
+644 CHRISTINA AIU 718 27 F19-24 HONOLULU HI 1,29,34,Place FName LName Bib Div Plc Div City State Time
+721 AMBER LAM 731 28 F19-24 KANEOHE HI 1,35,05,Place FName LName Bib Div Plc Div City State Time
+755 NAOMI WADA 648 29 F19-24 HONOLULU HI 1,39,03,Place FName LName Bib Div Plc Div City State Time
+811 LINDSEY SPENCER 1010 30 F19-24 HONOLULU HI 1,47,02,Place FName LName Bib Div Plc Div City State Time
+838 KENDALL PERCICH 1058 31 F19-24 HONOLULU HI 1,55,07,Place FName LName Bib Div Plc Div City State Time
+MALE AGE GROUP,19 – 24,,Place FName LName Bib Div Plc Div City State Time
+4 CODIE GRIMSEY 101 1 M19-24 CASHMERE QL 46,01,,Place FName LName Bib Div Plc Div City State Time
+7 ERIC NILSSON 219 2 M19-24 HONOLULU HI 47,22,,Place FName LName Bib Div Plc Div City State Time
+10 KANE RADFORD 275 3 M19-24 AUCKLAND AU 47,43,,Place FName LName Bib Div Plc Div City State Time
+11 DANIEL WORDEN 6 4 M19-24 HONOLULU HI 47,44,,Place FName LName Bib Div Plc Div City State Time
+12 BROWNE DAVID 1 5 M19-24 48,04,,Place FName LName Bib Div Plc Div City State Time
+14 STEPHEN ALLNUT 19 6 M19-24 HONOLULU HI 48,12,,Place FName LName Bib Div Plc Div City State Time
+17 NOA SAKAMOTO 220 7 M19-24 HONOLULU HI 49,47,,Place FName LName Bib Div Plc Div City State Time
+19 LAZAR BOGDANOVSKI 13 8 M19-24 HONOLULU HI 50,01,,Place FName LName Bib Div Plc Div City State Time
+22 COLIN COOMBS 8 9 M19-24 HONOLULU HI 51,11,,Place FName LName Bib Div Plc Div City State Time
+36 CHRISTOPHER DOMINGU 252 10 M19-24 HONOLULU HI 54,16,,Place FName LName Bib Div Plc Div City State Time
+37 SEAN REILLY 25 11 M19-24 HONOLULU HI 54,16,,Place FName LName Bib Div Plc Div City State Time
+40 REZNE WONG 105 12 M19-24 HONOLULU HI 54,22,,Place FName LName Bib Div Plc Div City State Time
+74 RICARDA SCHELLENBER 559 13 M19-24 56,04,,Place FName LName Bib Div Plc Div City State Time
+94 BRYCE BERTOLI 121 14 M19-24 HONOLULU HI 57,30,,Place FName LName Bib Div Plc Div City State Time
+96 PERRY SHARIFY 135 15 M19-24 HONOLULU HI 57,34,,Place FName LName Bib Div Plc Div City State Time
+98 KEAHI PARKER 555 16 M19-24 57,38,,Place FName LName Bib Div Plc Div City State Time
+99 JORDAN LAGER 230 17 M19-24 HONOLULU HI 57,43,,Place FName LName Bib Div Plc Div City State Time
+118 BRETT JOHNSON 368 18 M19-24 HONOLULU HI 58,58,,Place FName LName Bib Div Plc Div City State Time
+142 TOM FEE 253 19 M19-24 HONOLULU HI 1,00,47,Place FName LName Bib Div Plc Div City State Time
+148 RUDDY KIESSLING 558 20 M19-24 1,01,15,Place FName LName Bib Div Plc Div City State Time
+150 BRENDIN BROWN 171 21 M19-24 HONOLULU HI 1,01,30,Place FName LName Bib Div Plc Div City State Time
+"155 MICHAEL MCCAFFERY, 398 22 M19-24 HILLSBOROUGH CA 1",01,39,Place FName LName Bib Div Plc Div City State Time
+177 DAVIDE GIARDINI 127 23 M19-24 DESENZANO 1,03,00,Place FName LName Bib Div Plc Div City State Time
+209 SHAUN RICHARDSON 146 24 M19-24 HONOLULU HI 1,05,01,Place FName LName Bib Div Plc Div City State Time
+226 JOE MILLER 131 25 M19-24 KANEOHE HI 1,06,02,Place FName LName Bib Div Plc Div City State Time
+231 VLAD ANASTASESCU 116 26 M19-24 HONOLULU HI 1,06,14,Place FName LName Bib Div Plc Div City State Time
+252 VANSHJ SETH 182 27 M19-24 HONOLULU HI 1,07,24,Place FName LName Bib Div Plc Div City State Time
+253 LANDON OPUNUI 277 28 M19-24 KAPOLEI HI 1,07,24,Place FName LName Bib Div Plc Div City State Time
+263 BEN CAMPBELL 225 29 M19-24 HONOLULU HI 1,07,59,Place FName LName Bib Div Plc Div City State Time
+266 BRYCE ISHIKAWA 203 30 M19-24 KANEOHE HI 1,08,02,Place FName LName Bib Div Plc Div City State Time
+641 JAN MEDUSKY 1158 31 M19-24 HONOLULU HI 1,29,13,Place FName LName Bib Div Plc Div City State Time
+754 TOSHIFUMI MUNESADA 512 32 M19-24 OK 1,39,02,Place FName LName Bib Div Plc Div City State Time
+809 SHAUN KIYABU 1011 33 M19-24 HONOLULU HI 1,46,58,Place FName LName Bib Div Plc Div City State Time
+FEMALE AGE GROUP,25 – 29,,Place FName LName Bib Div Plc Div City State Time
+67 AMANDA MCTEAGUE 260 1 F25-29 HONOLULU HI 55,36,,Place FName LName Bib Div Plc Div City State Time
+72 MEG GILL 289 2 F25-29 ALAMEDA CA 55,57,,Place FName LName Bib Div Plc Div City State Time
+109 KATE PERRY 293 3 F25-29 58,42,,Place FName LName Bib Div Plc Div City State Time
+135 NALANI KAUN 397 4 F25-29 KANEOHE HI 1,00,15,Place FName LName Bib Div Plc Div City State Time
+152 GABRIELA KASIMATIS 238 5 F25-29 SANTA MONICA CA 1,01,32,Place FName LName Bib Div Plc Div City State Time
+163 ELIZABETH PLUME 335 6 F25-29 SAN MATEO CA 1,02,04,Place FName LName Bib Div Plc Div City State Time
+190 KELLY HOWELL 778 7 F25-29 HONOLULU HI 1,03,35,Place FName LName Bib Div Plc Div City State Time
+192 LECTIE RICHARDS 798 8 F25-29 EWA BEACH HI 1,03,40,Place FName LName Bib Div Plc Div City State Time
+193 PATRICIA HAVEY 164 9 F25-29 HONOLULU HI 1,03,48,Place FName LName Bib Div Plc Div City State Time
+215 LINDSEY URBATCHKA 554 10 F25-29 1,05,18,Place FName LName Bib Div Plc Div City State Time
+246 KRISTIN COUNTER 306 11 F25-29 KAILUA HI 1,06,53,Place FName LName Bib Div Plc Div City State Time
+248 MIKI WASHIZUKA 511 12 F25-29 TO 1,07,02,Place FName LName Bib Div Plc Div City State Time
+269 SARAH CHINN 1072 13 F25-29 OAKLAND CA 1,08,08,Place FName LName Bib Div Plc Div City State Time
+271 SARAH CARLE 606 14 F25-29 GLENDALE CA 1,08,13,Place FName LName Bib Div Plc Div City State Time
+326 ANNE WRIGHT 1069 15 F25-29 EL CERRITO CA 1,11,26,Place FName LName Bib Div Plc Div City State Time
+368 TERESA ROSETTI 688 16 F25-29 DELMAR NY 1,14,13,Place FName LName Bib Div Plc Div City State Time
+386 GERMAINE SALIM 378 17 F25-29 PERTH WA 1,15,14,Place FName LName Bib Div Plc Div City State Time
+425 JANICE NG 834 18 F25-29 1,17,05,Place FName LName Bib Div Plc Div City State Time
+443 APRIL ALEXANDER 1137 19 F25-29 SAN FRANCISCO CA 1,17,48,Place FName LName Bib Div Plc Div City State Time
+479 LIISA BERGMANN 854 20 F25-29 1,20,18,Place FName LName Bib Div Plc Div City State Time
+480 ADRIENNE HOPPER 1110 21 F25-29 HONOLULU HI 1,20,23,Place FName LName Bib Div Plc Div City State Time
+481 KELLY GROOM 679 22 F25-29 HONOLULU HI 1,20,25,Place FName LName Bib Div Plc Div City State Time
+487 JOHNNA TANJI 801 23 F25-29 HONOLULU HI 1,20,39,Place FName LName Bib Div Plc Div City State Time
+527 KYOKO BRANTLEY 672 24 F25-29 AIEA HI 1,22,09,Place FName LName Bib Div Plc Div City State Time
+528 AMANDA HAN 759 25 F25-29 HONOLULU HI 1,22,10,Place FName LName Bib Div Plc Div City State Time
+583 EMILY MCILROY 617 26 F25-29 HONOLULU HI 1,26,07,Place FName LName Bib Div Plc Div City State Time
+603 LYNDSAY HAYWOOD 1142 27 F25-29 HONOLULU HI 1,26,52,Place FName LName Bib Div Plc Div City State Time
+610 LEANNE ROBERTSON 1225 28 F25-29 KAPOLEI HI 1,27,09,Place FName LName Bib Div Plc Div City State Time
+618 DOROTHY MAY 818 29 F25-29 HONOLULU HI 1,27,35,Place FName LName Bib Div Plc Div City State Time
+619 LAURA MASON 491 30 F25-29 REDMOND WA 1,27,36,Place FName LName Bib Div Plc Div City State Time
+627 BRIA EMERSON 816 31 F25-29 HONOLULU HI 1,28,35,Place FName LName Bib Div Plc Div City State Time
+633 AMBER POOLE 1133 32 F25-29 HALEIWA HI 1,28,52,Place FName LName Bib Div Plc Div City State Time
+639 CINDY ANDERSON 621 33 F25-29 KAILUA HI 1,29,06,Place FName LName Bib Div Plc Div City State Time
+730 TARA KALAMA 843 34 F25-29 KAILUA HI 1,35,53,Place FName LName Bib Div Plc Div City State Time
+746 KRISTIN HAWKINSON 1141 35 F25-29 HONOLULU HI 1,38,03,Place FName LName Bib Div Plc Div City State Time
+777 BRYANNA FISSORI 632 36 F25-29 HONOLULU HI 1,41,28,Place FName LName Bib Div Plc Div City State Time
+803 TANIA QUIJANO 845 37 F25-29 HONOLULU HI 1,44,38,Place FName LName Bib Div Plc Div City State Time
+806 JAMIE STORY 1152 38 F25-29 HONOLULU HI 1,44,57,Place FName LName Bib Div Plc Div City State Time
+827 GLIZZA ASEJO 819 39 F25-29 KAPOLEI HI 1,53,18,Place FName LName Bib Div Plc Div City State Time
+831 JURI KO 1128 40 F25-29 HONOLULU HI 1,53,45,Place FName LName Bib Div Plc Div City State Time
+873 CHARLENE GAURANO 1223 41 F25-29 HONOLULU HI 2,15,29,Place FName LName Bib Div Plc Div City State Time
+MALE AGE GROUP,25 – 29,,Place FName LName Bib Div Plc Div City State Time
+57 JAKE GLICK 110 1 M25-29 EL SEGUNDO CA 55,14,,Place FName LName Bib Div Plc Div City State Time
+108 AUDIE MCRAE 792 2 M25-29 SAN FRANCISCO CA 58,30,,Place FName LName Bib Div Plc Div City State Time
+172 PETER KEEGAN 824 3 M25-29 GARDNERVILLE NV 1,02,49,Place FName LName Bib Div Plc Div City State Time
+186 MARK DORSHKIND 677 4 M25-29 OAKLAND CA 1,03,21,Place FName LName Bib Div Plc Div City State Time
+213 EDWARD SCOTT 408 5 M25-29 HONOLULU HI 1,05,14,Place FName LName Bib Div Plc Div City State Time
+240 JACOB JOHNSON 418 6 M25-29 HONOLULU HI 1,06,31,Place FName LName Bib Div Plc Div City State Time
+264 SAM CORACE 244 7 M25-29 KAILUA KONA HI 1,07,59,Place FName LName Bib Div Plc Div City State Time
+270 JOAO PAULO WRIGHT 773 8 M25-29 EL CERRITO CA 1,08,09,Place FName LName Bib Div Plc Div City State Time
+376 NICK ANDERSON 351 9 M25-29 KAILUA HI 1,14,40,Place FName LName Bib Div Plc Div City State Time
+399 KEEGAN EDWARDS 1044 10 M25-29 HONOLULU HI 1,15,32,Place FName LName Bib Div Plc Div City State Time
+402 BRIAN BITTNER 523 11 M25-29 HONOLULU HI 1,15,56,Place FName LName Bib Div Plc Div City State Time
+439 LANCE MUNSELLE 1229 12 M25-29 KAILUA HI 1,17,34,Place FName LName Bib Div Plc Div City State Time
+455 MARCOS AZUA 506 13 M25-29 HONOLULU HI 1,18,29,Place FName LName Bib Div Plc Div City State Time
+489 BEAU BEAIR 385 14 M25-29 HONOLULU HI 1,20,43,Place FName LName Bib Div Plc Div City State Time
+518 JOSIAH BADGER 544 15 M25-29 WAHIAWA HI 1,21,44,Place FName LName Bib Div Plc Div City State Time
+549 JEFF KENT 361 16 M25-29 HONOLULU HI 1,23,28,Place FName LName Bib Div Plc Div City State Time
+585 RYAN HALQUIST 783 17 M25-29 SAN FRANCISCO CA 1,26,24,Place FName LName Bib Div Plc Div City State Time
+609 SCOTT SCHMIDTKE 1106 18 M25-29 HONOLULU HI 1,27,02,Place FName LName Bib Div Plc Div City State Time
+689 LINDSEY DYMOND 856 19 M25-29 1,33,01,Place FName LName Bib Div Plc Div City State Time
+709 ODEELO DAYONDON 1002 20 M25-29 HONOLULU HI 1,34,11,Place FName LName Bib Div Plc Div City State Time
+725 ROY ASEJO 820 21 M25-29 KAPOLEI HI 1,35,27,Place FName LName Bib Div Plc Div City State Time
+773 DAVID LAGUATAN 729 22 M25-29 KAPOLEI HI 1,41,03,Place FName LName Bib Div Plc Div City State Time
+778 STUART QUEL 767 23 M25-29 WAIANAE HI 1,41,30,Place FName LName Bib Div Plc Div City State Time
+852 JOHN BORLAND 720 24 M25-29 WAIPAHU HI 2,03,31,Place FName LName Bib Div Plc Div City State Time
+856 EDWIN BOND 1074 25 M25-29 HONOLULU HI 2,03,45,Place FName LName Bib Div Plc Div City State Time
+FEMALE AGE GROUP,30 – 34,,Place FName LName Bib Div Plc Div City State Time
+60 KATIE MCCLELLAND 119 1 F30-34 PALO ALTO CA 55,28,,Place FName LName Bib Div Plc Div City State Time
+120 KATIE LYONS 232 2 F30-34 LAFAYETTE CA 59,01,,Place FName LName Bib Div Plc Div City State Time
+154 SHANNA GUZMAN 273 3 F30-34 WALNUT CREEK CA 1,01,39,Place FName LName Bib Div Plc Div City State Time
+207 ELIZABETH WEIDLING 433 4 F30-34 OVERLAND PARK KS 1,04,54,Place FName LName Bib Div Plc Div City State Time
+295 JESSICA WALITT 314 5 F30-34 SAN FRANCISCO CA 1,09,52,Place FName LName Bib Div Plc Div City State Time
+296 JAIMIE HOSFELD 438 6 F30-34 SCOTTSDALE AZ 1,10,00,Place FName LName Bib Div Plc Div City State Time
+307 ELIZABETH WARNER 445 7 F30-34 TUCSON AZ 1,10,30,Place FName LName Bib Div Plc Div City State Time
+332 BRONWEN RICE 494 8 F30-34 WASHINGTON DC 1,11,54,Place FName LName Bib Div Plc Div City State Time
+334 JEN INBODEN 406 9 F30-34 TUCSON AZ 1,12,00,Place FName LName Bib Div Plc Div City State Time
+441 JUSTINE O’CONNELL 482 10 F30-34 SYDNEY NS 1,17,41,Place FName LName Bib Div Plc Div City State Time
+457 AMY BRENDEL 404 11 F30-34 SAN FRANCISCO CA 1,18,32,Place FName LName Bib Div Plc Div City State Time
+468 ERIN FOLEY 521 12 F30-34 WAIKOLOA HI 1,18,49,Place FName LName Bib Div Plc Div City State Time
+478 MITO KASUYA 844 13 F30-34 HONOLULU HI 1,20,14,Place FName LName Bib Div Plc Div City State Time
+490 ELIZABETH ALENCASTR 358 14 F30-34 MILILANI HI 1,20,44,Place FName LName Bib Div Plc Div City State Time
+498 ANNE KLINGSHIRN 1052 15 F30-34 KAILUA HI 1,20,59,Place FName LName Bib Div Plc Div City State Time
+516 JENNIFER LARISH 503 16 F30-34 HONOLULU HI 1,21,41,Place FName LName Bib Div Plc Div City State Time
+568 AYAKO ANCHETA 644 17 F30-34 KANEOHE HI 1,25,18,Place FName LName Bib Div Plc Div City State Time
+588 TINA HARSANYI 831 18 F30-34 HONOLULU HI 1,26,30,Place FName LName Bib Div Plc Div City State Time
+613 KIMBERLY BURNETT 633 19 F30-34 HONOLULU HI 1,27,12,Place FName LName Bib Div Plc Div City State Time
+614 JUDY FRANJIEH 1163 20 F30-34 SAN RAFAEL AZ 1,27,12,Place FName LName Bib Div Plc Div City State Time
+628 KATHERINE KOSS 763 21 F30-34 CHEVY CHASE MD 1,28,38,Place FName LName Bib Div Plc Div City State Time
+638 LILY BRAGG 671 22 F30-34 SEATTLE WA 1,29,04,Place FName LName Bib Div Plc Div City State Time
+653 NONA STEWARD 769 23 F30-34 HONOLULU HI 1,29,50,Place FName LName Bib Div Plc Div City State Time
+656 MASAKO SUZUKI 514 24 F30-34 KA 1,30,09,Place FName LName Bib Div Plc Div City State Time
+660 NICOLE GORMAN 507 25 F30-34 HONOLULU HI 1,30,24,Place FName LName Bib Div Plc Div City State Time
+704 WENDY BENTON 749 26 F30-34 HONOLULU HI 1,33,56,Place FName LName Bib Div Plc Div City State Time
+719 STACY KINOSHITA 1051 27 F30-34 HONOLULU HI 1,35,02,Place FName LName Bib Div Plc Div City State Time
+747 JENNIFER LUCIEN 1054 28 F30-34 HONOLULU HI 1,38,16,Place FName LName Bib Div Plc Div City State Time
+775 JODIE PINKLEY 1004 29 F30-34 KAILUA HI 1,41,13,Place FName LName Bib Div Plc Div City State Time
+832 RAMONA DEVENEY 282 30 F30-34 HONOLULU HI 1,53,45,Place FName LName Bib Div Plc Div City State Time
+847 DIANNE BREMUS 1041 31 F30-34 NORTH LIBERTY HI 1,59,22,Place FName LName Bib Div Plc Div City State Time
+MALE AGE GROUP,30 – 34,,Place FName LName Bib Div Plc Div City State Time
+9 DAVID SCHLESINGER 287 1 M30-34 47,30,,Place FName LName Bib Div Plc Div City State Time
+25 MATTHEW CORNUE 223 2 M30-34 LOS ANGELES CA 52,14,,Place FName LName Bib Div Plc Div City State Time
+41 DAVE GAGGERO 248 3 M30-34 SAN FRANCISCO CA 54,25,,Place FName LName Bib Div Plc Div City State Time
+63 ROBERT PALMER 44 4 M30-34 SAN FRANCISCO CA 55,32,,Place FName LName Bib Div Plc Div City State Time
+73 SHAWN WILLIAMSON 142 5 M30-34 HONOLULU HI 55,57,,Place FName LName Bib Div Plc Div City State Time
+83 WALTER TUHOLSKI 812 6 M30-34 WALNUT CREEK CA 56,45,,Place FName LName Bib Div Plc Div City State Time
+105 RYUSUKE SAITO 134 7 M30-34 KANAGAWA 58,06,,Place FName LName Bib Div Plc Div City State Time
+128 CHARLES WOOD 694 8 M30-34 DALLAS TX 1,00,01,Place FName LName Bib Div Plc Div City State Time
+130 R. ROOS 138 9 M30-34 KAILUA KONA HI 1,00,10,Place FName LName Bib Div Plc Div City State Time
+138 BRIAN RODDE 553 10 M30-34 1,00,25,Place FName LName Bib Div Plc Div City State Time
+143 JOSEPH GLENN 256 11 M30-34 HONOLULU HI 1,00,59,Place FName LName Bib Div Plc Div City State Time
+151 MICHAEL KOSS 443 12 M30-34 CHEVY CHASE MD 1,01,31,Place FName LName Bib Div Plc Div City State Time
+165 MATTHEW SMART 1181 13 M30-34 STOCKTON CA 1,02,06,Place FName LName Bib Div Plc Div City State Time
+214 ROSS CROASDELL 549 14 M30-34 SHELTON WA 1,05,17,Place FName LName Bib Div Plc Div City State Time
+230 SCOTT MORIOKA 187 15 M30-34 HONOLULU HI 1,06,14,Place FName LName Bib Div Plc Div City State Time
+239 PETER MAINZ 480 16 M30-34 HONOLULU HI 1,06,30,Place FName LName Bib Div Plc Div City State Time
+277 CRAIG VAN WAGNER 283 17 M30-34 KAILUA HI 1,08,33,Place FName LName Bib Div Plc Div City State Time
+279 MATTHEW GRUCHALA 467 18 M30-34 VENTURA CA 1,08,37,Place FName LName Bib Div Plc Div City State Time
+282 TORU YAMADA 266 19 M30-34 HONOLULU HI 1,09,10,Place FName LName Bib Div Plc Div City State Time
+285 JOHN JONES 815 20 M30-34 NEWPORT BEACH CA 1,09,32,Place FName LName Bib Div Plc Div City State Time
+304 BRIAN NATH 453 21 M30-34 ORO VALLEY AZ 1,10,27,Place FName LName Bib Div Plc Div City State Time
+342 NATHAN POPPINK 1080 22 M30-34 HONOLULU HI 1,12,46,Place FName LName Bib Div Plc Div City State Time
+352 THOMAS PETRIE 278 23 M30-34 SACRAMENTO CA 1,13,22,Place FName LName Bib Div Plc Div City State Time
+363 DOUGLAS GAINER 561 24 M30-34 1,13,55,Place FName LName Bib Div Plc Div City State Time
+372 RYAN KEOGH 328 25 M30-34 HONOLULU HI 1,14,27,Place FName LName Bib Div Plc Div City State Time
+374 TRAVIS WARNER 479 26 M30-34 TUCSON AZ 1,14,33,Place FName LName Bib Div Plc Div City State Time
+384 JEREMY (HARUKI) BLE 402 27 M30-34 HONOLULU HI 1,15,12,Place FName LName Bib Div Plc Div City State Time
+391 KURTIS KAUN 407 28 M30-34 KANEOHE HI 1,15,19,Place FName LName Bib Div Plc Div City State Time
+397 FOREST KNOTT 550 29 M30-34 1,15,29,Place FName LName Bib Div Plc Div City State Time
+416 JASON QUINN 814 30 M30-34 KAPOLEI HI 1,16,48,Place FName LName Bib Div Plc Div City State Time
+432 WILLIAM PIERSON 1099 31 M30-34 KAILUA HI 1,17,17,Place FName LName Bib Div Plc Div City State Time
+442 BRIAN YANOWSKI 516 32 M30-34 KAPOLEI HI 1,17,42,Place FName LName Bib Div Plc Div City State Time
+449 BRIAN CARR 459 33 M30-34 KAPOLEI HI 1,18,10,Place FName LName Bib Div Plc Div City State Time
+496 ERIC CORNELIUS 630 34 M30-34 HONOLULU HI 1,20,57,Place FName LName Bib Div Plc Div City State Time
+517 TROY KEIPPER 474 35 M30-34 HONOLULU HI 1,21,43,Place FName LName Bib Div Plc Div City State Time
+530 WADE GARLIN 379 36 M30-34 HONOLULU HI 1,22,17,Place FName LName Bib Div Plc Div City State Time
+548 KYLE RYAN 629 37 M30-34 WAIALUA HI 1,23,21,Place FName LName Bib Div Plc Div City State Time
+571 NICHOLAS JOHNS 683 38 M30-34 KANEOHE HI 1,25,29,Place FName LName Bib Div Plc Div City State Time
+594 ERIC KOCH 471 39 M30-34 HONOLULU HI 1,26,38,Place FName LName Bib Div Plc Div City State Time
+620 JEREMY DEVICH 538 40 M30-34 SAN FRANCISCO CA 1,27,58,Place FName LName Bib Div Plc Div City State Time
+637 RYAN KERWIN 748 41 M30-34 KAILUA HI 1,29,02,Place FName LName Bib Div Plc Div City State Time
+690 PHILLIP KNIGHT 510 42 M30-34 MARIETTA GA 1,33,08,Place FName LName Bib Div Plc Div City State Time
+693 JASON BIRCH 832 43 M30-34 KAILUA HI 1,33,12,Place FName LName Bib Div Plc Div City State Time
+694 DANIEL GONCHER 216 44 M30-34 SAN FRANCISCO CA 1,33,14,Place FName LName Bib Div Plc Div City State Time
+727 DOUGLAS GROSSMANN 861 45 M30-34 1,35,36,Place FName LName Bib Div Plc Div City State Time
+734 KELLEY KOHOUT 524 46 M30-34 WAIALUA HI 1,35,59,Place FName LName Bib Div Plc Div City State Time
+749 CARL CRINGLE 803 47 M30-34 KAILUA HI 1,38,36,Place FName LName Bib Div Plc Div City State Time
+794 PETER SEIDENBERG 800 48 M30-34 HONOLULU HI 1,43,10,Place FName LName Bib Div Plc Div City State Time
+799 ROB SHIKINA 1062 49 M30-34 HONOLULU HI 1,44,03,Place FName LName Bib Div Plc Div City State Time
+835 MICHAEL CAMPBELL 1176 50 M30-34 SAN FRANCISCO HI 1,54,48,Place FName LName Bib Div Plc Div City State Time
+846 RYOJI MATSUOKA 1029 51 M30-34 HONOLULU HI 1,58,19,Place FName LName Bib Div Plc Div City State Time
+FEMALE AGE GROUP,35 – 39,,Place FName LName Bib Div Plc Div City State Time
+58 LAURIE DODD 214 1 F35-39 BEVERLY HILLS CA 55,15,,Place FName LName Bib Div Plc Div City State Time
+157 MICHELLE SIMMONS 265 2 F35-39 KANEOHE HI 1,01,47,Place FName LName Bib Div Plc Div City State Time
+184 JANA PITTICHOVA 157 3 F35-39 HONOLULU HI 1,03,18,Place FName LName Bib Div Plc Div City State Time
+206 CELESTE JACROUX 249 4 F35-39 DENVER CO 1,04,50,Place FName LName Bib Div Plc Div City State Time
+212 ANNA MATHISEN 300 5 F35-39 KAILUA HI 1,05,12,Place FName LName Bib Div Plc Div City State Time
+219 MEIKE LABUSCH 1094 6 F35-39 SAN FRANCISCO CA 1,05,37,Place FName LName Bib Div Plc Div City State Time
+250 SUZANNE SCHIELTZ 456 7 F35-39 DURANGO CO 1,07,04,Place FName LName Bib Div Plc Div City State Time
+251 KAREN STOTT 372 8 F35-39 BONDI BEACH NS 1,07,22,Place FName LName Bib Div Plc Div City State Time
+260 SANDRA UESUGI 304 9 F35-39 CORVALLIS OR 1,07,55,Place FName LName Bib Div Plc Div City State Time
+309 AMBER REISS-HOLT 269 10 F35-39 KALIUA HI 1,10,39,Place FName LName Bib Div Plc Div City State Time
+329 EILEEN SWANSON 221 11 F35-39 SAN RAMON CA 1,11,43,Place FName LName Bib Div Plc Div City State Time
+348 BRANDY KELLY 1079 12 F35-39 HONOLULU HI 1,13,03,Place FName LName Bib Div Plc Div City State Time
+406 NICOLE HABL 708 13 F35-39 NEPTUNE BEACH FL 1,16,12,Place FName LName Bib Div Plc Div City State Time
+410 DANIELLE BIRD 342 14 F35-39 WAIPAHU HI 1,16,24,Place FName LName Bib Div Plc Div City State Time
+426 CARYN NATH 477 15 F35-39 ORO VALLEY AZ 1,17,05,Place FName LName Bib Div Plc Div City State Time
+450 CLAUDIA NICHOLSON 424 16 F35-39 WOOLLAHRA NS 1,18,17,Place FName LName Bib Div Plc Div City State Time
+466 SHARON THOMAS 817 17 F35-39 HONOLULU HI 1,18,47,Place FName LName Bib Div Plc Div City State Time
+484 ASHLEY STOKES 770 18 F35-39 HONOLULU HI 1,20,36,Place FName LName Bib Div Plc Div City State Time
+488 ALEXA HEISS 805 19 F35-39 HONOLULU HI 1,20,41,Place FName LName Bib Div Plc Div City State Time
+491 ROSALIE PARADISE 640 20 F35-39 HONOLULU HI 1,20,45,Place FName LName Bib Div Plc Div City State Time
+520 KRISTIN SHIGEMURA 716 21 F35-39 HONOLULU HI 1,21,55,Place FName LName Bib Div Plc Div City State Time
+534 JAMI HIROTA 497 22 F35-39 HONOLULU HI 1,22,31,Place FName LName Bib Div Plc Div City State Time
+591 JENNIFER EDWARDS 331 23 F35-39 KENT WA 1,26,33,Place FName LName Bib Div Plc Div City State Time
+593 PHILIP YEE 1172 24 F35-39 HONOLULU HI 1,26,36,Place FName LName Bib Div Plc Div City State Time
+606 SARAH LEAR 1112 25 F35-39 CHISWICK NS 1,26,58,Place FName LName Bib Div Plc Div City State Time
+646 KARADEEN KAM-NALANI 836 26 F35-39 HONOLULU HI 1,29,38,Place FName LName Bib Div Plc Div City State Time
+670 MARIA AGUAYO 509 27 F35-39 HONOLULU HI 1,31,05,Place FName LName Bib Div Plc Div City State Time
+671 MIEKO IWAMOTO 526 28 F35-39 AIEA HI 1,31,08,Place FName LName Bib Div Plc Div City State Time
+685 KERI PANG 745 29 F35-39 KANEOHE HI 1,32,21,Place FName LName Bib Div Plc Div City State Time
+710 CHRISTINE LANNING 1145 30 F35-39 AIEA HI 1,34,15,Place FName LName Bib Div Plc Div City State Time
+712 CHARMAINE BOQUETTE 1237 31 F35-39 HONOLULU HI 1,34,30,Place FName LName Bib Div Plc Div City State Time
+742 MISHA TAJIMA 779 32 F35-39 HONOLULU HI 1,37,35,Place FName LName Bib Div Plc Div City State Time
+768 STACIA MURRAY 737 33 F35-39 HONOLULU HI 1,40,20,Place FName LName Bib Div Plc Div City State Time
+795 DEBBIE MARTENS 764 34 F35-39 HONOLULU HI 1,43,14,Place FName LName Bib Div Plc Div City State Time
+MALE AGE GROUP,35 – 39,,Place FName LName Bib Div Plc Div City State Time
+5 JOHN FLANAGAN 3 1 M35-39 HONOLULU HI 47,12,,Place FName LName Bib Div Plc Div City State Time
+27 PETER THIEL 17 2 M35-39 WAVERTON NS 52,26,,Place FName LName Bib Div Plc Div City State Time
+31 PETER HURSTY 285 3 M35-39 HONOLULU HI 53,08,,Place FName LName Bib Div Plc Div City State Time
+32 ED HADLEY 242 4 M35-39 SCOTTSDALE AZ 53,19,,Place FName LName Bib Div Plc Div City State Time
+55 QUINN CARVER 102 5 M35-39 EWA BEACH HI 55,04,,Place FName LName Bib Div Plc Div City State Time
+84 RAMSEY ROSS 400 6 M35-39 HONOLULU HI 56,49,,Place FName LName Bib Div Plc Div City State Time
+91 ERIK SCOLLON 236 7 M35-39 OAKLAND CA 57,26,,Place FName LName Bib Div Plc Div City State Time
+119 KRISTOPHER BEHRENS 411 8 M35-39 MARINA DEL REY CA 58,59,,Place FName LName Bib Div Plc Div City State Time
+136 RYAN LEONG 112 9 M35-39 KAILUA HI 1,00,21,Place FName LName Bib Div Plc Div City State Time
+162 BRAD HISE 166 10 M35-39 SAN FRANCISCO CA 1,02,01,Place FName LName Bib Div Plc Div City State Time
+194 CHRISTOPHER STUART 1100 11 M35-39 SAN FRANCISCO CA 1,03,49,Place FName LName Bib Div Plc Div City State Time
+202 JEFFREY WALTON 458 12 M35-39 SAN FRANCISCO CA 1,04,39,Place FName LName Bib Div Plc Div City State Time
+208 CASEY CHEUNG 405 13 M35-39 SAN FRANCISCO CA 1,04,55,Place FName LName Bib Div Plc Div City State Time
+222 TONY PERRAULT 426 14 M35-39 KAILUA HI 1,05,51,Place FName LName Bib Div Plc Div City State Time
+223 MICHAEL CHUN 337 15 M35-39 HONOLULU HI 1,05,56,Place FName LName Bib Div Plc Div City State Time
+235 MARCUS BOLAND 179 16 M35-39 HONOLULU HI 1,06,21,Place FName LName Bib Div Plc Div City State Time
+236 PATRICK WEN 193 17 M35-39 SANTA MONICA CA 1,06,23,Place FName LName Bib Div Plc Div City State Time
+243 JOE BARCIA 185 18 M35-39 KEAAU HI 1,06,40,Place FName LName Bib Div Plc Div City State Time
+249 INGO RADEMACHER 848 19 M35-39 1,07,03,Place FName LName Bib Div Plc Div City State Time
+278 STEVEN MINAGLIA 312 20 M35-39 KANEOHE HI 1,08,35,Place FName LName Bib Div Plc Div City State Time
+302 MICHAEL CARROLL 272 21 M35-39 HONOLULU HI 1,10,24,Place FName LName Bib Div Plc Div City State Time
+325 MATTHEW CAMPBELL 442 22 M35-39 PARK CITY UT 1,11,23,Place FName LName Bib Div Plc Div City State Time
+331 GREGORY MORRIS 188 23 M35-39 HONOLULU HI 1,11,49,Place FName LName Bib Div Plc Div City State Time
+388 SHAUN MISTLEBAUER 353 24 M35-39 HONOLULU HI 1,15,17,Place FName LName Bib Div Plc Div City State Time
+417 PIO JIMENEZ 703 25 M35-39 HONOLULU HI 1,16,53,Place FName LName Bib Div Plc Div City State Time
+418 BRIAN CODAY 722 26 M35-39 HONOLULU HI 1,16,54,Place FName LName Bib Div Plc Div City State Time
+423 TIN DO 675 27 M35-39 SAN FRANCISCO CA 1,17,02,Place FName LName Bib Div Plc Div City State Time
+433 JOHN BARNETT 472 28 M35-39 AIEA HI 1,17,18,Place FName LName Bib Div Plc Div City State Time
+447 JEFF MATSU 475 29 M35-39 HONOLULU HI 1,18,02,Place FName LName Bib Div Plc Div City State Time
+462 ROBERT BOUGHTON 556 30 M35-39 1,18,36,Place FName LName Bib Div Plc Div City State Time
+482 STEPHEN ROBB 1219 31 M35-39 HONOLULU HI 1,20,27,Place FName LName Bib Div Plc Div City State Time
+494 CHARLES STICKNEY 1104 32 M35-39 HONOLULU HI 1,20,55,Place FName LName Bib Div Plc Div City State Time
+511 YOSHIMUNE KANEKO 557 33 M35-39 1,21,31,Place FName LName Bib Div Plc Div City State Time
+526 ALIKA WINTER 692 34 M35-39 HON HI 1,22,08,Place FName LName Bib Div Plc Div City State Time
+536 NATE YAMAMOTO 777 35 M35-39 KANEOHE HI 1,22,38,Place FName LName Bib Div Plc Div City State Time
+555 NADER RABIE 603 36 M35-39 HONOLULU HI 1,23,53,Place FName LName Bib Div Plc Div City State Time
+577 ROB BOOTSMA 700 38 M35-39 KAILUA HI 1,25,54,Place FName LName Bib Div Plc Div City State Time
+595 CHRIS MERHIGE 1233 39 M35-39 BERKELEY CA 1,26,39,Place FName LName Bib Div Plc Div City State Time
+596 MICHAEL O’DONNELL 714 40 M35-39 HONOLULU HI 1,26,45,Place FName LName Bib Div Plc Div City State Time
+649 PAUL BLASKOWSKI 1108 41 M35-39 KAILUA HI 1,29,44,Place FName LName Bib Div Plc Div City State Time
+666 JAVIER GARZA 724 42 M35-39 HONOLULU HI 1,30,52,Place FName LName Bib Div Plc Div City State Time
+669 MATT BISHOP 1156 43 M35-39 MILILANI HI 1,31,02,Place FName LName Bib Div Plc Div City State Time
+673 SHANNON KAYATANI 750 44 M35-39 HONOLULU HI 1,31,16,Place FName LName Bib Div Plc Div City State Time
+688 JAMIE KLUBE 709 45 M35-39 MILILANI HI 1,32,52,Place FName LName Bib Div Plc Div City State Time
+698 JIRO ARASE 755 46 M35-39 HONOLULU HI 1,33,44,Place FName LName Bib Div Plc Div City State Time
+699 JASON IDETA 1049 47 M35-39 KANEOHE HI 1,33,47,Place FName LName Bib Div Plc Div City State Time
+706 JEFF HARING 654 48 M35-39 HONOLULU HI 1,34,04,Place FName LName Bib Div Plc Div City State Time
+718 CARTER JONES 639 49 M35-39 HONOLULU HI 1,35,02,Place FName LName Bib Div Plc Div City State Time
+738 GLEN DUVALL 330 50 M35-39 KAILUA HI 1,36,56,Place FName LName Bib Div Plc Div City State Time
+767 GREGG HIROHATA-GOTO 1048 51 M35-39 HONOLULU HI 1,40,17,Place FName LName Bib Div Plc Div City State Time
+801 ANDREW DEUTSCHER 1127 52 M35-39 HONOLUL HI 1,44,27,Place FName LName Bib Div Plc Div City State Time
+804 WYATT WARO 712 53 M35-39 HONOLULU HI 1,44,40,Place FName LName Bib Div Plc Div City State Time
+FEMALE AGE GROUP,40 – 44,,Place FName LName Bib Div Plc Div City State Time
+59 JILL GELLATLY 227 1 F40-44 HOUSTON TX 55,18,,Place FName LName Bib Div Plc Div City State Time
+75 AIM? KOLMAN 122 2 F40-44 KEALAKEKUA H I 56,06,,Place FName LName Bib Div Plc Div City State Time
+81 MIKI DAVID 124 3 F40-44 HONOLULU HI 56,36,,Place FName LName Bib Div Plc Div City State Time
+89 JODY SMITH 776 4 F40-44 PALO ALTO CA 57,15,,Place FName LName Bib Div Plc Div City State Time
+103 LAUREEN WELTING 243 5 F40-44 SAN RAFAEL CA 57,57,,Place FName LName Bib Div Plc Div City State Time
+382 KELLY GUENTHER 1151 6 F40-44 CORVALLIS OR 1,15,04,Place FName LName Bib Div Plc Div City State Time
+389 STEFANIE EIGEN 1085 7 F40-44 LAS VEGAS NV 1,15,17,Place FName LName Bib Div Plc Div City State Time
+405 CINDY ZANE 706 8 F40-44 HONOLULU HI 1,16,11,Place FName LName Bib Div Plc Div City State Time
+475 CATHERINE IVY 727 9 F40-44 PHOENIX AZ 1,19,56,Place FName LName Bib Div Plc Div City State Time
+507 TAKAKO FUJIMOTO 487 10 F40-44 TOKYO 1,21,20,Place FName LName Bib Div Plc Div City State Time
+523 SHANNON SINGER 501 11 F40-44 SEDRO WOOLLEY WA 1,22,03,Place FName LName Bib Div Plc Div City State Time
+551 TERI ORTON 697 12 F40-44 HONOLULU HI 1,23,35,Place FName LName Bib Div Plc Div City State Time
+573 MARY BEUST 657 13 F40-44 KAILUA HI 1,25,48,Place FName LName Bib Div Plc Div City State Time
+701 ALEXANDRIA NIEWIJK 1032 14 F40-44 HONOLULU HI 1,33,52,Place FName LName Bib Div Plc Div City State Time
+715 JENNIFER RICHTER 1153 15 F40-44 LONG BEACH CA 1,34,47,Place FName LName Bib Div Plc Div City State Time
+728 JULIE NG 744 16 F40-44 HONOLULU HI 1,35,40,Place FName LName Bib Div Plc Div City State Time
+750 SUSAN ORTLIP 653 17 F40-44 FOLSOM CA 1,38,39,Place FName LName Bib Div Plc Div City State Time
+756 AKIKO OZAKI 513 18 F40-44 OK 1,39,05,Place FName LName Bib Div Plc Div City State Time
+770 SALLY MARTINEZ 547 19 F40-44 1,40,30,Place FName LName Bib Div Plc Div City State Time
+792 TRACEY KELLEY 785 20 F40-44 KAILUA HI 1,42,46,Place FName LName Bib Div Plc Div City State Time
+815 SHEILA RUE 430 21 F40-44 SEATTLE WA 1,47,27,Place FName LName Bib Div Plc Div City State Time
+844 PETULA SHIMABUKURO 838 22 F40-44 HONOLULU HI 1,57,38,Place FName LName Bib Div Plc Div City State Time
+877 TINA MANDAWE 1159 23 F40-44 MILILANI HI 2,34,30,Place FName LName Bib Div Plc Div City State Time
+MALE AGE GROUP,40 – 44,,Place FName LName Bib Div Plc Div City State Time
+8 ALEX KOSTICH 5 1 M40-44 LOS ANGELES CA 47,23,,Place FName LName Bib Div Plc Div City State Time
+18 KEVIN MOY 14 2 M40-44 HONOLULU HI 49,51,,Place FName LName Bib Div Plc Div City State Time
+33 ANDREW DE VRIES 111 3 M40-44 TURRAMURRA NS 53,53,,Place FName LName Bib Div Plc Div City State Time
+34 GREG LARSON 118 4 M40-44 SAN RAFAEL CA 54,05,,Place FName LName Bib Div Plc Div City State Time
+35 DARRIN JONES 753 5 M40-44 SYDNEY NS 54,06,,Place FName LName Bib Div Plc Div City State Time
+54 ROBERT CHILDS 239 6 M40-44 SAN MATEO CA 54,58,,Place FName LName Bib Div Plc Div City State Time
+61 HUDSON SLAY 99 7 M40-44 KAILUA HI 55,29,00,Place FName LName Bib Div Plc Div City State Time
+65 RICHARD GARNSEY 255 8 M40-44 SYDNEY NS 55,33,00,Place FName LName Bib Div Plc Div City State Time
+85 DANIEL CANDELARIA 213 9 M40-44 SACRAMENTO CA 56,57,00,Place FName LName Bib Div Plc Div City State Time
+87 LOU ORTIZ 113 10 M40-44 HONOLULU HI 57,09,00,Place FName LName Bib Div Plc Div City State Time
+101 PERRY KLEBAHN 167 11 M40-44 SAN FRANCISCO CA 57,52,00,Place FName LName Bib Div Plc Div City State Time
+102 DIRK TENGROTENHUIS 139 12 M40-44 OAKLAND CA 57,55,00,Place FName LName Bib Div Plc Div City State Time
+144 OLIVIER GARNIER 286 13 M40-44 1,00,59,Place FName LName Bib Div Plc Div City State Time
+159 ADAM NEZVAL 120 14 M40-44 SYDNEY NS 1,01,51,Place FName LName Bib Div Plc Div City State Time
+203 SCOT MURAOKA 191 15 M40-44 HONOLULU HI 1,04,43,Place FName LName Bib Div Plc Div City State Time
+211 STUART HILLS 202 16 M40-44 SAN FRANCISCO CA 1,05,04,Place FName LName Bib Div Plc Div City State Time
+218 DREW SANDERS 403 17 M40-44 PLEASANTON CA 1,05,25,Place FName LName Bib Div Plc Div City State Time
+224 DEANE CHUN 270 18 M40-44 HONOLULU HI 1,05,56,Place FName LName Bib Div Plc Div City State Time
+244 PETER REMICK 740 19 M40-44 MENLO PARK CA 1,06,49,Place FName LName Bib Div Plc Div City State Time
+265 SCOTT DOBLE 447 20 M40-44 BRONTE NS 1,08,01,Place FName LName Bib Div Plc Div City State Time
+275 MIKE PALLA 325 21 M40-44 HONOLULU HI 1,08,29,Place FName LName Bib Div Plc Div City State Time
+276 CHRISTOPHE CROMBEZ 192 22 M40-44 SAN FRANCISCO CA 1,08,29,Place FName LName Bib Div Plc Div City State Time
+281 ROB VOLPE 318 23 M40-44 SAN FRANCISCO CA 1,08,47,Place FName LName Bib Div Plc Div City State Time
+301 JOEL GREEEN 315 24 M40-44 OAKLAND CA 1,10,19,Place FName LName Bib Div Plc Div City State Time
+314 RICKY JEFFS 316 25 M40-44 ARMADALE VI 1,10,59,Place FName LName Bib Div Plc Div City State Time
+322 DEREK FRASZ 189 26 M40-44 MILILANI HI 1,11,18,Place FName LName Bib Div Plc Div City State Time
+350 GARY KEITH 380 27 M40-44 HONOLULU HI 1,13,05,Place FName LName Bib Div Plc Div City State Time
+353 DANIEL POLLARD 739 28 M40-44 HONOLULU HI 1,13,23,Place FName LName Bib Div Plc Div City State Time
+359 CONRAD KETTERER 352 29 M40-44 LONDON 1,13,40,Place FName LName Bib Div Plc Div City State Time
+366 BEN HU 323 30 M40-44 SAN FRANCISCO CA 1,14,09,Place FName LName Bib Div Plc Div City State Time
+370 KEISH DOI 466 31 M40-44 CUPERTINO CA 1,14,22,Place FName LName Bib Div Plc Div City State Time
+377 DAVID HURLEY 534 32 M40-44 WAHIAWA HI 1,14,40,Place FName LName Bib Div Plc Div City State Time
+381 SHINTARO NISHIJIMA 807 33 M40-44 OSAKA 1,14,48,Place FName LName Bib Div Plc Div City State Time
+394 SCOTT SHIMADA 356 34 M40-44 MILILANI HI 1,15,22,Place FName LName Bib Div Plc Div City State Time
+411 JOHN ROSA 484 35 M40-44 HONOLULU HI 1,16,25,Place FName LName Bib Div Plc Div City State Time
+427 TED TSAKIRIS 837 36 M40-44 HONOLULU HI 1,17,05,Place FName LName Bib Div Plc Div City State Time
+458 NAOYUKI HONDA 469 37 M40-44 HONOLULU HI 1,18,33,Place FName LName Bib Div Plc Div City State Time
+467 REID SWANSON 222 38 M40-44 SAN RAMON CA 1,18,48,Place FName LName Bib Div Plc Div City State Time
+472 RUSSELL CASTAGNARO 345 39 M40-44 HONOLULU HI 1,19,19,Place FName LName Bib Div Plc Div City State Time
+476 TODD ISAYAMA 695 40 M40-44 KAILUA HI 1,20,00,Place FName LName Bib Div Plc Div City State Time
+483 KAEO KALEOALOHA 605 41 M40-44 AIEA HI 1,20,28,Place FName LName Bib Div Plc Div City State Time
+492 BRAD LADWIG 502 42 M40-44 HONOLULU HI 1,20,48,Place FName LName Bib Div Plc Div City State Time
+497 WILLIAM GREENWOOD 525 43 M40-44 KAPOLEI HI 1,20,57,Place FName LName Bib Div Plc Div City State Time
+543 BRUNO HELDT 366 44 M40-44 KANEOHE HI 1,22,50,Place FName LName Bib Div Plc Div City State Time
+546 TODD ISOSHIMA 504 45 M40-44 PORTLAND OR 1,23,17,Place FName LName Bib Div Plc Div City State Time
+553 DUSTIN SHARP 382 46 M40-44 HONOLULU HI 1,23,42,Place FName LName Bib Div Plc Div City State Time
+557 JAMES HORNEF 680 47 M40-44 PEARL CITY HI 1,24,03,Place FName LName Bib Div Plc Div City State Time
+562 FRED LANDAU 743 48 M40-44 HONOLULU HI 1,24,19,Place FName LName Bib Div Plc Div City State Time
+572 JAMES WALTHER 699 49 M40-44 HONOLULU HI 1,25,32,Place FName LName Bib Div Plc Div City State Time
+574 BEAU OLIVEIRA 1241 50 M40-44 1,25,50,Place FName LName Bib Div Plc Div City State Time
+589 MARK EDWARDS 332 51 M40-44 KENT WA 1,26,33,Place FName LName Bib Div Plc Div City State Time
+611 SHOGO FUKUZAWA 1243 52 M40-44 1,27,10,Place FName LName Bib Div Plc Div City State Time
+636 JERRY LIJANA 734 53 M40-44 WAIPAHU HI 1,28,57,Place FName LName Bib Div Plc Div City State Time
+647 GREG DAVIS 835 54 M40-44 LOS ANGELES CA 1,29,41,Place FName LName Bib Div Plc Div City State Time
+650 WILL ANDERSON 519 55 M40-44 MADISON TN 1,29,46,Place FName LName Bib Div Plc Div City State Time
+700 MATTHEW WONG 772 56 M40-44 HONOLULU HI 1,33,49,Place FName LName Bib Div Plc Div City State Time
+726 JAMES PIERCE 796 57 M40-44 HONOLULU HI 1,35,31,Place FName LName Bib Div Plc Div City State Time
+764 HENRY TELLES 1220 58 M40-44 HONOLULU HI 1,39,51,Place FName LName Bib Div Plc Div City State Time
+787 DENNY HIGA 1012 59 M40-44 HONOLULU HI 1,42,20,Place FName LName Bib Div Plc Div City State Time
+788 SEAN TAJIMA 830 60 M40-44 1,42,24,Place FName LName Bib Div Plc Div City State Time
+796 TOMMY TINNEY 505 61 M40-44 HONOLULU HI 1,43,55,Place FName LName Bib Div Plc Div City State Time
+814 HONG ZENG YUEN-SCHA 857 62 M40-44 1,47,24,Place FName LName Bib Div Plc Div City State Time
+849 CHRISTOPHER HENDERS 1143 63 M40-44 HONOLULU HI 2,01,52,Place FName LName Bib Div Plc Div City State Time
+867 ERIC ALLOSADA 527 64 M40-44 KAPOLEI HI 2,08,47,Place FName LName Bib Div Plc Div City State Time
+FEMALE AGE GROUP,45 – 49,,Place FName LName Bib Div Plc Div City State Time
+129 JOAN SCHRIGER 152 1 F45-49 ALAMEDA CA 1,00,08,Place FName LName Bib Div Plc Div City State Time
+137 GAIL GRABOWSKY 115 2 F45-49 HONOLULU HI 1,00,24,Place FName LName Bib Div Plc Div City State Time
+176 LYNN JOLLY 201 3 F45-49 MENLO PARK CA 1,02,57,Place FName LName Bib Div Plc Div City State Time
+187 ANNETTE CHINN 154 4 F45-49 RICHMOND CA 1,03,27,Place FName LName Bib Div Plc Div City State Time
+261 JEANEEN HELDT 199 5 F45-49 KANEOHE HI 1,07,55,Place FName LName Bib Div Plc Div City State Time
+409 DENISE WEBB 387 6 F45-49 HONOLULU HI 1,16,22,Place FName LName Bib Div Plc Div City State Time
+431 PAMIE SATO 371 7 F45-49 HONOLULU HI 1,17,13,Place FName LName Bib Div Plc Div City State Time
+464 CAT MOORE 422 8 F45-49 LOS ANGELES CA 1,18,44,Place FName LName Bib Div Plc Div City State Time
+510 AMY HARPSTRITE 1086 9 F45-49 KAILUA HI 1,21,27,Place FName LName Bib Div Plc Div City State Time
+521 DAWN BENSON 495 10 F45-49 FOLSOM CA 1,22,01,Place FName LName Bib Div Plc Div City State Time
+532 NORIKO KAWASAKI 488 11 F45-49 KAWASAKI-CITY 1,22,20,Place FName LName Bib Div Plc Div City State Time
+533 SUSAN CUSHMAN 611 12 F45-49 HONOLULU HI 1,22,24,Place FName LName Bib Div Plc Div City State Time
+545 ANN ARSHAKUNI 436 13 F45-49 REDWOOD CITY AS 1,23,09,Place FName LName Bib Div Plc Div City State Time
+566 JOY SECRITARIO 132 14 F45-49 KAILUA HI 1,25,11,Place FName LName Bib Div Plc Div City State Time
+567 ANNE GRESETH-KIM 612 15 F45-49 MILILANI HI 1,25,14,Place FName LName Bib Div Plc Div City State Time
+570 ALYSON NAKAMURA 1170 16 F45-49 HONOLULU HI 1,25,27,Place FName LName Bib Div Plc Div City State Time
+598 MARY NILGES 613 17 F45-49 KAILUA HI 1,26,47,Place FName LName Bib Div Plc Div City State Time
+659 NANCY AGUILAR 804 18 F45-49 NEWBURY PARK CA 1,30,21,Place FName LName Bib Div Plc Div City State Time
+665 LINDA DREBIN 1162 19 F45-49 HONOLULU HI 1,30,43,Place FName LName Bib Div Plc Div City State Time
+679 CANDACE PARK 370 20 F45-49 HONOLULU HI 1,31,39,Place FName LName Bib Div Plc Div City State Time
+691 DEANNE JOSHUA 827 21 F45-49 SAN MATEO CA 1,33,08,Place FName LName Bib Div Plc Div City State Time
+722 MARCY FLEMING 1117 22 F45-49 1,35,10,Place FName LName Bib Div Plc Div City State Time
+737 HARLYNE CARUSO 721 23 F45-49 KAILUA HI 1,36,45,Place FName LName Bib Div Plc Div City State Time
+772 LYNN NAUMAN 704 24 F45-49 DURANGO CO 1,40,37,Place FName LName Bib Div Plc Div City State Time
+782 CHERYL NISHITA 1019 25 F45-49 PEARL CITY HI 1,41,46,Place FName LName Bib Div Plc Div City State Time
+791 DEB TOM 790 26 F45-49 KAILUA HI 1,42,30,Place FName LName Bib Div Plc Div City State Time
+800 CARIN STEVENS 667 27 F45-49 HONOLULU HI 1,44,11,Place FName LName Bib Div Plc Div City State Time
+830 JACKIE HIGA 1047 28 F45-49 HONOLULU HI 1,53,39,Place FName LName Bib Div Plc Div City State Time
+861 KASSIE MCMANUS 1173 29 F45-49 PORT WASHINGTON WI 2,04,37,Place FName LName Bib Div Plc Div City State Time
+871 LISA WONG 1118 30 F45-49 HONOLULU HI 2,13,19,Place FName LName Bib Div Plc Div City State Time
+874 ANGELA LOUKOS 530 31 F45-49 ALAMO CA 2,16,25,Place FName LName Bib Div Plc Div City State Time
+MALE AGE GROUP,45 – 49,,Place FName LName Bib Div Plc Div City State Time
+21 BOBBY PATTEN 9 1 M45-49 DALLAS TX 50,06,,Place FName LName Bib Div Plc Div City State Time
+24 DAVE SWENSON 237 2 M45-49 ADDISON TX 52,06,,Place FName LName Bib Div Plc Div City State Time
+39 TODD ARRIS 288 3 M45-49 SAN MATEO CA 54,20,,Place FName LName Bib Div Plc Div City State Time
+53 GRANT LEVY 231 4 M45-49 BEVERLY HILLS CA 54,55,,Place FName LName Bib Div Plc Div City State Time
+62 JAMES MCCLOSKEY 233 5 M45-49 PACIFIC PALISAD CA 55,31,,Place FName LName Bib Div Plc Div City State Time
+82 PARKS WESSON 45 6 M45-49 LONG BEACH CA 56,39,,Place FName LName Bib Div Plc Div City State Time
+117 MARK MILLER 149 7 M45-49 KAILUA HI 58,49,,Place FName LName Bib Div Plc Div City State Time
+124 ALEX JAMPEL 799 8 M45-49 HONOLULU HI 59,35,,Place FName LName Bib Div Plc Div City State Time
+125 MARK WHITE 161 9 M45-49 SAN FRANCISCO CA 59,54,,Place FName LName Bib Div Plc Div City State Time
+127 MATT RENSHAW 241 10 M45-49 SYDNEY NS 59,59,,Place FName LName Bib Div Plc Div City State Time
+156 JOSEPH LILEIKIS 130 11 M45-49 HONOLULU HI 1,01,45,Place FName LName Bib Div Plc Div City State Time
+161 RUSSELL IWAMURA 156 12 M45-49 HONOLULU HI 1,02,01,Place FName LName Bib Div Plc Div City State Time
+164 BART LALLY 160 13 M45-49 SAN FRANCISCO CA 1,02,06,Place FName LName Bib Div Plc Div City State Time
+168 STEVE BRENT 150 14 M45-49 LYONS CO 1,02,33,Place FName LName Bib Div Plc Div City State Time
+"171 MIKE BEASON 180 15 M45-49 HONOLULU, HI HI 1",02,49,Place FName LName Bib Div Plc Div City State Time
+175 PAUL IKIOKA 1111 16 M45-49 BREA CA 1,02,54,Place FName LName Bib Div Plc Div City State Time
+191 DANIEL KUNKEL 1235 17 M45-49 HONOLULU HI 1,03,39,Place FName LName Bib Div Plc Div City State Time
+195 STEVE WATKINS 399 18 M45-49 HONOLULU HI 1,03,50,Place FName LName Bib Div Plc Div City State Time
+199 QUINN RIORDAN 1115 19 M45-49 TOKYO 1,04,19,Place FName LName Bib Div Plc Div City State Time
+204 STEPHEN CHILDERS 184 20 M45-49 LOS ANGELES CA 1,04,44,Place FName LName Bib Div Plc Div City State Time
+228 JEFF ORTLIP 205 21 M45-49 FOLSOM CA 1,06,12,Place FName LName Bib Div Plc Div City State Time
+254 JOHN GABRIEL 247 22 M45-49 CORVALLIS OR 1,07,31,Place FName LName Bib Div Plc Div City State Time
+256 LAWRENCE CRESWELL 437 23 M45-49 RIDGELAND MS 1,07,35,Place FName LName Bib Div Plc Div City State Time
+268 JON JACOBSON 546 24 M45-49 SPRING VALLEY CA 1,08,05,Place FName LName Bib Div Plc Div City State Time
+293 BILL DANIEL 301 25 M45-49 SYDNEY NS 1,09,50,Place FName LName Bib Div Plc Div City State Time
+294 ANDY BENSON 449 26 M45-49 FOLSOM CA 1,09,51,Place FName LName Bib Div Plc Div City State Time
+299 ROB WALKER 434 27 M45-49 SAN DIEGO CA 1,10,05,Place FName LName Bib Div Plc Div City State Time
+312 ERNST HALPERIN 307 28 M45-49 SAN FRANCISCO CA 1,10,53,Place FName LName Bib Div Plc Div City State Time
+317 KAZUHARU SAITO 194 29 M45-49 CHIBA 1,11,07,Place FName LName Bib Div Plc Div City State Time
+327 MYRON DONG 245 30 M45-49 FOLSOM CA 1,11,31,Place FName LName Bib Div Plc Div City State Time
+336 CARY COLBERT 310 31 M45-49 SOLANA BEACH CA 1,12,05,Place FName LName Bib Div Plc Div City State Time
+337 MATT ARENA 464 32 M45-49 SUNNYVALE CA 1,12,13,Place FName LName Bib Div Plc Div City State Time
+343 MARTIN PALFREY 262 33 M45-49 SYDNEY NS 1,12,49,Place FName LName Bib Div Plc Div City State Time
+345 LEE STEWART 485 34 M45-49 EWA BEACH HI 1,12,56,Place FName LName Bib Div Plc Div City State Time
+362 HUGH DAMON 329 35 M45-49 HONOLULU HI 1,13,52,Place FName LName Bib Div Plc Div City State Time
+364 RUSSELL RYAN 444 36 M45-49 HONOLULU HI 1,13,56,Place FName LName Bib Div Plc Div City State Time
+375 JIM GRIMM 489 37 M45-49 KAILUA HI 1,14,40,Place FName LName Bib Div Plc Div City State Time
+390 KEN GOULD 383 38 M45-49 NEWPORT BEACH CA 1,15,18,Place FName LName Bib Div Plc Div City State Time
+401 JEFFREY WHITE 343 39 M45-49 MILILANI HI 1,15,50,Place FName LName Bib Div Plc Div City State Time
+403 ROBERT LYMAN 338 40 M45-49 MILILANI HI 1,16,09,Place FName LName Bib Div Plc Div City State Time
+419 JOHN BOYER 851 41 M45-49 1,16,57,Place FName LName Bib Div Plc Div City State Time
+429 NIKLAS SCHNEIDER 350 42 M45-49 HONOLULU HI 1,17,08,Place FName LName Bib Div Plc Div City State Time
+452 MICHAEL WALKER 375 43 M45-49 HONOLULU HI 1,18,19,Place FName LName Bib Div Plc Div City State Time
+456 PAUL CARSON 359 44 M45-49 KANEOHE HI 1,18,31,Place FName LName Bib Div Plc Div City State Time
+459 KIMO HARPSTRITE 206 45 M45-49 KAILUA HI 1,18,34,Place FName LName Bib Div Plc Div City State Time
+474 TODD PRESLEY 363 46 M45-49 HONOLULU HI 1,19,35,Place FName LName Bib Div Plc Div City State Time
+501 BENITO QUINTANA 1131 47 M45-49 HONOLULU HI 1,21,05,Place FName LName Bib Div Plc Div City State Time
+504 GEORGE PRIOR 1222 48 M45-49 CULVER CITY CA 1,21,09,Place FName LName Bib Div Plc Div City State Time
+508 EUGENE TSCHUDY 373 49 M45-49 AIEA HI 1,21,21,Place FName LName Bib Div Plc Div City State Time
+529 TOM HEBERLE 357 50 M45-49 HONOLULU HI 1,22,15,Place FName LName Bib Div Plc Div City State Time
+541 GEOFFREY CHUNG 1022 51 M45-49 HONOLULU HI 1,22,48,Place FName LName Bib Div Plc Div City State Time
+547 GEOFFREY STROMMER 1064 52 M45-49 PORTLAND OR 1,23,19,Place FName LName Bib Div Plc Div City State Time
+550 JOHN WOLLENBECKER 693 53 M45-49 KANEOHE HI 1,23,31,Place FName LName Bib Div Plc Div City State Time
+559 RON GONZALES 702 54 M45-49 KANEOHE HI 1,24,12,Place FName LName Bib Div Plc Div City State Time
+561 LAYNE OWEN 1148 55 M45-49 HONOLULU HI 1,24,17,Place FName LName Bib Div Plc Div City State Time
+576 ROBERT KILGO 498 56 M45-49 DURANGO CO 1,25,52,Place FName LName Bib Div Plc Div City State Time
+580 JASON TAKARA 829 57 M45-49 HONOLULU HI 1,26,04,Place FName LName Bib Div Plc Div City State Time
+582 WILLIAM BRYANT 806 58 M45-49 HONOLULU HI 1,26,07,Place FName LName Bib Div Plc Div City State Time
+601 TIM ROBERT 455 59 M45-49 HONOLULU HI 1,26,51,Place FName LName Bib Div Plc Div City State Time
+607 MICHAEL TANJI 1037 60 M45-49 HONOLULU HI 1,27,00,Place FName LName Bib Div Plc Div City State Time
+624 JOSEPH PASTERNAK 765 61 M45-49 SAN FRANCISCO CA 1,28,15,Place FName LName Bib Div Plc Div City State Time
+626 ROLAND BUSQUE 619 62 M45-49 HONOLULU HI 1,28,22,Place FName LName Bib Div Plc Div City State Time
+630 DOUGLAS AUTEN 391 63 M45-49 KANEOHE HI 1,28,44,Place FName LName Bib Div Plc Div City State Time
+645 MARK GERSCHOFFER 725 64 M45-49 HONOLULU HI 1,29,36,Place FName LName Bib Div Plc Div City State Time
+651 JIM THORNTON 840 65 M45-49 DALLAS TX 1,29,46,Place FName LName Bib Div Plc Div City State Time
+663 BRIAN WONG 1088 66 M45-49 PETALUMA CA 1,30,37,Place FName LName Bib Div Plc Div City State Time
+664 JUNJI TAKESHITA 1121 67 M45-49 HONOLULU HI 1,30,37,Place FName LName Bib Div Plc Div City State Time
+674 ROB VAN GEEN 638 68 M45-49 WAIKOLOA HI 1,31,18,Place FName LName Bib Div Plc Div City State Time
+675 JOSEPH SAYRE 1218 69 M45-49 HONOLULU HI 1,31,26,Place FName LName Bib Div Plc Div City State Time
+680 CALVIN CHEN 1138 70 M45-49 SAN MATEO CA 1,31,57,Place FName LName Bib Div Plc Div City State Time
+681 RAY MARIANO 652 71 M45-49 KANEOHE HI 1,32,01,Place FName LName Bib Div Plc Div City State Time
+692 ANDREW LANNING 733 72 M45-49 AIEA HI 1,33,10,Place FName LName Bib Div Plc Div City State Time
+703 ARLO ROTH 1116 73 M45-49 HONOLULU HI 1,33,56,Place FName LName Bib Div Plc Div City State Time
+714 ICHIRO MUTO 1057 74 M45-49 HONOLULU HI 1,34,40,Place FName LName Bib Div Plc Div City State Time
+720 MICHAEL MALONE 535 75 M45-49 HONOLULU HI 1,35,03,Place FName LName Bib Div Plc Div City State Time
+729 HOWARD FURUKAWA 284 76 M45-49 AIEA HI 1,35,41,Place FName LName Bib Div Plc Div City State Time
+735 RUSSELL ASATO 756 77 M45-49 MILILANI HI 1,36,29,Place FName LName Bib Div Plc Div City State Time
+753 ELDEN ITO 1230 78 M45-49 HONOLULU HI 1,38,49,Place FName LName Bib Div Plc Div City State Time
+765 KEVIN OKA 1008 79 M45-49 KAILUA HI 1,39,54,Place FName LName Bib Div Plc Div City State Time
+779 GREGORY WONG 1122 80 M45-49 BROOKFIELD WI 1,41,30,Place FName LName Bib Div Plc Div City State Time
+810 TIMOTHY BARTON 1028 81 M45-49 HONOLULU HI 1,47,00,Place FName LName Bib Div Plc Div City State Time
+813 RICHARD MILLER JR. 1003 82 M45-49 HONOLULU HI 1,47,22,Place FName LName Bib Div Plc Div City State Time
+829 MASAYUKI YAMAKAWA 1071 83 M45-49 MINATO-KU 1,53,24,Place FName LName Bib Div Plc Div City State Time
+841 ROBERT BUSCHER 752 84 M45-49 HONOLULU HI 1,56,55,Place FName LName Bib Div Plc Div City State Time
+859 YUICHIRO NISHI 1097 85 M45-49 HONOLULU HI 2,04,24,Place FName LName Bib Div Plc Div City State Time
+FEMALE AGE GROUP,50 – 54,,Place FName LName Bib Div Plc Div City State Time
+77 JENNY COOK 49 1 F50-54 LOS ANGELES CA 56,11,,Place FName LName Bib Div Plc Div City State Time
+166 JANE STITES 478 2 F50-54 WAIMANALO HI 1,02,12,Place FName LName Bib Div Plc Div City State Time
+174 CORY FERRARA 1093 3 F50-54 BURLINGAME CA 1,02,50,Place FName LName Bib Div Plc Div City State Time
+229 PHYLLIS QUINN 181 4 F50-54 SAN FRANCISCO CA 1,06,13,Place FName LName Bib Div Plc Div City State Time
+273 LAURIE FOSTER 333 5 F50-54 HONOLULU HI 1,08,15,Place FName LName Bib Div Plc Div City State Time
+290 LISA JOHNSON 367 6 F50-54 HONOLULU HI 1,09,37,Place FName LName Bib Div Plc Div City State Time
+313 DIANE CORN 490 7 F50-54 KAILUA HI 1,10,55,Place FName LName Bib Div Plc Div City State Time
+351 ANNE PERRY 532 8 F50-54 HONOLULU HI 1,13,21,Place FName LName Bib Div Plc Div City State Time
+354 MARLYS CAPPAERT 701 9 F50-54 CORVALLIS OR 1,13,24,Place FName LName Bib Div Plc Div City State Time
+407 MARIE WAGNER 344 10 F50-54 HONOLULU HI 1,16,16,Place FName LName Bib Div Plc Div City State Time
+412 LINDA KELLEY 384 11 F50-54 HOLUALOA HI 1,16,30,Place FName LName Bib Div Plc Div City State Time
+470 JILL BUSS 362 12 F50-54 KAILUA HI 1,19,12,Place FName LName Bib Div Plc Div City State Time
+495 CHRISTEN MITCHELL 1096 13 F50-54 HONOLULU HI 1,20,56,Place FName LName Bib Div Plc Div City State Time
+502 ANNE WHEELOCK 691 14 F50-54 HONOLULU HI 1,21,05,Place FName LName Bib Div Plc Div City State Time
+640 MARSHA KITAGAWA 608 15 F50-54 HONOLULU HI 1,29,09,Place FName LName Bib Div Plc Div City State Time
+741 LISA PLOSS 766 16 F50-54 ALAMEDA CA 1,37,35,Place FName LName Bib Div Plc Div City State Time
+757 LAURIE SHIELDS 1073 17 F50-54 STERLING MA 1,39,17,Place FName LName Bib Div Plc Div City State Time
+774 TINA TOM 636 18 F50-54 HONOLULU HI 1,41,04,Place FName LName Bib Div Plc Div City State Time
+784 CAROL GINOZA 1014 19 F50-54 HONOLULU HI 1,41,47,Place FName LName Bib Div Plc Div City State Time
+802 EMILY NYE 794 20 F50-54 PEARL CITY HI 1,44,33,Place FName LName Bib Div Plc Div City State Time
+812 JOANI MCLAUGHLIN 646 21 F50-54 VENTURA CA 1,47,03,Place FName LName Bib Div Plc Div City State Time
+822 KRISTEN LINDSEY-DUD 1018 22 F50-54 HONOLULU HI 1,49,50,Place FName LName Bib Div Plc Div City State Time
+828 LAURIE DAWSON 1026 23 F50-54 FOLSOM CA 1,53,20,Place FName LName Bib Div Plc Div City State Time
+851 MIRIAM HA 1045 24 F50-54 HONOLULU HI 2,03,30,Place FName LName Bib Div Plc Div City State Time
+858 KRISTINE SHAHMIRZA 529 25 F50-54 MILLBRAE CA 2,04,16,Place FName LName Bib Div Plc Div City State Time
+870 EDNA WONG 782 26 F50-54 MILILANI HI 2,10,51,Place FName LName Bib Div Plc Div City State Time
+MALE AGE GROUP,50 – 54,,Place FName LName Bib Div Plc Div City State Time
+26 ROBERT PLACAK 24 1 M50-54 SAN RAFAEL CA 52,17,,Place FName LName Bib Div Plc Div City State Time
+30 BRUCE THOMAS 41 2 M50-54 HERMOSA BEACH CA 52,49,,Place FName LName Bib Div Plc Div City State Time
+52 RICK HELTZEL 32 3 M50-54 HONOLULU HI 54,47,,Place FName LName Bib Div Plc Div City State Time
+56 GRAEME BREWER 174 4 M50-54 SYDNEY NS 55,13,,Place FName LName Bib Div Plc Div City State Time
+68 BRAD MAGIT 114 5 M50-54 LOS ANGELES CA 55,48,,Place FName LName Bib Div Plc Div City State Time
+71 STEVEN CZEKALA 240 6 M50-54 OAKLAND CA 55,55,,Place FName LName Bib Div Plc Div City State Time
+123 STEFAN REINKE 290 7 M50-54 HONOLULU HI 59,26,,Place FName LName Bib Div Plc Div City State Time
+158 TIMOTHY GLENN 153 8 M50-54 MENLO PARK CA 1,01,48,Place FName LName Bib Div Plc Div City State Time
+182 MIKE MITCHELL 421 9 M50-54 LAGUNA NIGUEL CA 1,03,13,Place FName LName Bib Div Plc Div City State Time
+196 STEVE RATZLIFF 1060 10 M50-54 LOS GATOS CA 1,04,05,Place FName LName Bib Div Plc Div City State Time
+198 BILL IRELAND 148 11 M50-54 VENICE CA 1,04,16,Place FName LName Bib Div Plc Div City State Time
+200 DAVE WELCH 250 12 M50-54 TEWKSBURY MA 1,04,28,Place FName LName Bib Div Plc Div City State Time
+201 DAVE JOHNSON 274 13 M50-54 MILILANI HI 1,04,37,Place FName LName Bib Div Plc Div City State Time
+205 TOM COOK 196 14 M50-54 TUCSON AZ 1,04,45,Place FName LName Bib Div Plc Div City State Time
+225 ROBERT PLOSS 439 15 M50-54 ALAMEDA CA 1,05,59,Place FName LName Bib Div Plc Div City State Time
+245 THOMAS KERSCH 813 16 M50-54 HONOLULU HI 1,06,52,Place FName LName Bib Div Plc Div City State Time
+258 JOHN GRAVENER 828 17 M50-54 HONOLULU HI 1,07,42,Place FName LName Bib Div Plc Div City State Time
+272 ROGER KOMORI 302 18 M50-54 WAHIAWA HI 1,08,13,Place FName LName Bib Div Plc Div City State Time
+274 COURTNEY SETO 531 19 M50-54 HONOLULU HI 1,08,19,Place FName LName Bib Div Plc Div City State Time
+289 ROBERT LOWNEY 1095 20 M50-54 SAN FRANCISCO CA 1,09,36,Place FName LName Bib Div Plc Div City State Time
+292 ASA TANAKA 741 21 M50-54 HONOLULU HI 1,09,49,Place FName LName Bib Div Plc Div City State Time
+297 DAN WIMSATT 539 22 M50-54 SOLANA BEACH CA 1,10,00,Place FName LName Bib Div Plc Div City State Time
+298 MIKE SELMAN 322 23 M50-54 HONOLULU HI 1,10,01,Place FName LName Bib Div Plc Div City State Time
+300 SCOTT PARMLEY 859 24 M50-54 1,10,09,Place FName LName Bib Div Plc Div City State Time
+310 DENNIS ORTIZ 334 25 M50-54 HONOLULU HI 1,10,44,Place FName LName Bib Div Plc Div City State Time
+316 TIM JOHNS 319 26 M50-54 HONOLULU HI 1,11,06,Place FName LName Bib Div Plc Div City State Time
+355 STEVE ROYCE 347 27 M50-54 SOLANA BEACH HI 1,13,25,Place FName LName Bib Div Plc Div City State Time
+356 BRAD MYERS 209 28 M50-54 HONOLULU HI 1,13,27,Place FName LName Bib Div Plc Div City State Time
+365 ROB SEAVER 324 29 M50-54 KAILUA HI 1,14,02,Place FName LName Bib Div Plc Div City State Time
+373 CHARLES KIM 341 30 M50-54 HONOLULU HI 1,14,30,Place FName LName Bib Div Plc Div City State Time
+383 CHRIS WORRALL 349 31 M50-54 HONOLULU HI 1,15,11,Place FName LName Bib Div Plc Div City State Time
+387 KENNETH MIYAKI 1009 32 M50-54 PEARL CITY HI 1,15,15,Place FName LName Bib Div Plc Div City State Time
+396 CRAIG FUKUHARA 339 33 M50-54 AIEA HI 1,15,28,Place FName LName Bib Div Plc Div City State Time
+404 BRADLEY THOMPSON 689 34 M50-54 CALOUNDRA QL 1,16,09,Place FName LName Bib Div Plc Div City State Time
+408 THOMAS WHEELER 1020 35 M50-54 HONOLULU HI 1,16,22,Place FName LName Bib Div Plc Div City State Time
+413 TSUNEO HAMADA 450 36 M50-54 YOKOHAMA-CITY 1,16,38,Place FName LName Bib Div Plc Div City State Time
+414 ANTHONY AALTO 754 37 M50-54 HONOLULU HI 1,16,39,Place FName LName Bib Div Plc Div City State Time
+436 MARK HILDEBRANT 355 38 M50-54 KAILUA HI 1,17,27,Place FName LName Bib Div Plc Div City State Time
+445 PETER LEE 808 39 M50-54 WINDSOR CA 1,17,50,Place FName LName Bib Div Plc Div City State Time
+446 MARK CLOUTIER 607 40 M50-54 SAN FRANCISCO CA 1,17,51,Place FName LName Bib Div Plc Div City State Time
+453 WAYNE HIRABAYASHI 1090 41 M50-54 HONOLULU HI 1,18,26,Place FName LName Bib Div Plc Div City State Time
+454 ART BROSTROM 540 42 M50-54 KAPOLEI HI 1,18,27,Place FName LName Bib Div Plc Div City State Time
+461 GLEN MCLEOD 481 43 M50-54 LOWER TEMPLESTO VI 1,18,36,Place FName LName Bib Div Plc Div City State Time
+463 JOHN POZZI 1114 44 M50-54 QUILPIE QL 1,18,37,Place FName LName Bib Div Plc Div City State Time
+485 DON KANE 696 45 M50-54 HONOLULU HI 1,20,37,Place FName LName Bib Div Plc Div City State Time
+512 KEN SMITH 486 46 M50-54 ISSAQUAH WA 1,21,32,Place FName LName Bib Div Plc Div City State Time
+522 BRUCE TSUTSUI 348 47 M50-54 KAILUA HI 1,22,02,Place FName LName Bib Div Plc Div City State Time
+537 JOEL VIRGEL 548 48 M50-54 LOS ANGELES CA 1,22,42,Place FName LName Bib Div Plc Div City State Time
+540 BOB GOODIS 377 49 M50-54 BEVERLY HILLS CA 1,22,46,Place FName LName Bib Div Plc Div City State Time
+563 BOB LAMBERTSON 842 50 M50-54 REDWOOD CITY CA 1,24,41,Place FName LName Bib Div Plc Div City State Time
+575 JAMES SAKAI 635 51 M50-54 KAILUA KONA HI 1,25,51,Place FName LName Bib Div Plc Div City State Time
+587 GARY SAWAI 746 52 M50-54 WAHIAWA HI 1,26,29,Place FName LName Bib Div Plc Div City State Time
+599 THOMAS CONWAY 1134 53 M50-54 KAILUA HI 1,26,49,Place FName LName Bib Div Plc Div City State Time
+615 THOMAS BRADY 670 54 M50-54 HONOLULU HI 1,27,15,Place FName LName Bib Div Plc Div City State Time
+616 WAYNE SAITO 642 55 M50-54 HONOLULU HI 1,27,29,Place FName LName Bib Div Plc Div City State Time
+625 ALVIN CHAN 1042 56 M50-54 HONOLULU HI 1,28,16,Place FName LName Bib Div Plc Div City State Time
+631 MICHAEL MOORE 1224 57 M50-54 HONOLULU HI 1,28,45,Place FName LName Bib Div Plc Div City State Time
+652 HOWARD KIM JR. 651 58 M50-54 HONOLULU HI 1,29,49,Place FName LName Bib Div Plc Div City State Time
+667 ALLAN SIX 610 59 M50-54 HONOLULU HI 1,30,56,Place FName LName Bib Div Plc Div City State Time
+676 JOHN MARSHALL 825 60 M50-54 HONOLULU HI 1,31,31,Place FName LName Bib Div Plc Div City State Time
+678 BRIAN YAMAMOTO 839 61 M50-54 HONOLULU HI 1,31,37,Place FName LName Bib Div Plc Div City State Time
+686 RICK BERGSTROM 624 62 M50-54 HONOLULU HI 1,32,42,Place FName LName Bib Div Plc Div City State Time
+707 LARRY CHAYKIN 1038 63 M50-54 WAIANAE HI 1,34,09,Place FName LName Bib Div Plc Div City State Time
+713 JOHN LAMBERTSON 841 64 M50-54 VENICE CA 1,34,31,Place FName LName Bib Div Plc Div City State Time
+716 RICHARD PESSAH 738 65 M50-54 OTTAWA ON 1,34,50,Place FName LName Bib Div Plc Div City State Time
+731 HIDEO KIYONO 615 66 M50-54 TOKYO 1,35,53,Place FName LName Bib Div Plc Div City State Time
+739 MATT ESECSON 823 67 M50-54 KAILUA HI 1,37,05,Place FName LName Bib Div Plc Div City State Time
+740 GENE WIMER 771 68 M50-54 HONOLULU HI 1,37,33,Place FName LName Bib Div Plc Div City State Time
+748 BARRIE CLEVELAND 626 69 M50-54 SAN LUIS OBISPO CA 1,38,24,Place FName LName Bib Div Plc Div City State Time
+752 MICHAEL HIGA 760 70 M50-54 WAIPAHU HI 1,38,48,Place FName LName Bib Div Plc Div City State Time
+759 KENNETH MIYAKI 1246 71 M50-54 1,39,41,Place FName LName Bib Div Plc Div City State Time
+760 MYLES BREINER 846 72 M50-54 1,39,46,Place FName LName Bib Div Plc Div City State Time
+763 DAVID LANE 663 73 M50-54 HONOLULU HI 1,39,48,Place FName LName Bib Div Plc Div City State Time
+797 HUBERT CHANG 1043 74 M50-54 HON HI 1,43,57,Place FName LName Bib Div Plc Div City State Time
+816 GERALD MARTENS 735 75 M50-54 HONOLULU HI 1,47,54,Place FName LName Bib Div Plc Div City State Time
+825 DAN OMIYA 1236 76 M50-54 HONOLULU HI 1,50,25,Place FName LName Bib Div Plc Div City State Time
+840 TIMOTHY SMITH 1017 77 M50-54 EWA BEACH HI 1,56,14,Place FName LName Bib Div Plc Div City State Time
+848 ANDREW TROZZI 104 78 M50-54 HONOLULU HI 1,59,23,Place FName LName Bib Div Plc Div City State Time
+857 RODNEY MORALES 1056 79 M50-54 HONOLULU HI 2,03,57,Place FName LName Bib Div Plc Div City State Time
+875 WILLIAM JONES 1050 80 M50-54 MILILANI HI 2,17,22,Place FName LName Bib Div Plc Div City State Time
+FEMALE AGE GROUP,55 – 59,,Place FName LName Bib Div Plc Div City State Time
+139 DEE HAYNIE 140 1 F55-59 SAN FRANCISCO CA 1,00,25,Place FName LName Bib Div Plc Div City State Time
+160 CHRISTIE CIRAULO 136 2 F55-59 LOS ANGELES CA 1,02,00,Place FName LName Bib Div Plc Div City State Time
+227 CAROLYN ROCHE 159 3 F55-59 BOULDER CO 1,06,07,Place FName LName Bib Div Plc Div City State Time
+319 PAM COBB 460 4 F55-59 SPOKANE WA 1,11,11,Place FName LName Bib Div Plc Div City State Time
+338 CATHY HUANG 681 5 F55-59 SAN FRANCISCO CA 1,12,15,Place FName LName Bib Div Plc Div City State Time
+358 DIANA LANDIS 1144 6 F55-59 NEWPORT BEACH CA 1,13,33,Place FName LName Bib Div Plc Div City State Time
+428 JENNIFER MORGAN 687 7 F55-59 CORVALLIS OR 1,17,06,Place FName LName Bib Div Plc Div City State Time
+430 ROBERTA HICKMAN 393 8 F55-59 OCEAN VIEW HI 1,17,12,Place FName LName Bib Div Plc Div City State Time
+500 VALISA SAUNDERS 833 9 F55-59 1,21,02,Place FName LName Bib Div Plc Div City State Time
+525 LEE COLLINS 381 10 F55-59 HILO HI 1,22,07,Place FName LName Bib Div Plc Div City State Time
+538 LAURIE LOOMIS 518 11 F55-59 HONOLULU HI 1,22,43,Place FName LName Bib Div Plc Div City State Time
+542 GAY MIKASA 609 12 F55-59 AIEA HI 1,22,49,Place FName LName Bib Div Plc Div City State Time
+602 TEENA MICHAEL 601 13 F55-59 HONOLULU HI 1,26,52,Place FName LName Bib Div Plc Div City State Time
+657 MEG MASON 492 14 F55-59 PORT TOWNSEND WA 1,30,20,Place FName LName Bib Div Plc Div City State Time
+662 CAROL YOUNG 1154 15 F55-59 HONOLULU HI 1,30,32,Place FName LName Bib Div Plc Div City State Time
+684 GAIL KOSIOREK 1132 16 F55-59 KANEOHE HI 1,32,12,Place FName LName Bib Div Plc Div City State Time
+695 JADA LONDON 637 17 F55-59 HONOLULU HI 1,33,22,Place FName LName Bib Div Plc Div City State Time
+708 MARCY FRASER 643 18 F55-59 SAN FRANCISCO CA 1,34,09,Place FName LName Bib Div Plc Div City State Time
+780 ROSEMARY ADAM-TEREM 1016 19 F55-59 HONOLULU HI 1,41,44,Place FName LName Bib Div Plc Div City State Time
+805 CHARLENE HINTON 1165 20 F55-59 KANEOHE HI 1,44,51,Place FName LName Bib Div Plc Div City State Time
+807 JILL WIDNER 705 21 F55-59 YAKIMA WA 1,44,59,Place FName LName Bib Div Plc Div City State Time
+820 CYNTHIA FRAZER 656 22 F55-59 KANEOHE HI 1,49,01,Place FName LName Bib Div Plc Div City State Time
+824 SHELLEY WHITE 1031 23 F55-59 MILILANI HI 1,50,09,Place FName LName Bib Div Plc Div City State Time
+853 HOLLY YAMADA 1070 24 F55-59 HONOLULU HI 2,03,33,Place FName LName Bib Div Plc Div City State Time
+863 CHRISTINE LAWSON 775 25 F55-59 HONOLULU HI 2,04,58,Place FName LName Bib Div Plc Div City State Time
+865 KATHY MACDOWELL 1055 26 F55-59 WAIPAHU HI 2,06,47,Place FName LName Bib Div Plc Div City State Time
+866 DAWN LE 1053 27 F55-59 HONOLULU HI 2,07,06,Place FName LName Bib Div Plc Div City State Time
+869 LORI MCCARNEY 789 28 F55-59 HONOLULU HI 2,10,01,Place FName LName Bib Div Plc Div City State Time
+872 CAROLYN HALL 1178 29 F55-59 HONOLULU HI 2,14,24,Place FName LName Bib Div Plc Div City State Time
+MALE AGE GROUP,55 – 59,,Place FName LName Bib Div Plc Div City State Time
+28 MICHAEL MCCAFFERY 26 1 M55-59 HILLSBOROUGH CA 52,33,,Place FName LName Bib Div Plc Div City State Time
+43 JEFF MILTON 294 2 M55-59 54,29,,Place FName LName Bib Div Plc Div City State Time
+86 W. HICKCOX 417 3 M55-59 CAREFREE AZ 57,07,,Place FName LName Bib Div Plc Div City State Time
+173 LLOYD SERRA 165 4 M55-59 GRANITE BAY CA 1,02,49,Place FName LName Bib Div Plc Div City State Time
+180 LES O’KEEFE 177 5 M55-59 CALOUNDRA QL 1,03,01,Place FName LName Bib Div Plc Div City State Time
+188 STAN KOBAYASHI 151 6 M55-59 MILILANI HI 1,03,30,Place FName LName Bib Div Plc Div City State Time
+220 MARK HECKMAN 440 7 M55-59 KAILUA HI 1,05,45,Place FName LName Bib Div Plc Div City State Time
+232 WARD SAUNDERS 204 8 M55-59 HONOLULU HI 1,06,19,Place FName LName Bib Div Plc Div City State Time
+237 THOMAS BILLINGS 465 9 M55-59 NEWPORT BEACH CA 1,06,26,Place FName LName Bib Div Plc Div City State Time
+284 PATRICK GAVIN 100 10 M55-59 CARLSBAD CA 1,09,26,Place FName LName Bib Div Plc Div City State Time
+288 LARRY HARPER 468 11 M55-59 LONE TREE CO 1,09,35,Place FName LName Bib Div Plc Div City State Time
+303 DALE KUNKEL 461 12 M55-59 TUCSON AZ 1,10,25,Place FName LName Bib Div Plc Div City State Time
+315 JEFFREY HARRIS 1119 13 M55-59 HONOLULU HI 1,11,03,Place FName LName Bib Div Plc Div City State Time
+321 LEIF JOHNSON 1216 14 M55-59 EWA BEACH HI 1,11,15,Place FName LName Bib Div Plc Div City State Time
+339 BARRY FRANCIS 541 15 M55-59 COSTA MESA CA 1,12,15,Place FName LName Bib Div Plc Div City State Time
+344 CHRISTOPHER LEWIS 1129 16 M55-59 ALDIE VA 1,12,49,Place FName LName Bib Div Plc Div City State Time
+415 CLIVE BELL 802 17 M55-59 CALOUNDRA QL 1,16,47,Place FName LName Bib Div Plc Div City State Time
+424 ALTON MOTOBU 305 18 M55-59 AIEA HI 1,17,04,Place FName LName Bib Div Plc Div City State Time
+438 JACK HUBBARD 394 19 M55-59 SAN FRANCISCO CA 1,17,30,Place FName LName Bib Div Plc Div City State Time
+444 DAVE SHERMAN 1083 20 M55-59 KAPOLEI HI 1,17,49,Place FName LName Bib Div Plc Div City State Time
+448 FRANK DOUGLASS 346 21 M55-59 PAHOA HI 1,18,07,Place FName LName Bib Div Plc Div City State Time
+451 LEONARD WEIKUM 1228 22 M55-59 EWA BEACH HI 1,18,18,Place FName LName Bib Div Plc Div City State Time
+465 ROBERT PHILIPSON 427 23 M55-59 LOS ANGELES CA 1,18,44,Place FName LName Bib Div Plc Div City State Time
+471 VERN WILLIAMS 1217 24 M55-59 BEAVERTON OR 1,19,15,Place FName LName Bib Div Plc Div City State Time
+473 RICHARD ASMUS 390 25 M55-59 LONGVIEW WA 1,19,30,Place FName LName Bib Div Plc Div City State Time
+477 VERNE SANTOS 500 26 M55-59 HONOLULU HI 1,20,13,Place FName LName Bib Div Plc Div City State Time
+499 ALAN OGAWA 795 27 M55-59 KANEOHE HI 1,21,01,Place FName LName Bib Div Plc Div City State Time
+505 NICHOLAS KAISER 623 28 M55-59 HONOLULU HI 1,21,15,Place FName LName Bib Div Plc Div City State Time
+519 DAVID SAKATA 698 29 M55-59 WAIPAHU HI 1,21,47,Place FName LName Bib Div Plc Div City State Time
+539 DANIEL ROSNER 1232 30 M55-59 HONOLULU HI 1,22,44,Place FName LName Bib Div Plc Div City State Time
+554 BRAD COATES 622 31 M55-59 HONOLULU HI 1,23,42,Place FName LName Bib Div Plc Div City State Time
+564 JOHN MCMULLAN 736 32 M55-59 WELLINGTON WG 1,24,51,Place FName LName Bib Div Plc Div City State Time
+569 JAMES TUSCANY 1068 33 M55-59 HILO HI 1,25,20,Place FName LName Bib Div Plc Div City State Time
+608 KENNETH WONG 396 34 M55-59 HONOLULU HI 1,27,01,Place FName LName Bib Div Plc Div City State Time
+612 DANIEL KUNIHARA 728 35 M55-59 SAN FRANCISCO CA 1,27,11,Place FName LName Bib Div Plc Div City State Time
+629 MICHAEL KNIGHT 552 36 M55-59 1,28,40,Place FName LName Bib Div Plc Div City State Time
+648 STEPHEN TURKOVICH 690 37 M55-59 KAILUA HI 1,29,44,Place FName LName Bib Div Plc Div City State Time
+677 TOM MOTSINGER 448 38 M55-59 PHOENIX AZ 1,31,31,Place FName LName Bib Div Plc Div City State Time
+696 JAY WALDHOFF 386 39 M55-59 HONOLULU HI 1,33,26,Place FName LName Bib Div Plc Div City State Time
+705 PAUL WILLIAMS 780 40 M55-59 WELLINGTON WG 1,33,57,Place FName LName Bib Div Plc Div City State Time
+717 LEE MANSFIELD 666 41 M55-59 KAILUA HI 1,34,55,Place FName LName Bib Div Plc Div City State Time
+723 DEREK GOUDGE 726 42 M55-59 HONOLULU HI 1,35,22,Place FName LName Bib Div Plc Div City State Time
+744 THOMAS YUNDT 853 43 M55-59 1,37,43,Place FName LName Bib Div Plc Div City State Time
+781 JIM MAYFIELD 1179 44 M55-59 LIHUE HI 1,41,45,Place FName LName Bib Div Plc Div City State Time
+819 GEORGE KNOX JR. 855 45 M55-59 1,48,48,Place FName LName Bib Div Plc Div City State Time
+821 MASATO MIZUKAMI 1169 46 M55-59 HONOLULU HI 1,49,21,Place FName LName Bib Div Plc Div City State Time
+823 DUANE TOYOFUKU 668 47 M55-59 AIEA HI 1,49,56,Place FName LName Bib Div Plc Div City State Time
+836 JOHN HARRIS 1023 48 M55-59 HONOLULU HI 1,54,53,Place FName LName Bib Div Plc Div City State Time
+837 JAMES CONTI 1034 49 M55-59 WAHIAWA HI 1,54,55,Place FName LName Bib Div Plc Div City State Time
+FEMALE AGE GROUP,60 – 64,,Place FName LName Bib Div Plc Div City State Time
+197 BETTY ANN BARNETT 163 1 F60-64 HONOLULU HI 1,04,12,Place FName LName Bib Div Plc Div City State Time
+305 SUI-LAN ELLSWORTH 197 2 F60-64 HONOLULU HI 1,10,29,Place FName LName Bib Div Plc Div City State Time
+435 PATSEE OBER 454 3 F60-64 LAGUNA BEACH CA 1,17,26,Place FName LName Bib Div Plc Div City State Time
+560 ALENA SOLDATOVA 508 4 F60-64 OAKLAND CA 1,24,17,Place FName LName Bib Div Plc Div City State Time
+584 KIRSTEN MELBERG 234 5 F60-64 NEW ORLEANS LA 1,26,17,Place FName LName Bib Div Plc Div City State Time
+600 BRENDA DAY 674 6 F60-64 GREENWAY AC 1,26,49,Place FName LName Bib Div Plc Div City State Time
+622 JILL MACMILLAN 604 7 F60-64 HONOLULU HI 1,28,04,Place FName LName Bib Div Plc Div City State Time
+634 JACKLYN LITMAN 499 8 F60-64 BURLINGAME CA 1,28,55,Place FName LName Bib Div Plc Div City State Time
+776 SHARON LYNNE SKOUGE 1015 9 F60-64 HONOLULU HI 1,41,24,Place FName LName Bib Div Plc Div City State Time
+783 DOTTIE SUNIO 1013 10 F60-64 PEARL CITY HI 1,41,46,Place FName LName Bib Div Plc Div City State Time
+876 TOOTSIE KOBELANSKY 787 11 F60-64 HONOLULU HI 2,17,28,Place FName LName Bib Div Plc Div City State Time
+MALE AGE GROUP,60 – 64,,Place FName LName Bib Div Plc Div City State Time
+49 ALAN BELL 224 1 M60-64 REDMOND WA 54,41,,Place FName LName Bib Div Plc Div City State Time
+90 JAMES MCCLEEERY 125 2 M60-64 OAK HARBOR WA 57,24,,Place FName LName Bib Div Plc Div City State Time
+104 EDWARD RUDLOFF Jr. 271 3 M60-64 SAN RAFAEL CA 58,00,,Place FName LName Bib Div Plc Div City State Time
+140 PATRICK DIXON 158 4 M60-64 LOS ANGELES CA 1,00,35,Place FName LName Bib Div Plc Div City State Time
+181 HUBIE KERNS 1187 5 M60-64 PACIFIC PALISAD CA 1,03,12,Place FName LName Bib Div Plc Div City State Time
+183 JIM MERCHANT 186 6 M60-64 HONOLULU HI 1,03,16,Place FName LName Bib Div Plc Div City State Time
+291 WILLIAM MONTGOMERY 542 7 M60-64 1,09,45,Place FName LName Bib Div Plc Div City State Time
+340 THOMAS BURKE 308 8 M60-64 HONOLULU HI 1,12,29,Place FName LName Bib Div Plc Div City State Time
+369 JACK SUYDERHOUD 317 9 M60-64 HONOLULU HI 1,14,18,Place FName LName Bib Div Plc Div City State Time
+371 GILBERT LOOMIS 1238 10 M60-64 KAILUA HI 1,14,22,Place FName LName Bib Div Plc Div City State Time
+380 DUKE DAHLIN 1185 11 M60-64 SAN FRANCICO CA 1,14,48,Place FName LName Bib Div Plc Div City State Time
+395 TERRY HORN 1091 12 M60-64 BURLINGAME CA 1,15,27,Place FName LName Bib Div Plc Div City State Time
+420 TIM CONWAY 365 13 M60-64 KANEOHE HI 1,16,57,Place FName LName Bib Div Plc Div City State Time
+422 JOHN HENDERSON 517 14 M60-64 KAILUA HI 1,17,01,Place FName LName Bib Div Plc Div City State Time
+434 FREDERICK KOOKER 1221 15 M60-64 HONOLULU HI 1,17,19,Place FName LName Bib Div Plc Div City State Time
+469 STOTE FARNHAM 1140 16 M60-64 HONOLULU HI 1,19,09,Place FName LName Bib Div Plc Div City State Time
+493 SEIICHI OKUSAWA 600 17 M60-64 TOKYO 1,20,49,Place FName LName Bib Div Plc Div City State Time
+506 RICHARD BOWEN 364 18 M60-64 HONOLULU HI 1,21,19,Place FName LName Bib Div Plc Div City State Time
+509 JEFFREY DODGE 311 19 M60-64 HONOLULU HI 1,21,23,Place FName LName Bib Div Plc Div City State Time
+531 BOB GRAHAM 1124 20 M60-64 KAHUKU HI 1,22,20,Place FName LName Bib Div Plc Div City State Time
+544 BRAD RAWLINS 543 21 M60-64 1,22,53,Place FName LName Bib Div Plc Div City State Time
+556 BILL MONSEN 614 22 M60-64 HONOLULU HI 1,24,03,Place FName LName Bib Div Plc Div City State Time
+565 RUSSELL BLACK 1126 23 M60-64 BONDI JUNCTION NS 1,25,07,Place FName LName Bib Div Plc Div City State Time
+579 DOUGLAS MCKELL 1113 24 M60-64 SPRINGFIELD MA 1,26,00,Place FName LName Bib Div Plc Div City State Time
+642 KENNETH COREN 758 25 M60-64 MILL VALLEY CA 1,29,15,Place FName LName Bib Div Plc Div City State Time
+655 RAY NAKAMOTO 1189 26 M60-64 HONOLULU HI 1,29,59,Place FName LName Bib Div Plc Div City State Time
+668 CHARLES NOLAN 618 27 M60-64 NATICK MA 1,31,02,Place FName LName Bib Div Plc Div City State Time
+672 GREG BELLOWS 1102 28 M60-64 SOQUEL CA 1,31,12,Place FName LName Bib Div Plc Div City State Time
+682 MICHAEL WALSH 662 29 M60-64 HONOLULU HI 1,32,06,Place FName LName Bib Div Plc Div City State Time
+683 JUSTIN MEW 659 30 M60-64 HONOLULU HI 1,32,06,Place FName LName Bib Div Plc Div City State Time
+697 PAUL TIBBETTS 742 31 M60-64 HONOLULU HI 1,33,31,Place FName LName Bib Div Plc Div City State Time
+711 GEORGE WONG 658 32 M60-64 KAILUA HI 1,34,25,Place FName LName Bib Div Plc Div City State Time
+724 ALFRED STURGIS 1244 33 M60-64 1,35,22,Place FName LName Bib Div Plc Div City State Time
+745 MICHAEL WONG 660 34 M60-64 KAILUA HI 1,37,48,Place FName LName Bib Div Plc Div City State Time
+758 WILL HERSHMAN 1157 35 M60-64 ASHLAND OR 1,39,30,Place FName LName Bib Div Plc Div City State Time
+761 KENT HINTON 1166 36 M60-64 KANEOHE HI 1,39,47,Place FName LName Bib Div Plc Div City State Time
+766 RICHARD LAKE 730 37 M60-64 PORT ORCHARD WA 1,40,15,Place FName LName Bib Div Plc Div City State Time
+769 ROGER RAMSEY 665 38 M60-64 VENTURA CA 1,40,27,Place FName LName Bib Div Plc Div City State Time
+786 HIROYUKI HARATAKE 1046 39 M60-64 KUMAMOTO-CITY 1,41,54,Place FName LName Bib Div Plc Div City State Time
+793 DONALD EOVINO 862 40 M60-64 1,43,08,Place FName LName Bib Div Plc Div City State Time
+808 KENNETH FRANK 1174 41 M60-64 TIBURON CA 1,45,10,Place FName LName Bib Div Plc Div City State Time
+826 STEVEN ARENTZ 1040 42 M60-64 SAN DIEGO CA 1,52,16,Place FName LName Bib Div Plc Div City State Time
+839 STEVE DAVIDSON 1024 43 M60-64 HONOLULU HI 1,56,08,Place FName LName Bib Div Plc Div City State Time
+842 EDWARD BUGARIN 1006 44 M60-64 HONOLULU HI 1,57,10,Place FName LName Bib Div Plc Div City State Time
+850 JOHN BALL 1021 45 M60-64 HONOLULU HI 2,02,15,Place FName LName Bib Div Plc Div City State Time
+855 LAWRENCE YATSUSHIRO 781 46 M60-64 MILILANI HI 2,03,43,Place FName LName Bib Div Plc Div City State Time
+860 ROBERT JUSTMAN 1227 47 M60-64 AIEA HI 2,04,28,Place FName LName Bib Div Plc Div City State Time
+FEMALE AGE GROUP,65 – 69,,Place FName LName Bib Div Plc Div City State Time
+318 SUZANNE DILLS 303 1 F65-69 SPOKANE WA 1,11,11,Place FName LName Bib Div Plc Div City State Time
+535 SUSAN ALLEN 719 2 F65-69 SAN FRANCISCO CA 1,22,33,Place FName LName Bib Div Plc Div City State Time
+632 ELLEN SHOCKRO 620 3 F65-69 NEWPORT BEACH CA 1,28,50,Place FName LName Bib Div Plc Div City State Time
+643 PEG PASHKOW 710 4 F65-69 LOS ANGELES CA 1,29,27,Place FName LName Bib Div Plc Div City State Time
+732 KATHLEEN QUINN 533 5 F65-69 HONOLULU HI 1,35,55,Place FName LName Bib Div Plc Div City State Time
+751 JANE KIRTON 649 6 F65-69 HONOLULU HI 1,38,44,Place FName LName Bib Div Plc Div City State Time
+771 INGRID JOHNSON 797 7 F65-69 EWA BEACH HI 1,40,31,Place FName LName Bib Div Plc Div City State Time
+MALE AGE GROUP,65 – 69,,Place FName LName Bib Div Plc Div City State Time
+147 CYRIL BALDOCK 401 1 M65-69 SYDNEY NS 1,01,13,Place FName LName Bib Div Plc Div City State Time
+178 JAMES BUDDE 551 2 M65-69 1,03,00,Place FName LName Bib Div Plc Div City State Time
+247 DOUG MASON 470 3 M65-69 PORT TOWNSEND WA 1,06,57,Place FName LName Bib Div Plc Div City State Time
+257 JOHN CAPORN 210 4 M65-69 SYDNEY NS 1,07,35,Place FName LName Bib Div Plc Div City State Time
+324 THOMAS MCCARTY 537 5 M65-69 OAKLAND CA 1,11,22,Place FName LName Bib Div Plc Div City State Time
+328 NORM SCOTT 463 6 M65-69 KAILUA HI 1,11,36,Place FName LName Bib Div Plc Div City State Time
+330 LARRY RAFFAELLI 441 7 M65-69 OXNARD CA 1,11,48,Place FName LName Bib Div Plc Div City State Time
+341 CARL KAWAUCHI 395 8 M65-69 AIEA HI 1,12,40,Place FName LName Bib Div Plc Div City State Time
+378 BRUCE CLARK 321 9 M65-69 KANEOHE HI 1,14,41,Place FName LName Bib Div Plc Div City State Time
+421 WARREN DURYEA 678 10 M65-69 HONOLULU HI 1,16,59,Place FName LName Bib Div Plc Div City State Time
+486 BOB MASON 650 11 M65-69 MEREWETHER NS 1,20,38,Place FName LName Bib Div Plc Div City State Time
+586 ROBERT HARTMAN 616 12 M65-69 LAHAINA HI 1,26,28,Place FName LName Bib Div Plc Div City State Time
+617 CONRAD VONBLANKENBU 389 13 M65-69 TORRANCE CA 1,27,31,Place FName LName Bib Div Plc Div City State Time
+621 JOHN DILLS 715 14 M65-69 SPOKANE WA 1,28,03,Place FName LName Bib Div Plc Div City State Time
+654 JOHN GILLICK 713 15 M65-69 SAN DIEGO CA 1,29,55,Place FName LName Bib Div Plc Div City State Time
+658 ROBERT TAYLOR 747 16 M65-69 HONOLULU HI 1,30,20,Place FName LName Bib Div Plc Div City State Time
+661 JOEL CRIZ 645 17 M65-69 HONOLULU HI 1,30,32,Place FName LName Bib Div Plc Div City State Time
+687 RICHARD SMITH 1226 18 M65-69 HANALEI HI 1,32,46,Place FName LName Bib Div Plc Div City State Time
+702 JAMES ROUMASSET 655 19 M65-69 HONOLULU HI 1,33,53,Place FName LName Bib Div Plc Div City State Time
+733 JAMES CORCORAN 723 20 M65-69 LOS ANGELES CA 1,35,57,Place FName LName Bib Div Plc Div City State Time
+736 GEOFF DOBLE 676 21 M65-69 BRONTE NS 1,36,31,Place FName LName Bib Div Plc Div City State Time
+743 ALLEN TESHIMA 376 22 M65-69 HONOLULU HI 1,37,36,Place FName LName Bib Div Plc Div City State Time
+762 JOHN LOCKETT 369 23 M65-69 KANEOHE HI 1,39,48,Place FName LName Bib Div Plc Div City State Time
+790 GLENN PERRY 1190 24 M65-69 HONOLULU HI 1,42,27,Place FName LName Bib Div Plc Div City State Time
+817 PETER NEUBAUER 1161 25 M65-69 SAN FRANCISCO CA 1,48,31,Place FName LName Bib Div Plc Div City State Time
+818 BRIAN GOODYEAR 852 26 M65-69 1,48,39,Place FName LName Bib Div Plc Div City State Time
+834 RON CARLSON 1007 27 M65-69 HONOLULU HI 1,54,29,Place FName LName Bib Div Plc Div City State Time
+868 DENNIS BURNS 1025 28 M65-69 KAILUA HI 2,09,07,Place FName LName Bib Div Plc Div City State Time
+879 KEITH KONDO 1039 29 M65-69 LOS ANGELES CA 2,55,42,Place FName LName Bib Div Plc Div City State Time
+FEMALE AGE GROUP,70 – 74,,Place FName LName Bib Div Plc Div City State Time
+785 LORI AUHLL 664 1 F70-74 HONOLULU HI 1,41,50,Place FName LName Bib Div Plc Div City State Time
+864 JOY SCHOENECKER 431 2 F70-74 HONOLULU HI 2,05,32,Place FName LName Bib Div Plc Div City State Time
+MALE AGE GROUP,70 – 74,,Place FName LName Bib Div Plc Div City State Time
+262 ERNESTO LESKOVITZ 190 1 M70-74 HONOLULU HI 1,07,58,Place FName LName Bib Div Plc Div City State Time
+385 GENE GROUNDS 392 2 M70-74 HONOLULU HI 1,15,12,Place FName LName Bib Div Plc Div City State Time
+789 JOHN GREAVES 717 3 M70-74 SYDNEY HI 1,42,24,Place FName LName Bib Div Plc Div City State Time
+878 BOB ROPER 1033 4 M70-74 SAN FRANCISCO CA 2,39,18,Place FName LName Bib Div Plc Div City State Time
+MALE AGE GROUP,75 – 79,,Place FName LName Bib Div Plc Div City State Time
+578 VERNON KNIGHT 686 1 M75-79 HONOLULU HI 1,25,58,Place FName LName Bib Div Plc Div City State Time
+592 JIM COTTON 602 2 M75-79 SANTA ROSA CA 1,26,35,Place FName LName Bib Div Plc Div City State Time
+798 JOHN WEISER 1123 3 M75-79 HONOLULU HI 1,43,59,Place FName LName Bib Div Plc Div City State Time
+MALE AGE GROUP,80 – 99,,Place FName LName Bib Div Plc Div City State Time
+843 H. WILLIAM BURGESS 810 1 M80-99 HONOLULU HI 1,57,22,Place FName LName Bib Div Plc Div City State Time
